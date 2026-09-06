@@ -11,7 +11,7 @@ name: derive
 
 on:
   schedule:
-    - cron: "20 0 * * *" # after capture + health
+    - cron: "20 0 * * 2" # after capture + health # after capture + health
   workflow_dispatch:
   pull_request:
     paths:
@@ -25,14 +25,14 @@ permissions:
   contents: write
 
 concurrency:
-  group: fleet-commits-daily
+  group: fleet-commits
   cancel-in-progress: false
 
 env:
   # One --parsers flag per schema. Adding a schema adds a line here and
   # nowhere else; adding a *source* that reuses a schema adds nothing.
   PARSERS: "--parsers parsers.fda_shortage_v1 --parsers parsers.fda_importalert_v1 --parsers parsers.fda_drugsfda_count_v1"
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.3"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.7"
 
 jobs:
   derive:
