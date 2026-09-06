@@ -32,7 +32,7 @@ env:
   # One --parsers flag per schema. Adding a schema adds a line here and
   # nowhere else; adding a *source* that reuses a schema adds nothing.
   PARSERS: "--parsers parsers.fda_shortage_v1 --parsers parsers.fda_importalert_v1 --parsers parsers.fda_drugsfda_count_v1"
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.8"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.5.9"
 
 jobs:
   derive:
