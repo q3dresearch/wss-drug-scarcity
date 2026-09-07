@@ -39,6 +39,17 @@ notes: >-
   reason-for-recall are free text written by FDA about the product, not a
   person.
 
+# CI CANNOT CAPTURE THIS SOURCE — verified 2026-09-08, not assumed.
+# accessdata.fda.gov runs Akamai Bot Manager and scores GitHub runner IPs as
+# bots, answering them with an apology page served as HTTP 404. This holds for
+# the /rest/ API paths under a valid API key, not only the HTML pages: the
+# monthly CI run quarantined every accessdata endpoint while the same request
+# from a residential IP returned 200. An API key does not buy past a bot score.
+#
+# Capture it locally — `wss capture --cadence weekly` — during the monthly
+# review, and commit. review.py flags a lapsed manual capture per source at
+# twice its cadence, so this cannot rot unnoticed.
+
 auth:
   headers:
     Authorization-User: FDA_IRES_API_USER

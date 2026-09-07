@@ -20,11 +20,16 @@ storage: git
 # GET, not POST: the PCB API is the one FDA API here that takes plain GETs and
 # needs no request body. It still wants the same two-header credential.
 #
-# Hosted on accessdata.fda.gov, which serves an Akamai bot-manager cookie and
-# blocks GitHub runners on its HTML pages (see fda.importalert.66-41). Whether
-# the /rest/ API paths are blocked the same way is UNVERIFIED — the first CI
-# run is the test. If it quarantines with a 404 whose body is an FDA apology
-# page, this becomes a locally-captured source like the import alerts.
+# CI CANNOT CAPTURE THIS SOURCE — verified 2026-09-08, not assumed.
+# accessdata.fda.gov runs Akamai Bot Manager and scores GitHub runner IPs as
+# bots, answering them with an apology page served as HTTP 404. This holds for
+# the /rest/ API paths under a valid API key, not only the HTML pages: the
+# monthly CI run quarantined every accessdata endpoint while the same request
+# from a residential IP returned 200. An API key does not buy past a bot score.
+#
+# Capture it locally — `wss capture --cadence monthly` — during the monthly
+# review, and commit. review.py flags a lapsed manual capture per source at
+# twice its cadence, so this cannot rot unnoticed.
 notes: >-
   Four component tables — industry (89 rows), class (1,159), subclass (117),
   product-information code (80). Pure code-to-description reference; no firms,
