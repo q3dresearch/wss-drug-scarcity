@@ -24,7 +24,9 @@ storage: git
 # API caps a response at 5000 rows and wss endpoints carry a static body, so a
 # rolling `RefusalDateFrom` is not expressible. Measured volume is ~74 refusals
 # a day — 520 in the last 7 days, 2,805 in the last 38. Sorted DESC, 5000 rows
-# reaches back ~68 days, which is ~10x the weekly cadence. Coverage is complete
+# reached back 55 days on the first capture (2026-07-10 to 2026-09-03), ~8x the
+# weekly cadence. That 55 is measured, not the ~68 the daily average predicts:
+# refusals arrive in bursts, so budget against the observed window. Coverage is complete
 # unless more than 5000 refusals land between two captures; `totalrecordcount`
 # in every response is the tripwire for that.
 #
