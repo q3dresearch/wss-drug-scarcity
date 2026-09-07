@@ -25,7 +25,7 @@ env:
   WSS_CONTACT: ${{ secrets.WSS_CONTACT || format('{0} +https://github.com/{1}', github.repository_owner, github.repository) }}
   CADENCE: weekly
   SHARDS: "4" # four sources; sharding parallelises across sources, not within one host
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.6"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.7"
 
 jobs:
   plan:
@@ -61,12 +61,13 @@ jobs:
       fail-fast: false # one bad source must not stop the rest of the fleet
       matrix:
         shard: ${{ fromJSON(needs.plan.outputs.shards) }}
-    # env:  (no credentials needed by this repo)
-    # Add one line per authenticated source, matching the
-    # `auth: {bearer_env: ...}` name in its registry entry, e.g.
-    # WSS_SOMEPUBLISHER_KEY: ${{ secrets.WSS_SOMEPUBLISHER_KEY }}
-    # This is the one workflow edit a new *credential* requires — adding a
-    # source never needs one.
+    env:
+      # One line per credential env var named in a registry entry's `auth:`
+      # block. FDA's Data Dashboard authenticates with two headers together,
+      # so both names must be in scope. Job scope, not workflow scope: only
+      # capture makes outbound requests.
+      FDA_DASHBOARD_API_USER: ${{ secrets.FDA_DASHBOARD_API_USER }}
+      FDA_DASHBOARD_API_KEY: ${{ secrets.FDA_DASHBOARD_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
