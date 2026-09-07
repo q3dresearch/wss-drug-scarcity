@@ -145,7 +145,7 @@ scarcity barely moves it (dopamine −1% across four and a half years short).
 **Reading this data needs nothing** — no key, no account, no clone:
 
 ```bash
-B=https://raw.githubusercontent.com/neldivad/wss-drug-scarcity/main/derived/observations
+B=https://raw.githubusercontent.com/q3dresearch/wss-drug-scarcity/main/derived/observations
 duckdb -c "SELECT * FROM read_csv_auto('$B/2026-09.csv') LIMIT 5"
 ```
 
