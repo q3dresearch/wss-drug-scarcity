@@ -1,0 +1,67 @@
+# Import REFUSALS are the enforcement events; import alerts (66-40, 66-41) are
+# the standing firm list. A firm can be refused without being alerted, and an
+# alerted firm generates refusals for as long as it stays listed — so the two
+# together give both the policy and its exercise. Every record carries an
+# FEINumber, FDA's canonical establishment id, which is what lets refusals join
+# to the alert list and to inspections without fuzzy-matching company names.
+source_id: fda.importrefusals.recent
+status: active
+cadence: weekly
+schema_id: fda-importrefusal.v1
+
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+
+# WHY THIS HOST AND NOT accessdata: api-datadashboard.fda.gov serves no Akamai
+# bot-manager cookie, so unlike the import-alert pages this source is reachable
+# from CI. Verified 2026-09-08.
+#
+# WHY A FIXED 5000-ROW WINDOW rather than paging or a rolling date filter: the
+# API caps a response at 5000 rows and wss endpoints carry a static body, so a
+# rolling `RefusalDateFrom` is not expressible. Measured volume is ~74 refusals
+# a day — 520 in the last 7 days, 2,805 in the last 38. Sorted DESC, 5000 rows
+# reaches back ~68 days, which is ~10x the weekly cadence. Coverage is complete
+# unless more than 5000 refusals land between two captures; `totalrecordcount`
+# in every response is the tripwire for that.
+#
+# Byte-stable: two identical requests 8s apart returned identical sha256, so
+# unchanged weeks dedupe to `unchanged` and store no blob. 3.5MB raw, 269KB gz.
+notes: >-
+  The parties are refused firms, not individuals: FirmName plus a business
+  address, the consignee of a refused shipment. Some FDA-registered
+  establishments are sole proprietorships whose business name and address are a
+  person's own, which is why this is parties_only rather than none. No consumer,
+  patient, or employee data appears in the record.
+
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+
+endpoints:
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 120
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      # sort/sortorder are REQUIRED whenever filters are present, and the API
+      # answers a body missing them with 410, not 400 — an easy misread.
+      sort: "RefusalDate"
+      sortorder: "DESC"
+      filters: {}
+      columns: []
+
+gates:
+  expect_status: 200
+  min_bytes: 500000
+  content_type_any: [json]
+  must_contain: ["FEINumber", "RefusalDate", "totalrecordcount"]
+  must_not_contain: ["Not Authorized"]
+  max_shrink_pct: 50
