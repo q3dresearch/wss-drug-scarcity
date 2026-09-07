@@ -19,6 +19,23 @@ notes: >-
   slower question than 66-40 (which touches drug supply directly). Same
   parser, same no-stable-identifier caveat.
 
+# CI CANNOT CAPTURE THIS SOURCE. accessdata.fda.gov runs Akamai Bot Manager
+# (an _abck cookie is set on every response) and scores GitHub runner IPs as
+# bots. It answers them with /apology_objects/excessive-requests-apology.html
+# served as HTTP 404 — so the failure reads as "page gone" and invites someone
+# to "fix" a URL that is correct. Verified 2026-09-07: identical request from a
+# residential IP returns 200 and 6.7MB, under any User-Agent including none.
+#
+# There is no unblocked host to move to: openFDA publishes 30 datasets and none
+# of them covers import alerts or refusals.
+#
+# HOW TO CAPTURE IT: run `wss capture --cadence monthly` locally during the
+# monthly review and commit. Cadence is monthly, so a local run is a complete
+# substitute, not a stopgap. Expect the CI run to keep failing on this source;
+# that failure is true and should stay loud. A local success resets
+# consecutive_failures, so auto-disable will not fire as long as the monthly
+# local capture actually happens.
+
 endpoints:
   - url: "https://www.accessdata.fda.gov/cms_ia/importalert_190.html"
     delay_seconds: 15
