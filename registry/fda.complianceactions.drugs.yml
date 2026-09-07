@@ -1,0 +1,56 @@
+# Warning letters, seizures, injunctions and other compliance actions FDA has
+# taken against drug firms. Where recalls and refusals are outcomes, these are
+# the regulator's own moves — the point where a quality problem stops being
+# private correspondence. Carries FEINumber, so it joins the recall, refusal
+# and import-alert sources on FDA's establishment id.
+source_id: fda.complianceactions.drugs
+status: active
+cadence: weekly
+schema_id: fda-compliance-action.v1
+
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+
+# ONE endpoint covers the whole history here, unlike the recall source, because
+# the volume is small: 2,943 drug compliance actions since 2000 against a
+# 5,000-row cap, running ~200-300 a year. That is roughly seven years of
+# headroom. `totalrecordcount` in every response is the tripwire — when it
+# approaches 5000 this must be split by year the way fda.recalls.cder already is.
+#
+# Byte-stable under an ActionTakenDate sort: two identical calls 6s apart
+# returned identical bytes. That is NOT true of FDA's iRES API, which reorders
+# rows tied on the sort key, so stability was verified here rather than assumed.
+notes: >-
+  Parties are firms subject to a compliance action: legal name, business
+  address and FEI number. No individual or consumer data.
+
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+
+endpoints:
+  - url: "https://api-datadashboard.fda.gov/v1/compliance_actions"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "ActionTakenDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "ActionTakenDateFrom": ["2000-01-01"]}
+      columns: []
+
+gates:
+  expect_status: 200
+  min_bytes: 200000
+  content_type_any: [json]
+  must_contain: ["FEINumber", "totalrecordcount", "ActionTakenDate"]
+  must_not_contain: ["Not Authorized"]
+  max_shrink_pct: 50

@@ -1,0 +1,90 @@
+# CDER drug recalls from FDA's iRES (internet Recall Enterprise System).
+# Recalls are the third leg of the enforcement picture this repo tracks:
+# import alerts are the standing ban list, refusals are shipments turned away
+# at the border, and recalls are product already in US commerce being pulled
+# back. Every row carries firmfeinum, so all three join on FDA's own
+# establishment id rather than on company-name string matching.
+source_id: fda.recalls.cder
+status: active
+cadence: weekly
+schema_id: fda-ires-recall.v1
+
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+
+# ONE ENDPOINT PER YEAR, and the reason is not cosmetic. The API caps a
+# response at 5000 rows and wss bodies are static, so a single growing window
+# would silently truncate: measured CDER volume is 532-1392 a year (2022-2026),
+# which fits with 3.5x headroom per year but blows the cap within four years as
+# one range. Closed years are immutable, so they dedupe to `unchanged` forever
+# and cost nothing. Add one line each January.
+#
+# sort MUST be productid, not a date. Sorting by recallinitiationdt returns
+# tied rows in a DIFFERENT ORDER on every call — verified: two identical
+# requests 6s apart disagreed at row 24 — so the bytes change when the data has
+# not, every capture records `changed`, and the archive fills with duplicates.
+# productid is unique, which makes the ordering total and the response
+# byte-stable. Note productid sorts as a STRING ("99999" > "218206"), so `desc`
+# is not "newest"; the date filter is what selects the window, not the sort.
+#
+# The sort column must also appear in displaycolumns or the API answers 204
+# with an empty body rather than an error.
+notes: >-
+  Parties are recalling firms: legal name, city, state, country, and an FEI
+  number. No individual, patient, or consumer data. Product description and
+  reason-for-recall are free text written by FDA about the product, not a
+  person.
+
+auth:
+  headers:
+    Authorization-User: FDA_IRES_API_USER
+    Authorization-Key: FDA_IRES_API_KEY
+
+endpoints:
+  - url: "https://www.accessdata.fda.gov/rest/iresapi/recalls/"
+    method: POST
+    encoding: form
+    delay_seconds: 3
+    timeout_seconds: 180
+    body:
+      payload: "{\"displaycolumns\":\"recalleventid,productid,recallnum,firmlegalnam,firmfeinum,firmcitynam,firmstatecd,firmcountrynam,centercd,centerclassificationtypetxt,phasetxt,voluntarytypetxt,recallinitiationdt,centerclassificationdt,terminationdt,productdescriptiontxt,productshortreasontxt\",\"filter\":\"[{'centercd':['CDER']},{'recallinitiationdtfrom':'01/01/2022'},{'recallinitiationdtto':'12/31/2022'}]\",\"start\":1,\"rows\":5000,\"sort\":\"productid\",\"sortorder\":\"desc\"}"
+  - url: "https://www.accessdata.fda.gov/rest/iresapi/recalls/"
+    method: POST
+    encoding: form
+    delay_seconds: 3
+    timeout_seconds: 180
+    body:
+      payload: "{\"displaycolumns\":\"recalleventid,productid,recallnum,firmlegalnam,firmfeinum,firmcitynam,firmstatecd,firmcountrynam,centercd,centerclassificationtypetxt,phasetxt,voluntarytypetxt,recallinitiationdt,centerclassificationdt,terminationdt,productdescriptiontxt,productshortreasontxt\",\"filter\":\"[{'centercd':['CDER']},{'recallinitiationdtfrom':'01/01/2023'},{'recallinitiationdtto':'12/31/2023'}]\",\"start\":1,\"rows\":5000,\"sort\":\"productid\",\"sortorder\":\"desc\"}"
+  - url: "https://www.accessdata.fda.gov/rest/iresapi/recalls/"
+    method: POST
+    encoding: form
+    delay_seconds: 3
+    timeout_seconds: 180
+    body:
+      payload: "{\"displaycolumns\":\"recalleventid,productid,recallnum,firmlegalnam,firmfeinum,firmcitynam,firmstatecd,firmcountrynam,centercd,centerclassificationtypetxt,phasetxt,voluntarytypetxt,recallinitiationdt,centerclassificationdt,terminationdt,productdescriptiontxt,productshortreasontxt\",\"filter\":\"[{'centercd':['CDER']},{'recallinitiationdtfrom':'01/01/2024'},{'recallinitiationdtto':'12/31/2024'}]\",\"start\":1,\"rows\":5000,\"sort\":\"productid\",\"sortorder\":\"desc\"}"
+  - url: "https://www.accessdata.fda.gov/rest/iresapi/recalls/"
+    method: POST
+    encoding: form
+    delay_seconds: 3
+    timeout_seconds: 180
+    body:
+      payload: "{\"displaycolumns\":\"recalleventid,productid,recallnum,firmlegalnam,firmfeinum,firmcitynam,firmstatecd,firmcountrynam,centercd,centerclassificationtypetxt,phasetxt,voluntarytypetxt,recallinitiationdt,centerclassificationdt,terminationdt,productdescriptiontxt,productshortreasontxt\",\"filter\":\"[{'centercd':['CDER']},{'recallinitiationdtfrom':'01/01/2025'},{'recallinitiationdtto':'12/31/2025'}]\",\"start\":1,\"rows\":5000,\"sort\":\"productid\",\"sortorder\":\"desc\"}"
+  - url: "https://www.accessdata.fda.gov/rest/iresapi/recalls/"
+    method: POST
+    encoding: form
+    delay_seconds: 3
+    timeout_seconds: 180
+    body:
+      payload: "{\"displaycolumns\":\"recalleventid,productid,recallnum,firmlegalnam,firmfeinum,firmcitynam,firmstatecd,firmcountrynam,centercd,centerclassificationtypetxt,phasetxt,voluntarytypetxt,recallinitiationdt,centerclassificationdt,terminationdt,productdescriptiontxt,productshortreasontxt\",\"filter\":\"[{'centercd':['CDER']},{'recallinitiationdtfrom':'01/01/2026'},{'recallinitiationdtto':'12/31/2026'}]\",\"start\":1,\"rows\":5000,\"sort\":\"productid\",\"sortorder\":\"desc\"}"
+
+gates:
+  expect_status: 200
+  min_bytes: 20000
+  content_type_any: [json]
+  must_contain: ["RESULTCOUNT", "FIRMFEINUM", "RECALLINITIATIONDT"]
+  must_not_contain: ["Not Authorized", "Accessdata Error"]
+  max_shrink_pct: 50

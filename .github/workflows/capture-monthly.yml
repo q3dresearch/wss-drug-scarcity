@@ -25,7 +25,7 @@ env:
   WSS_CONTACT: ${{ secrets.WSS_CONTACT || format('{0} +https://github.com/{1}', github.repository_owner, github.repository) }}
   CADENCE: monthly
   SHARDS: "2" # one monthly source today
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.8"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.9"
 
 jobs:
   plan:
@@ -61,12 +61,16 @@ jobs:
       fail-fast: false # one bad source must not stop the rest of the fleet
       matrix:
         shard: ${{ fromJSON(needs.plan.outputs.shards) }}
-    # env:  (no credentials needed by this repo)
-    # Add one line per authenticated source, matching the
-    # `auth: {bearer_env: ...}` name in its registry entry, e.g.
-    # WSS_SOMEPUBLISHER_KEY: ${{ secrets.WSS_SOMEPUBLISHER_KEY }}
-    # This is the one workflow edit a new *credential* requires — adding a
-    # source never needs one.
+    env:
+      # One line per credential env var named in a registry entry's `auth:`
+      # block. FDA issues a separate key per application, so one repo can need
+      # several. Job scope: only capture makes outbound requests.
+      FDA_DASHBOARD_API_USER: ${{ secrets.FDA_DASHBOARD_API_USER }}
+      FDA_DASHBOARD_API_KEY: ${{ secrets.FDA_DASHBOARD_API_KEY }}
+      FDA_IRES_API_USER: ${{ secrets.FDA_IRES_API_USER }}
+      FDA_IRES_API_KEY: ${{ secrets.FDA_IRES_API_KEY }}
+      FDA_PCB_API_USER: ${{ secrets.FDA_PCB_API_USER }}
+      FDA_PCB_API_KEY: ${{ secrets.FDA_PCB_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

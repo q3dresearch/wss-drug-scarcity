@@ -1,0 +1,99 @@
+# Drug-facility inspection classifications: what FDA found when it walked into
+# a plant, graded NAI / VAI / OAI. This is the leading indicator for the other
+# sources in this repo — an OAI classification is what precedes a warning
+# letter, an import alert, and eventually a shortage when a site goes dark.
+source_id: fda.inspections.drugs
+status: active
+cadence: weekly
+schema_id: fda-inspection-classification.v1
+
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+
+# One endpoint per year: measured drug inspections run 845-2,186 a year
+# (2022-2026) against a 5,000-row cap, so each year fits with >2x headroom but
+# a single growing window would not. Closed years are immutable and dedupe to
+# `unchanged`. Add one line each January.
+notes: >-
+  Parties are inspected establishments: firm legal name, business address and
+  FEI number. Inspection findings describe the facility, not any person. No
+  investigator names or individual data.
+
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+
+endpoints:
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2022-01-01"], "InspectionEndDateTo": ["2022-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2023-01-01"], "InspectionEndDateTo": ["2023-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2024-01-01"], "InspectionEndDateTo": ["2024-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2025-01-01"], "InspectionEndDateTo": ["2025-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2026-01-01"], "InspectionEndDateTo": ["2026-12-31"]}
+      columns: []
+
+gates:
+  expect_status: 200
+  min_bytes: 50000
+  content_type_any: [json]
+  must_contain: ["FEINumber", "totalrecordcount"]
+  must_not_contain: ["Not Authorized"]
+  max_shrink_pct: 50

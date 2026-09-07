@@ -25,7 +25,7 @@ env:
   WSS_CONTACT: ${{ secrets.WSS_CONTACT || format('{0} +https://github.com/{1}', github.repository_owner, github.repository) }}
   CADENCE: weekly
   SHARDS: "4" # four sources; sharding parallelises across sources, not within one host
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.8"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.9"
 
 jobs:
   plan:
@@ -68,6 +68,10 @@ jobs:
       # capture makes outbound requests.
       FDA_DASHBOARD_API_USER: ${{ secrets.FDA_DASHBOARD_API_USER }}
       FDA_DASHBOARD_API_KEY: ${{ secrets.FDA_DASHBOARD_API_KEY }}
+      FDA_IRES_API_USER: ${{ secrets.FDA_IRES_API_USER }}
+      FDA_IRES_API_KEY: ${{ secrets.FDA_IRES_API_KEY }}
+      FDA_PCB_API_USER: ${{ secrets.FDA_PCB_API_USER }}
+      FDA_PCB_API_KEY: ${{ secrets.FDA_PCB_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

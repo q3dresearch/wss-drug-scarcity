@@ -1,0 +1,54 @@
+# FDA's product-code component tables: the lookup that turns a product code
+# like "66-41" or an industry digit into words. Every other FDA source in this
+# repo emits codes; without this the archive stores numbers nobody can read in
+# five years, which is the exact failure this project exists to prevent.
+#
+# Reference data, not events: small, slow-moving, and the reason it is captured
+# at all is that FDA revises these tables in place with no changelog.
+source_id: fda.productcodes.reference
+status: active
+cadence: monthly
+schema_id: fda-pcb-reference.v1
+
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: none
+storage: git
+
+# GET, not POST: the PCB API is the one FDA API here that takes plain GETs and
+# needs no request body. It still wants the same two-header credential.
+#
+# Hosted on accessdata.fda.gov, which serves an Akamai bot-manager cookie and
+# blocks GitHub runners on its HTML pages (see fda.importalert.66-41). Whether
+# the /rest/ API paths are blocked the same way is UNVERIFIED — the first CI
+# run is the test. If it quarantines with a 404 whose body is an FDA apology
+# page, this becomes a locally-captured source like the import alerts.
+notes: >-
+  Four component tables — industry (89 rows), class (1,159), subclass (117),
+  product-information code (80). Pure code-to-description reference; no firms,
+  no people.
+
+auth:
+  headers:
+    Authorization-User: FDA_PCB_API_USER
+    Authorization-Key: FDA_PCB_API_KEY
+
+endpoints:
+  - url: "https://www.accessdata.fda.gov/rest/pcbapi/v1/industry"
+    delay_seconds: 3
+  - url: "https://www.accessdata.fda.gov/rest/pcbapi/v1/class"
+    delay_seconds: 3
+  - url: "https://www.accessdata.fda.gov/rest/pcbapi/v1/subclass"
+    delay_seconds: 3
+  - url: "https://www.accessdata.fda.gov/rest/pcbapi/v1/pic"
+    delay_seconds: 3
+
+gates:
+  expect_status: 200
+  min_bytes: 2000
+  content_type_any: [json]
+  must_contain: ["RESULTCOUNT", "COLUMNS"]
+  must_not_contain: ["Not Authorized", "Accessdata Error"]
+  max_shrink_pct: 50
