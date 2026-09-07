@@ -16,6 +16,23 @@ answer, including the FDA. This repo starts answering it.
 > fetchable list of registered establishments per country, so "China 154" is a
 > count and never a rate (Q12).
 
+## Where this disagrees with the record
+
+FDA's feed is the official account of US drug shortages, and it is also the
+only account. When a shortage ends the record leaves, so the official answer to
+*"how many US drug shortages ended last year"* is **seven** — not because seven
+ended, but because seven is what the feed retains.
+
+This repo will disagree with that number using nothing but the same feed,
+sampled weekly. Each capture is a dated observation that a package was listed;
+its absence from the following capture is a dated observation that it was not.
+After twelve months the claim is: **the official record retains N resolved
+shortages; continuous observation of that same record found M.**
+
+That is the product. Not better data than FDA — *the same data, held.* The
+disagreement is between the record and its own history, and it is available
+only to someone who was watching while it happened.
+
 ## Questions this exists to answer
 
 A source that answers no question gets dropped. A question nothing answers is
@@ -38,6 +55,7 @@ the next thing to build. Append freely.
 | Q13 | **Why doesn't someone else just make it?** | **answered: 51% of every product ever approved for these drugs is discontinued** |
 | Q14 | Do suppliers leave *before* a shortage or after? | source built, cohort frozen, **paused pending activation** |
 | Q15 | How big is the gap, in units? | **not observable — nobody publishes demand** |
+| Q17 | How far does the official resolved-shortage count diverge from observed resolutions? | needs ~12 months — **the divergence claim**, see above |
 | Q16 | Which shortages mean-revert, and which stop? | forward: capture builds it. backward: **tested and failed** |
 
 Q15 and Q16 look answerable and are not. Nobody publishes demand, so there is
