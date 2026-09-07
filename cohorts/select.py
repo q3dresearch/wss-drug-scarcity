@@ -77,7 +77,7 @@ FORM_WORDS = re.compile(
     r"intramuscular|subcutaneous|film|coated|delayed|extended|release|"
     r"concentrate|emulsion|lyophilized|for|and|prefilled|syringe|vial)\b",
     re.I)
-UA = "wss-drug-scarcity cohort selection (+https://github.com/neldivad/wss-drug-scarcity)"
+UA = "wss-drug-scarcity cohort selection (+https://github.com/q3dresearch/wss-drug-scarcity)"
 
 
 def api(url: str, params: list[tuple[str, str]]) -> dict:
