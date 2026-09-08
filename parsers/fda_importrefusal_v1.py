@@ -48,6 +48,12 @@ def parse(body: bytes, ctx: derive.ParseContext):
         at = row.get("RefusalDate")[:10]
 
         yield derive.Observation(firm, "import_refusal", 1, "count", observed_at=at)
+        # The entity is a bare FEI, which no reader can act on. The name
+        # travels with every row so a chart can title a bar without
+        # reaching back into the raw archive, which charts must not do.
+        name = (row.get("FirmName") or "").strip()
+        if name:
+            yield derive.Observation(firm, "label", name[:120], "", observed_at=at)
         yield derive.Observation(firm, "refused_at", refused, "yyyymmdd", observed_at=at)
 
         # Two vocabularies, deliberately both emitted. ProductCategory is the

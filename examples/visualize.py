@@ -14,6 +14,7 @@ drugs, gives their therapeutic class, and puts the decision in the subtitle.
   supplier-attrition.svg Q13 how many approved makers each shorted drug has left
   single-supplier.svg    Q7  drugs down to one listed package — the watchlist
   enforcement-year.svg   Q6  GMP import bans by year and origin — is the base shrinking
+  escalation.svg         Q6b named plants where an OAI was followed by an action/recall
   shortage-duration.svg  Q2  deliberately empty until captures accrue
   supplier-exits.svg     Q14 deliberately empty until the cohort source is active
 
@@ -777,6 +778,98 @@ def q14_placeholder(obs) -> str:
     return f"{out.relative_to(REPO)} — placeholder, {molecules} molecules"
 
 
+def q6b_escalation(obs) -> str:
+    """Named plants where an Official Action was followed by an action or recall."""
+    label, oai, act, rec = {}, defaultdict(list), defaultdict(list), defaultdict(list)
+    for r in obs:
+        e, at = r["entity_id"], (r.get("observed_at") or "")[:10]
+        m, v = r["metric"], r["value"]
+        if m == "label":
+            label[e] = v
+        elif m == "is_oai" and v == "1":
+            oai[e].append(at)
+        elif m == "compliance_action":
+            act[e].append(at)
+        elif m == "recall":
+            rec[e].append(at)
+
+    rowsx = []
+    for e, dates in oai.items():
+        first = min(d for d in dates if d)
+        after = sorted(d for d in act.get(e, []) + rec.get(e, []) if d > first)
+        if not after:
+            continue
+        months = ((int(after[0][:4]) - int(first[:4])) * 12
+                  + int(after[0][5:7]) - int(first[5:7]))
+        rowsx.append((label.get(e, e), first, after[0], max(months, 0),
+                      len(act.get(e, [])), len(rec.get(e, []))))
+    total_oai = len(oai)
+    escalated = len(rowsx)
+    ranked = sorted(rowsx, key=lambda x: (-(x[4] + x[5]), x[3]))[:16]
+
+    width, left, right = 980.0, 330.0, 190.0
+    row_h, gap = 15.0, 7.0
+    vmax = max(24, max((r[3] for r in ranked), default=1))
+    vmax += (-vmax % 6)
+    span = width - left - right
+
+    body = [txt(24, 32, "Q6b — after an Official Action, what follows and how fast",
+                size=17, fill=INK, weight="600")]
+    lead, dy = para(24, 54,
+        f"Of {total_oai} establishments classified Official Action Indicated, "
+        f"{escalated} ({escalated / total_oai:.0%}) drew a compliance action or a "
+        "recall afterwards. Bar length is months from the OAI to that first "
+        "consequence; the count at right is how many followed in total. Decision "
+        "this supports: an OAI is an early warning with months of lead time, not "
+        "a lagging record — these named plants are where supply risk concentrated. "
+        "Ordering is within the captured window only, and many names here are "
+        "compounding pharmacies rather than commercial manufacturers.",
+        size=12, fill=INK2, chars=118)
+    body += lead
+
+    legend_y = 54 + dy + 10
+    top_y = legend_y + 26
+    plot_bottom = top_y + len(ranked) * (row_h + gap)
+    axis_y = plot_bottom + 18
+    height = axis_y + 66
+
+    body += legend([("months to first consequence", HUE)], 24, legend_y)
+
+    tick = 0
+    while tick <= vmax:
+        gx = left + tick / vmax * span
+        body.append(f'<line x1="{gx:.1f}" y1="{top_y - 10}" x2="{gx:.1f}" '
+                    f'y2="{plot_bottom + 4}" stroke="{GRID}" stroke-width="1"/>')
+        body.append(txt(gx, axis_y, str(tick), size=10, fill=MUTED,
+                        anchor="middle", tab=True))
+        tick += 6
+    body.append(txt(left + span / 2, axis_y + 18,
+                    "months from Official Action to first compliance action or recall",
+                    size=11, fill=MUTED, anchor="middle"))
+    body.append(f'<line x1="{left}" y1="{top_y - 10}" x2="{left}" '
+                f'y2="{plot_bottom + 4}" stroke="{BASELINE}" stroke-width="1"/>')
+
+    for i, (name, first, nxt, months, na, nr) in enumerate(ranked):
+        y = top_y + i * (row_h + gap)
+        w = max(2.0, months / vmax * span)
+        body.append(txt(left - 10, y + 11, name[:42], size=11, fill=INK, anchor="end"))
+        body.append(bar(left, y, w, row_h, HUE))
+        tail = f"{na} action{'s' if na != 1 else ''}, {nr} recall{'s' if nr != 1 else ''}"
+        body.append(txt(left + w + 8, y + 11,
+                        f"{months}mo  ·  {tail}", size=10, fill=INK2))
+
+    body.append(txt(24, height - 30,
+                    "Source: FDA inspection classifications, compliance actions and "
+                    "iRES recalls, joined on FDA Establishment Identifier.",
+                    size=10, fill=MUTED))
+    out = OUT_DIR / "escalation.svg"
+    out.write_text(wrap(width, height,
+                        "After an Official Action, what follows and how fast",
+                        "Named establishments where FDA escalated, and the lag.",
+                        body), encoding="utf-8")
+    return f"{out.relative_to(REPO)} — {escalated} of {total_oai} OAI plants escalated"
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     obs = rows()
@@ -785,6 +878,7 @@ def main() -> None:
     for line in (q1_whats_short(obs), q1_age_structure(obs),
                  q3_availability(obs), q13_attrition(obs),
                  q7_single_supplier(obs), q6_enforcement(obs),
+                 q6b_escalation(obs),
                  q2_placeholder(obs), q14_placeholder(obs)):
         print(line)
 

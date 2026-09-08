@@ -72,6 +72,12 @@ def parse(body: bytes, ctx: derive.ParseContext):
         at = row.get("InspectionEndDate")[:10]
 
         yield derive.Observation(firm, "inspected", 1, "count", observed_at=at)
+        # The entity is a bare FEI, which no reader can act on. The name
+        # travels with every row so a chart can title a bar without
+        # reaching back into the raw archive, which charts must not do.
+        name = (row.get("LegalName") or "").strip()
+        if name:
+            yield derive.Observation(firm, "label", name[:120], "", observed_at=at)
         yield derive.Observation(firm, "inspection_end", ended, "yyyymmdd", observed_at=at)
 
         rank = _severity(row)

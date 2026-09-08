@@ -58,6 +58,12 @@ def parse(body: bytes, ctx: derive.ParseContext):
         firm = f"firm:{fei}"
 
         yield derive.Observation(firm, "recall", 1, "count", observed_at=at)
+        # The entity is a bare FEI, which no reader can act on. The name
+        # travels with every row so a chart can title a bar without
+        # reaching back into the raw archive, which charts must not do.
+        name = (row.get("FIRMLEGALNAM") or "").strip()
+        if name:
+            yield derive.Observation(firm, "label", name[:120], "", observed_at=at)
         yield derive.Observation(firm, "recall_initiated", initiated, "yyyymmdd", observed_at=at)
 
         klass = (row.get("CENTERCLASSIFICATIONTYPETXT") or "").strip()
