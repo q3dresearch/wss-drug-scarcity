@@ -35,7 +35,7 @@ jobs:
       count: ${{ steps.plan.outputs.count }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Install engine
@@ -73,7 +73,7 @@ jobs:
       FDA_PCB_API_KEY: ${{ secrets.FDA_PCB_API_KEY }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Install engine
