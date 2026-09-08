@@ -144,17 +144,18 @@ def para(x, y, text, *, size, fill, chars, leading=17.0):
     return out, len(lines) * leading
 
 
-def nice_axis(value, allowed=(3, 4, 5)):
-    """(ceiling, ticks) — the tightest axis whose ticks are round numbers.
+def nice_axis(value, allowed=(3, 4, 5, 6)):
+    """(ceiling, ticks) — the tightest axis whose ticks are all round numbers.
 
-    Ticks must land on numbers a reader can hold: 0 / 1,000 / 2,000, never
-    0 / 756 / 1,513. This file shipped the second kind by padding a max by 1.12
-    and slicing it into quarters.
+    The rule is about the STEP, not just the ceiling. An earlier version allowed
+    a 2.5 multiplier: for a max of 11 it chose a ceiling of 12.5 over 5 ticks,
+    which is a round ceiling and a step of 2.5, and rendered as
+    0 / 2 / 5 / 7 / 10 / 12. Round-looking, unreadable. Steps are 1, 2 or 5 times
+    a power of ten and nothing else.
 
-    The tick COUNT is chosen too, not fixed. With four ticks, a max of 2,702
-    rounds up to 4,000 and a third of the panel is empty; with three it lands on
-    3,000 and the tallest bar fills 90%. Headroom is the tiebreak among options
-    that are all equally round.
+    The tick COUNT is chosen too, because the two interact: a max of 11 lands on
+    a ceiling of 15 with three ticks (bar fills 73%) or 12 with six (92%).
+    Headroom is the tiebreak among options that are all equally round.
     """
     import math
     if value <= 0:
@@ -163,7 +164,7 @@ def nice_axis(value, allowed=(3, 4, 5)):
     for steps in allowed:
         rough = value / steps
         mag = 10 ** math.floor(math.log10(rough))
-        for mult in (1, 2, 2.5, 5, 10):
+        for mult in (1, 2, 5, 10):          # never 2.5 -- it makes a fractional step
             top = mult * mag * steps
             if top >= value:
                 if best is None or top < best[0]:
