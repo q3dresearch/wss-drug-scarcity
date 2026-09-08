@@ -907,12 +907,25 @@ def q6b_escalation(obs) -> str:
 
 
 def q6c_inspection_capacity(obs) -> str:
-    """Two stacked panels on one shared x-axis: volume, then the OAI rate.
+    """Inspections a year (bars, left) with the OAI rate (line, right).
 
-    NOT a dual-axis chart. An earlier version plotted inspections on a left
-    scale and the OAI rate on a right one; the alignment of two scales is
-    arbitrary, so that chart invented a crossover that is not in the data.
-    Two measures of different units get two panels.
+    A count and a rate on one plot, which is the standard form for a
+    "volume down, rate up" finding and is legitimate BECAUSE the two are
+    different kinds of quantity — nobody reads a crossover between "inspections"
+    and "% OAI" as an event. The dual-axis warning is aimed at two series of the
+    SAME kind at different magnitudes (users against sessions), where the
+    crossover looks like it means something.
+
+    What keeps it honest, and all three are load-bearing:
+      * both axes start at zero, so neither is scaled to manufacture a crossing
+      * both carry round ticks, so the alignment is principled rather than
+        whatever a padding factor produced
+      * each axis title carries its series' swatch, so which scale belongs to
+        which mark is never a guess
+
+    Separate panels were the previous version. They are also correct, and worse:
+    the reader has to carry a shape across a gap, and the divergence IS the
+    finding.
     """
     insp, oai = defaultdict(int), defaultdict(int)
     for r in obs:
@@ -924,7 +937,6 @@ def q6c_inspection_capacity(obs) -> str:
         elif r["metric"] == "is_oai" and r["value"] == "1":
             oai[y] += 1
     # 2008 and the current year are partial: the fiscal year opens 1 October.
-    # Including either would invent a collapse at one end of the chart.
     years = [y for y in sorted(insp) if "2009" <= y <= "2025"]
     if not years:
         return "inspection-capacity: no complete years"
@@ -934,70 +946,75 @@ def q6c_inspection_capacity(obs) -> str:
     pre = [rates[y] for y in pre_years]
     post = [rates[y] for y in years if y >= "2021"]
 
-    width, left, right = 980.0, 78.0, 40.0
-    panel_h, panel_gap = 190.0, 62.0
+    width, left, right = 980.0, 84.0, 84.0
+    plot_h = 300.0
     span = width - left - right
     vmax, vticks = nice_axis(max(insp[y] for y in years))
     rmax, rticks = nice_axis(max(rates.values()))
+    ticks = max(vticks, rticks)          # one gridline set serves both scales
 
     body = [txt(24, 32, "Q6c — fewer inspections, a higher share finding serious problems",
                 size=17, fill=INK, weight="600")]
     lead, dy = para(24, 54,
-        f"Drug-facility inspections a year, and the share classified Official "
-        f"Action Indicated. Volume fell {1 - insp['2020'] / base:.0%} in 2020 and is "
-        f"still {1 - insp['2025'] / base:.0%} below the 2009-2019 average of "
-        f"{base:,.0f} six years later, while the OAI rate went the other way — "
+        f"Drug-facility inspections a year (bars) against the share classified "
+        f"Official Action Indicated (line). Volume fell "
+        f"{1 - insp['2020'] / base:.0%} in 2020 and is still "
+        f"{1 - insp['2025'] / base:.0%} below the 2009-2019 average of {base:,.0f} "
+        f"six years later, while the rate went the other way — "
         f"{sum(pre) / len(pre):.1%} before 2020, {sum(post) / len(post):.1%} after. "
         "Two readings this data cannot separate: FDA triaging scarce inspectors "
         "toward plants already suspected, which raises the rate by construction, "
-        "or a manufacturing base that deteriorated during the gap. Separate "
-        "panels, not two scales on one plot — the crossover point of a dual axis "
-        "is an artefact of where you put the axes.",
+        "or a manufacturing base that deteriorated during the gap. Both axes "
+        "start at zero, so the crossing is not an artefact of where they were put.",
         size=12, fill=INK2, chars=118)
     body += lead
 
-    top_a = 54 + dy + 24
-    bot_a = top_a + panel_h
-    top_b = bot_a + panel_gap
-    bot_b = top_b + panel_h
-    height = bot_b + 84
+    legend_y = 54 + dy + 12
+    top_y = legend_y + 30
+    plot_bottom = top_y + plot_h
+    height = plot_bottom + 92
     slot = span / len(years)
     bw = min(24.0, slot * 0.62)
 
-    def panel(y_top, y_bot, vtop, ticks, fmt, title):
-        out = [txt(24, y_top - 10, title, size=12, fill=INK, weight="600")]
-        for i in range(ticks + 1):
-            gy = y_bot - i / ticks * (y_bot - y_top)
-            out.append(f'<line x1="{left}" y1="{gy:.1f}" x2="{left + span:.1f}" '
-                       f'y2="{gy:.1f}" stroke="{GRID}" stroke-width="1"/>')
-            out.append(txt(left - 10, gy + 4, fmt(i / ticks * vtop), size=10,
-                           fill=MUTED, anchor="end", tab=True))
-        return out
+    body += legend([("inspections a year (left)", HUE),
+                    ("share classified OAI (right)", CRITICAL)], 24, legend_y)
 
-    body += panel(top_a, bot_a, vmax, vticks, lambda v: f"{int(v):,}", "Inspections a year")
+    for i in range(ticks + 1):
+        gy = plot_bottom - i / ticks * plot_h
+        body.append(f'<line x1="{left}" y1="{gy:.1f}" x2="{left + span:.1f}" '
+                    f'y2="{gy:.1f}" stroke="{GRID}" stroke-width="1"/>')
+        body.append(txt(left - 10, gy + 4, f"{int(i / ticks * vmax):,}", size=10,
+                        fill=MUTED, anchor="end", tab=True))
+        body.append(txt(left + span + 10, gy + 4, f"{i / ticks * rmax:.0%}", size=10,
+                        fill=MUTED, anchor="start", tab=True))
+
     for i, y in enumerate(years):
         cx = left + i * slot + slot / 2
-        h = insp[y] / vmax * panel_h
-        body.append(bar(cx - bw / 2, bot_a - h, bw, h, HUE if y <= "2019" else HUE_SOFT, r=2))
+        h = insp[y] / vmax * plot_h
+        body.append(bar(cx - bw / 2, plot_bottom - h, bw, h,
+                        HUE if y <= "2019" else HUE_SOFT, r=2))
+        body.append(txt(cx, plot_bottom + 17, y[2:], size=10, fill=MUTED,
+                        anchor="middle", tab=True))
 
-    body += panel(top_b, bot_b, rmax, rticks, lambda v: f"{v:.0%}",
-                  "Share classified Official Action Indicated")
-    pts = [(left + i * slot + slot / 2, bot_b - rates[y] / rmax * panel_h)
+    pts = [(left + i * slot + slot / 2, plot_bottom - rates[y] / rmax * plot_h)
            for i, y in enumerate(years)]
     body.append('<polyline fill="none" stroke="' + CRITICAL + '" stroke-width="2" '
                 'points="' + " ".join(f"{x:.1f},{yy:.1f}" for x, yy in pts) + '"/>')
-    for (x, yy), y in zip(pts, years):
-        body.append(f'<circle cx="{x:.1f}" cy="{yy:.1f}" r="4" fill="{CRITICAL}"/>')
-    # Direct-label only the two ends and the peak; a number on every point is noise.
+    for (x, yy) in pts:
+        # 2px surface ring so the marker reads over a bar it overlaps.
+        body.append(f'<circle cx="{x:.1f}" cy="{yy:.1f}" r="4.5" fill="{SURFACE}"/>')
+        body.append(f'<circle cx="{x:.1f}" cy="{yy:.1f}" r="3" fill="{CRITICAL}"/>')
     for y in (years[0], max(years, key=lambda k: rates[k]), years[-1]):
         i = years.index(y)
         body.append(txt(pts[i][0], pts[i][1] - 12, f"{rates[y]:.1%}", size=10,
                         fill=INK2, anchor="middle", tab=True))
 
-    for i, y in enumerate(years):
-        cx = left + i * slot + slot / 2
-        body.append(txt(cx, bot_a + 16, y[2:], size=10, fill=MUTED, anchor="middle", tab=True))
-        body.append(txt(cx, bot_b + 16, y[2:], size=10, fill=MUTED, anchor="middle", tab=True))
+    # Axis identity comes from a swatch beside the title, never from colouring
+    # the tick text -- a light hue is illegible as text on the surface.
+    body.append(f'<rect x="24" y="{top_y - 20:.1f}" width="9" height="9" rx="2" fill="{HUE}"/>')
+    body.append(txt(38, top_y - 12, "inspections", size=11, fill=INK2))
+    body.append(f'<rect x="{left + span + 10:.1f}" y="{top_y - 20:.1f}" width="9" height="9" rx="2" fill="{CRITICAL}"/>')
+    body.append(txt(left + span + 24, top_y - 12, "OAI rate", size=11, fill=INK2))
 
     body.append(txt(24, height - 30,
                     "Source: FDA inspection classifications, drug facilities. 2008 and "
