@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>US Drug Scarcity History (wss-drug-scarcity)</title>
-<meta name="description" content="Point-in-time captures from 3 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
+<meta name="description" content="Point-in-time captures from 7 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "US Drug Scarcity History (wss-drug-scarcity)",
-  "description": "Point-in-time captures from 3 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
-  "url": "https://github.com/neldivad/wss-drug-scarcity",
+  "description": "Point-in-time captures from 7 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
+  "url": "https://github.com/q3dresearch/wss-drug-scarcity",
   "license": "CC-BY-4.0",
   "isAccessibleForFree": true,
   "keywords": [
@@ -25,17 +25,27 @@
       "@type": "Person",
       "name": "neldivad",
       "url": "https://github.com/neldivad"
+    },
+    {
+      "@type": "Person",
+      "name": "q3dresearch",
+      "url": "https://github.com/q3dresearch"
     }
   ],
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
-      "contentUrl": "https://github.com/neldivad/wss-drug-scarcity/tree/main/data"
+      "contentUrl": "https://github.com/q3dresearch/wss-drug-scarcity/tree/main/data"
     }
   ],
-  "temporalCoverage": "2026-09-02/2026-09-02",
+  "temporalCoverage": "2026-09-02/2026-09-08",
   "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/compliance_actions"
+    },
     {
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
@@ -45,6 +55,21 @@
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
       "url": "https://www.accessdata.fda.gov/cms_ia/importalert_190.html"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/import_refusals"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://www.accessdata.fda.gov/rest/pcbapi/v1/industry"
     },
     {
       "@type": "Dataset",
@@ -70,28 +95,32 @@
 </head>
 <body>
 <h1>US Drug Scarcity History (wss-drug-scarcity)</h1>
-<p>Point-in-time captures from 3 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
-<p class="cov">History held: <strong>2026-09-02</strong> to <strong>2026-09-02</strong>.</p>
+<p>Point-in-time captures from 7 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
+<p class="cov">History held: <strong>2026-09-02</strong> to <strong>2026-09-08</strong>.</p>
 
 <h2>What is captured</h2>
 <table>
   <thead><tr><th>source</th><th>publisher</th><th>cadence</th><th>terms</th></tr></thead>
   <tbody>
+      <tr><td><code>fda.complianceactions.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.importalert.66-40</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.importalert.66-41</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.importrefusals.recent</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.inspections.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.productcodes.reference</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.shortages.current</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US; https://open.fda.gov/terms/</td></tr>
   </tbody>
 </table>
 
 <h2>Using it</h2>
 <p>Derived tables are CSV under <code>data/</code> in
-<a href="https://github.com/neldivad/wss-drug-scarcity">the repository</a>; the bytes they came from are under
+<a href="https://github.com/q3dresearch/wss-drug-scarcity">the repository</a>; the bytes they came from are under
 <code>raw/</code>, and <code>SOURCES.md</code> lists every source URL.</p>
 <p>Every observation carries <code>source_id</code> and <code>raw_ref</code>. The
 matching manifest row holds that <code>raw_ref</code> with the URL, the fetch
 timestamp and a SHA-256 of exactly what came back, so any number here traces to
 the bytes it came from.</p>
-<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/neldivad/wss-drug-scarcity">https://github.com/neldivad/wss-drug-scarcity</a>, accessed 2026-09-02.</p>
+<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/q3dresearch/wss-drug-scarcity">https://github.com/q3dresearch/wss-drug-scarcity</a>, accessed 2026-09-08.</p>
 
 <footer>
 <p>Repository code and captured data are licensed separately. This dataset is
