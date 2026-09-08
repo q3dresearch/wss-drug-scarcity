@@ -15,6 +15,7 @@ drugs, gives their therapeutic class, and puts the decision in the subtitle.
   single-supplier.svg    Q7  drugs down to one listed package — the watchlist
   enforcement-year.svg   Q6  GMP import bans by year and origin — is the base shrinking
   escalation.svg         Q6b named plants where an OAI was followed by an action/recall
+  inspection-capacity.svg Q6c volume vs OAI rate, 2009-2025 — the base is thinner
   shortage-duration.svg  Q2  deliberately empty until captures accrue
   supplier-exits.svg     Q14 deliberately empty until the cohort source is active
 
@@ -870,6 +871,105 @@ def q6b_escalation(obs) -> str:
     return f"{out.relative_to(REPO)} — {escalated} of {total_oai} OAI plants escalated"
 
 
+def q6c_inspection_capacity(obs) -> str:
+    """Inspection volume against the OAI rate, 2009-2025. Bars and a line."""
+    insp, oai = defaultdict(int), defaultdict(int)
+    for r in obs:
+        y = (r.get("observed_at") or "")[:4]
+        if not y.isdigit():
+            continue
+        if r["metric"] == "inspected":
+            insp[y] += 1
+        elif r["metric"] == "is_oai" and r["value"] == "1":
+            oai[y] += 1
+    # 2008 and the current year are partial: the fiscal year opens 1 October,
+    # and the latest is still filling. Including either would invent a collapse.
+    years = [y for y in sorted(insp) if "2009" <= y <= "2025"]
+    if not years:
+        return "escalation: no inspection years"
+    base = sum(insp[y] for y in years if y <= "2019") / max(
+        len([y for y in years if y <= "2019"]), 1)
+    rates = {y: (oai[y] / insp[y] if insp[y] else 0.0) for y in years}
+    pre = [rates[y] for y in years if y <= "2019"]
+    post = [rates[y] for y in years if y >= "2021"]
+
+    width, left, right, top_y = 980.0, 70.0, 92.0, 0.0
+    plot_h = 250.0
+    span = width - left - right
+    vmax = max(insp.values()) * 1.12
+    rmax = max(rates.values()) * 1.35
+
+    body = [txt(24, 32, "Q6c — fewer inspections, a higher share finding serious problems",
+                size=17, fill=INK, weight="600")]
+    lead, dy = para(24, 54,
+        f"Drug-facility inspections a year (bars, left) against the share "
+        f"classified Official Action Indicated (line, right). Volume fell "
+        f"{1 - insp['2020'] / base:.0%} in 2020 and is still {1 - insp['2025'] / base:.0%} "
+        f"below the 2009-2019 average of {base:,.0f} six years later. The OAI rate "
+        f"moved the other way: {sum(pre) / len(pre):.1%} before 2020, "
+        f"{sum(post) / len(post):.1%} after. Two readings this data cannot "
+        "separate — FDA triaging scarce inspectors toward plants already "
+        "suspected, which raises the rate by construction, or a manufacturing "
+        "base that deteriorated during the gap.",
+        size=12, fill=INK2, chars=118)
+    body += lead
+
+    legend_y = 54 + dy + 10
+    top_y = legend_y + 30
+    plot_bottom = top_y + plot_h
+    height = plot_bottom + 96
+
+    body += legend([("inspections a year", HUE), ("share classified OAI", CRITICAL)],
+                   24, legend_y)
+
+    for i in range(5):
+        gy = plot_bottom - i / 4 * plot_h
+        body.append(f'<line x1="{left}" y1="{gy:.1f}" x2="{left + span:.1f}" '
+                    f'y2="{gy:.1f}" stroke="{GRID}" stroke-width="1"/>')
+        body.append(txt(left - 10, gy + 4, f"{int(i / 4 * vmax):,}", size=10,
+                        fill=MUTED, anchor="end", tab=True))
+        body.append(txt(left + span + 10, gy + 4, f"{i / 4 * rmax:.0%}", size=10,
+                        fill=CRITICAL, anchor="start", tab=True))
+
+    slot = span / len(years)
+    bw = slot * 0.62
+    for i, y in enumerate(years):
+        cx = left + i * slot + slot / 2
+        h = insp[y] / vmax * plot_h
+        colour = HUE if y <= "2019" else HUE_SOFT
+        body.append(bar(cx - bw / 2, plot_bottom - h, bw, h, colour, r=2))
+        body.append(txt(cx, plot_bottom + 16, y[2:], size=10, fill=MUTED,
+                        anchor="middle", tab=True))
+
+    pts = [(left + i * slot + slot / 2, plot_bottom - rates[y] / rmax * plot_h)
+           for i, y in enumerate(years)]
+    body.append('<polyline fill="none" stroke="' + CRITICAL + '" stroke-width="2.5" '
+                'points="' + " ".join(f"{x:.1f},{yy:.1f}" for x, yy in pts) + '"/>')
+    for (x, yy), y in zip(pts, years):
+        body.append(f'<circle cx="{x:.1f}" cy="{yy:.1f}" r="3" fill="{CRITICAL}"/>')
+
+    # 2020 is the whole story; name it on the figure rather than in a caption.
+    gap = left + years.index("2020") * slot + slot / 2
+    body.append(f'<line x1="{gap:.1f}" y1="{top_y - 6}" x2="{gap:.1f}" '
+                f'y2="{plot_bottom:.1f}" stroke="{BASELINE}" stroke-width="1" '
+                'stroke-dasharray="3 3"/>')
+    body.append(txt(gap + 6, top_y + 6, "on-site inspections suspended",
+                    size=10, fill=INK2))
+
+    body.append(txt(24, height - 30,
+                    "Source: FDA inspection classifications, drug facilities. 2008 and "
+                    "the current year omitted as partial (fiscal year opens 1 October).",
+                    size=10, fill=MUTED))
+    out = OUT_DIR / "inspection-capacity.svg"
+    out.write_text(wrap(width, height,
+                        "Drug inspections a year against the OAI rate",
+                        "Volume has not recovered; the share finding serious problems rose.",
+                        "\n".join(body)), encoding="utf-8")
+    return (f"{out.relative_to(REPO)} — {len(years)} years, "
+            f"2025 is {1 - insp['2025'] / base:.0%} BELOW baseline, "
+            f"OAI rate {sum(pre) / len(pre):.1%} -> {sum(post) / len(post):.1%}")
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     obs = rows()
@@ -878,7 +978,7 @@ def main() -> None:
     for line in (q1_whats_short(obs), q1_age_structure(obs),
                  q3_availability(obs), q13_attrition(obs),
                  q7_single_supplier(obs), q6_enforcement(obs),
-                 q6b_escalation(obs),
+                 q6b_escalation(obs), q6c_inspection_capacity(obs),
                  q2_placeholder(obs), q14_placeholder(obs)):
         print(line)
 
