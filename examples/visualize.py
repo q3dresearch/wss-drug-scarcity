@@ -22,6 +22,13 @@ drugs, gives their therapeutic class, and puts the decision in the subtitle.
 Charts read the derived table, never the raw archive. Stdlib only,
 deterministic: the same observations always produce the same bytes.
 
+Conventions and the list of mistakes already made here:
+wss-engine/docs/charts.md. The short version — ticks land on round
+numbers (`nice_axis` below picks the ceiling AND the tick count, because
+they interact), length-encoding axes start at zero, one scale per panel,
+and partial periods or capture gaps are stated on the figure rather than
+left to look like findings.
+
 Palette is the dataviz reference instance, categorical slots in fixed order,
 validated (scripts/validate_palette.js): all checks pass with a contrast WARN
 on three slots, which is why every mark carries a visible text label.
