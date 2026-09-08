@@ -31,7 +31,10 @@ concurrency:
 env:
   # One --parsers flag per schema. Adding a schema adds a line here and
   # nowhere else; adding a *source* that reuses a schema adds nothing.
-  PARSERS: "--parsers parsers.fda_shortage_v1 --parsers parsers.fda_importalert_v1 --parsers parsers.fda_drugsfda_count_v1"
+  # No PARSERS override: `wss derive` discovers parsers/*.py itself, so
+  # adding a parser needs no workflow edit -- which is the point. A stale
+  # hardcoded list here silently ignored five new parsers, failing every
+  # scheduled derive while the same command passed locally.
   ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.9"
 
 jobs:
@@ -45,7 +48,7 @@ jobs:
       - name: Install engine
         run: pip install "$ENGINE_SPEC"
       - name: Rebuild derived/ from the raw archive
-        run: wss derive $PARSERS
+        run: wss derive
       - name: Refresh the dataset page
         # Coverage dates come from the manifest, so the page goes stale the
         # moment a new capture lands. Regenerating it here is what makes the
