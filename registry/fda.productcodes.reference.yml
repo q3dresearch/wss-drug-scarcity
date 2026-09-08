@@ -55,5 +55,5 @@ gates:
   min_bytes: 2000
   content_type_any: [json]
   must_contain: ["RESULTCOUNT", "COLUMNS"]
-  must_not_contain: ["Not Authorized", "Accessdata Error"]
+  must_not_contain: ["Not Authorized", "Accessdata Error", "Authorization has been denied"]
   max_shrink_pct: 50
