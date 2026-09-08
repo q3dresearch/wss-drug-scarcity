@@ -39,54 +39,6 @@ endpoints:
       returntotalcount: true
       sort: "InspectionEndDate"
       sortorder: "DESC"
-      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2022-01-01"], "InspectionEndDateTo": ["2022-12-31"]}
-      columns: []
-  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
-    method: POST
-    delay_seconds: 2
-    timeout_seconds: 180
-    body:
-      start: 1
-      rows: 5000
-      returntotalcount: true
-      sort: "InspectionEndDate"
-      sortorder: "DESC"
-      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2023-01-01"], "InspectionEndDateTo": ["2023-12-31"]}
-      columns: []
-  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
-    method: POST
-    delay_seconds: 2
-    timeout_seconds: 180
-    body:
-      start: 1
-      rows: 5000
-      returntotalcount: true
-      sort: "InspectionEndDate"
-      sortorder: "DESC"
-      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2024-01-01"], "InspectionEndDateTo": ["2024-12-31"]}
-      columns: []
-  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
-    method: POST
-    delay_seconds: 2
-    timeout_seconds: 180
-    body:
-      start: 1
-      rows: 5000
-      returntotalcount: true
-      sort: "InspectionEndDate"
-      sortorder: "DESC"
-      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2025-01-01"], "InspectionEndDateTo": ["2025-12-31"]}
-      columns: []
-  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
-    method: POST
-    delay_seconds: 2
-    timeout_seconds: 180
-    body:
-      start: 1
-      rows: 5000
-      returntotalcount: true
-      sort: "InspectionEndDate"
-      sortorder: "DESC"
       filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2026-01-01"], "InspectionEndDateTo": ["2026-12-31"]}
       columns: []
 

@@ -1,0 +1,214 @@
+# Drug inspection classifications for CLOSED calendar years, 2008-2025.
+#
+# Split from fda.inspections.drugs on the archetype, not the subject. FDA serves
+# all 39,988 drug inspections back to 2008-10-01 on demand and the closed years
+# do not move, so weekly listening on them is guaranteed waste -- 17 unchanged
+# captures and 0 changed, which is exactly what an immutable slice looks like.
+#
+# It is NOT dropped to a one-time backfill, because "closed years are immutable"
+# was an assertion in a comment, never a measurement. A quarterly poll costs
+# almost nothing and turns that assertion into something falsifiable; at WHO GHO
+# the restatement rate turned out to be the finding rather than a footnote.
+#
+# SEAM, deliberate: this covers 2008-2021 only. 2022-2025 were already captured
+# under fda.inspections.drugs before the split, and re-fetching them here would
+# put the same inspection in the archive twice under two source_ids -- any SUM
+# over `inspected` would silently double. Those four years are held, immutable,
+# and polled by neither source; a revision to them would go unseen, which is the
+# price of not double-counting. Move them here only by retiring the old rows.
+source_id: fda.inspections.history
+status: active
+cadence: quarterly
+schema_id: fda-inspection-classification.v1
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+notes: >-
+  Parties are inspected establishments: firm legal name, business address and
+  FEI number. Findings describe the facility, not any person. No investigator
+  names. destroys_own_history is claimed on REVISION grounds only -- FDA
+  archives the row inventory but overwrites a classification when it is
+  revised, and the revision history is what perishes.
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+endpoints:
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2008-01-01"], "InspectionEndDateTo": ["2008-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2009-01-01"], "InspectionEndDateTo": ["2009-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2010-01-01"], "InspectionEndDateTo": ["2010-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2011-01-01"], "InspectionEndDateTo": ["2011-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2012-01-01"], "InspectionEndDateTo": ["2012-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2013-01-01"], "InspectionEndDateTo": ["2013-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2014-01-01"], "InspectionEndDateTo": ["2014-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2015-01-01"], "InspectionEndDateTo": ["2015-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2016-01-01"], "InspectionEndDateTo": ["2016-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2017-01-01"], "InspectionEndDateTo": ["2017-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2018-01-01"], "InspectionEndDateTo": ["2018-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2019-01-01"], "InspectionEndDateTo": ["2019-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2020-01-01"], "InspectionEndDateTo": ["2020-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_classifications"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProductType": ["Drugs"], "InspectionEndDateFrom": ["2021-01-01"], "InspectionEndDateTo": ["2021-12-31"]}
+      columns: []
+gates:
+  expect_status: 200
+  min_bytes: 400
+  content_type_any: [json]
+  must_contain: ["totalrecordcount"]
+  must_not_contain: ["Authorization has been denied", "Not Authorized"]
+  max_shrink_pct: 60

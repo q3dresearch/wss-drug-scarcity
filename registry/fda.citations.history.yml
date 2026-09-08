@@ -1,0 +1,244 @@
+# Inspection citations for CLOSED calendar years, 2008-2025. Same split and the
+# same reasoning as fda.inspections.history: immutable by assertion, polled
+# quarterly so the assertion can fail loudly instead of silently.
+source_id: fda.citations.history
+status: active
+cadence: quarterly
+schema_id: fda-inspection-citation.v1
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+notes: >-
+  Parties are inspected establishments: firm legal name, business address and
+  FEI number. Citation text describes the facility's practice, not any person.
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+endpoints:
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2008-01-01"], "InspectionEndDateTo": ["2008-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2009-01-01"], "InspectionEndDateTo": ["2009-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2010-01-01"], "InspectionEndDateTo": ["2010-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2011-01-01"], "InspectionEndDateTo": ["2011-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2012-01-01"], "InspectionEndDateTo": ["2012-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2013-01-01"], "InspectionEndDateTo": ["2013-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2014-01-01"], "InspectionEndDateTo": ["2014-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2015-01-01"], "InspectionEndDateTo": ["2015-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2016-01-01"], "InspectionEndDateTo": ["2016-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2017-01-01"], "InspectionEndDateTo": ["2017-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2018-01-01"], "InspectionEndDateTo": ["2018-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2019-01-01"], "InspectionEndDateTo": ["2019-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2020-01-01"], "InspectionEndDateTo": ["2020-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2021-01-01"], "InspectionEndDateTo": ["2021-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2022-01-01"], "InspectionEndDateTo": ["2022-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2023-01-01"], "InspectionEndDateTo": ["2023-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2024-01-01"], "InspectionEndDateTo": ["2024-12-31"]}
+      columns: []
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2025-01-01"], "InspectionEndDateTo": ["2025-12-31"]}
+      columns: []
+gates:
+  expect_status: 200
+  min_bytes: 400
+  content_type_any: [json]
+  must_contain: ["totalrecordcount"]
+  must_not_contain: ["Authorization has been denied", "Not Authorized"]
+  max_shrink_pct: 60

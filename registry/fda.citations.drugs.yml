@@ -1,0 +1,49 @@
+# What the inspector actually wrote down: the CFR paragraph cited and the
+# observation text, for the open year.
+#
+# The classification source says a plant got an OAI. This says why -- 21 CFR
+# 211.113 sterile process validation is not the same risk as an incomplete
+# training record, and only one of them precedes a shortage. Joins to
+# fda.inspections.drugs on FEINumber and InspectionID.
+#
+# ProgramArea=Drugs is mandatory, not cosmetic: unfiltered, this endpoint spans
+# everything FDA inspects and a live sample returned National Railroad
+# Passenger Corporation under 21 CFR 1250. 41,833 drug citations of 280,445.
+source_id: fda.citations.drugs
+status: active
+cadence: weekly
+schema_id: fda-inspection-citation.v1
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+notes: >-
+  Parties are inspected establishments: firm legal name, business address and
+  FEI number. Citation text describes the facility's practice, not any person;
+  investigator names are not returned by this endpoint.
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+endpoints:
+  - url: "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "InspectionEndDate"
+      sortorder: "DESC"
+      filters: {"ProgramArea": ["Drugs"], "InspectionEndDateFrom": ["2026-01-01"], "InspectionEndDateTo": ["2026-12-31"]}
+      columns: []
+gates:
+  expect_status: 200
+  min_bytes: 400
+  content_type_any: [json]
+  must_contain: ["totalrecordcount"]
+  must_not_contain: ["Authorization has been denied", "Not Authorized"]
+  max_shrink_pct: 60
