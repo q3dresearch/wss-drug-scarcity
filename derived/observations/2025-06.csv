@@ -1,4 +1,622 @@
 series_id,entity_id,observed_at,captured_at,metric,value,unit,source_id,raw_ref,parser_version
+fda.citations.history,firm:1000065349,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000065349,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000065349,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000065349,2025-06-05,2026-09-08T14:32:55Z,citation_topic,input/output verification,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000065349,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000065349,2025-06-05,2026-09-08T14:32:55Z,label,Denver Health Medical Center,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.170(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.80(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,citation_topic,Annual visual exams of drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,citation_topic,Component written specification,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,citation_topic,Identification of Each Lot in Each Shipment,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000117629,2025-06-26,2026-09-08T14:32:55Z,label,"Atlantis Laboratories, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(f),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Backup data not assured as exact and complete,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Responsible firm officials notified in writing,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000266395,2025-06-18,2026-09-08T14:32:55Z,label,Po Sum On Medicine Factory Limited,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,citation_topic,Identity Testing of Each Component,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,citation_topic,Microbiological testing,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1000524645,2025-06-03,2026-09-08T14:32:55Z,label,Northwest Cosmetic Laboratories LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b)(4),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Calibration/Inspection/Checking not done,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Establishment of calibration procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,citation_topic,No written record of investigation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1039390,2025-06-04,2026-09-08T14:32:55Z,label,"Kappa Laboratories, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(e)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.58,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Buildings not maintained in good state of repair,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Items to cover on annual reviews,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1210513,2025-06-18,2026-09-08T14:32:55Z,label,"Sheffield Pharmaceuticals, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,citation_topic,No written record of investigation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Written procedures not established/followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1718912,2025-06-13,2026-09-08T14:32:55Z,label,"Ultradent Products, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.56(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Buildings of Suitable Size, Construction, Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Penicillin processing area not  kept separate,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Training--operations, GMPs, written procedures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Written procedures lacking for use of pesticides etc.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:1930466,2025-06-13,2026-09-08T14:32:55Z,label,"EPM Packaging, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b)(4),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,cfr,21 CFR 211.194(a)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,citation_topic,"Calibration - at intervals, written program, remedial action",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,citation_topic,Laboratory Test Method Verification,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2020478,2025-06-30,2026-09-08T14:32:55Z,label,"Silliker, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.103,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.63,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Actual vs. theoretical yields not determined,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Approve or reject components, products",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Equipment Design, Size and Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Written record of investigation incomplete,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:2123499,2025-06-18,2026-09-08T14:32:55Z,label,"Bell Pharmaceuticals, Inc",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.137(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.142(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.170(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(e)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.188(b)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Expiration date lacking,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,GMP Training Frequency,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Identification of Equipment and Lines,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Quality control unit review of records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,"Reserve samples identified, representative, stored",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Review of representative number of batches,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Storage under appropriate conditions,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3000215566,2025-06-16,2026-09-08T14:32:55Z,label,HPC Ventures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.188,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Buildings of Suitable Size, Construction, Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Extent of discrepancy, failure  investigations",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Prepared for each batch, include complete information",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Records reviewed annually,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002647523,2025-06-05,2026-09-08T14:32:55Z,label,"HK Kolmar Canada, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.188(b)(11),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Identification of Persons Performing Significant Steps,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002744909,2025-06-27,2026-09-08T14:32:55Z,label,"Procter & Gamble Manufacturing Mexico, S. de R.L. de C.V.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807001,2025-06-06,2026-09-08T14:32:55Z,label,Astellas Pharma Inc.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Component written specification,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002807653,2025-06-13,2026-09-08T14:32:55Z,label,Organon Pharma (UK) Ltd.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002808041,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002808041,2025-06-16,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002808041,2025-06-16,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002808041,2025-06-16,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002808041,2025-06-16,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002808041,2025-06-16,2026-09-08T14:32:55Z,label,Reading Scientific Services Ltd,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.188,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.63,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Equipment Design, Size and Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Prepared for each batch, include complete information",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Procedures for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002809586,2025-06-13,2026-09-08T14:32:55Z,label,Sun Pharmaceutical Industries Ltd.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,citation_topic,Identity Testing of Each Component,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,citation_topic,Lack of quality control unit,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3002937340,2025-06-12,2026-09-08T14:32:55Z,label,QuestSpecialty Corporation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003706047,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 212.20(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003706047,2025-06-13,2026-09-08T14:32:55Z,cfr_part,212,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003706047,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003706047,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Written QA procedures established, followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003706047,2025-06-13,2026-09-08T14:32:55Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003706047,2025-06-13,2026-09-08T14:32:55Z,label,"Cardinal Health 414, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Training--operations, GMPs, written procedures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003855180,2025-06-05,2026-09-08T14:32:55Z,label,"Tedor Pharma, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,citation_topic,Backup data not assured as exact and complete,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3003952755,2025-06-06,2026-09-08T14:32:55Z,label,Fortune Pharmacal Company Ltd,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b)(4),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,cfr,21 CFR 211.186(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,citation_topic,"Calibration - at intervals, written program, remedial action",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,citation_topic,Establish reliability of supplier's C of A,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,citation_topic,"Master production and control records, batch uniformity",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004087499,2025-06-12,2026-09-08T14:32:55Z,label,"Hysan Pharmaceutical Co., Ltd.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Component identification test,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Written procedures not established/followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004305946,2025-06-18,2026-09-08T14:32:55Z,label,Beacon Promotions Inc,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(c)(10)(iv),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,"Buildings of Suitable Size, Construction, Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,Environmental Monitoring System,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,Procedures for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004540906,2025-06-19,2026-09-08T14:32:55Z,label,NATCO Pharma Limited,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.188,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,citation_topic,"Prepared for each batch, include complete information",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004620586,2025-06-06,2026-09-08T14:32:55Z,label,Pharbil Waltrop Gmbh,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(c)(10)(iv),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Environmental Monitoring System,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3004810250,2025-06-17,2026-09-08T14:32:55Z,label,"Otsuka Pharmaceutical Co., Ltd.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005057567,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005057567,2025-06-20,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005057567,2025-06-20,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005057567,2025-06-20,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005057567,2025-06-20,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005057567,2025-06-20,2026-09-08T14:32:55Z,label,Analytical Food Laboratories Inc.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,citation_topic,Component identification test,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005202761,2025-06-20,2026-09-08T14:32:55Z,label,Norgine Limited,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b)(3),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.198(b)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Complaint Investigation/Follow-Up Findings,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,"Drug products - samples representative, identified properly",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,"Extent of discrepancy, failure  investigations",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Records not made readily available to FDA,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Rejecting  When Specifications Not Met,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005280525,2025-06-27,2026-09-08T14:32:55Z,label,Sri Krishna Pharmaceuticals Limited,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005398687,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 361.1(c)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005398687,2025-06-27,2026-09-08T14:32:55Z,cfr_part,361,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005398687,2025-06-27,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005398687,2025-06-27,2026-09-08T14:32:55Z,citation_topic,RDRC did not meet at least once each quarter,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005398687,2025-06-27,2026-09-08T14:32:55Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3005398687,2025-06-27,2026-09-08T14:32:55Z,label,University of Iowa RDRC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006187357,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006187357,2025-06-20,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006187357,2025-06-20,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006187357,2025-06-20,2026-09-08T14:32:55Z,citation_topic,SOPs not followed / documented,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006187357,2025-06-20,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006187357,2025-06-20,2026-09-08T14:32:55Z,label,"Element Materials Technology Bend, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.166(a)(3),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(c)(10),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(c)(10)(iv),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.42(c)(10)(v),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Aseptic Processing Area,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Cleaning System,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Environmental Monitoring System,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Following/documenting laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Procedures for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Valid stability test methods,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3006900385,2025-06-13,2026-09-08T14:32:55Z,label,"ALK-Abello, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.182,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,citation_topic,Written records kept in individual logs,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007410731,2025-06-26,2026-09-08T14:32:55Z,label,Dhaliwal Labs South LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3007867647,2025-06-05,2026-09-08T14:32:55Z,label,Seqirus Inc,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.188(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.188(b)(10),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Accurate reproduction,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Documentation of Sampling Performed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Testing and release for distribution,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009081371,2025-06-27,2026-09-08T14:32:55Z,label,"Delicate Cosmetics, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,cfr,21 CFR 211.142(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,citation_topic,Backup data not assured as exact and complete,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,citation_topic,Storage under appropriate conditions,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009609358,2025-06-11,2026-09-08T14:32:55Z,label,Microtrol Sterilisation Services Pvt. Ltd.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.166(a)(3),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.194(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Component identity verification,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Testing and standardization of standards et. al.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,"Training--operations, GMPs, written procedures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,citation_topic,Valid stability test methods,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3009862165,2025-06-16,2026-09-08T14:32:55Z,label,"Grant Industries,  Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3010167068,2025-06-12,2026-09-08T14:32:55Z,cfr,21 CFR 314.81(b)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3010167068,2025-06-12,2026-09-08T14:32:55Z,cfr_part,314,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3010167068,2025-06-12,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3010167068,2025-06-12,2026-09-08T14:32:55Z,citation_topic,Timely submission,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3010167068,2025-06-12,2026-09-08T14:32:55Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3010167068,2025-06-12,2026-09-08T14:32:55Z,label,"TAGI Pharma, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,citation_topic,"Authority lacking to review records, investigate errors",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Procedures for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Reports of Analysis (Components),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,citation_topic,"Training , Education , Experience overall",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,citation_topic,Written procedures not established/followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011585599,2025-06-17,2026-09-08T14:32:55Z,label,Glenmark Pharmaceuticals Inc  USA,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.198(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,citation_topic,"Authority lacking to review records, investigate errors",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Complaints reviewed by Quality Control Unit,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3011823550,2025-06-04,2026-09-08T14:32:55Z,label,Perfomics Analytical Labs LLP,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012047188,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.150(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012047188,2025-06-26,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012047188,2025-06-26,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012047188,2025-06-26,2026-09-08T14:32:55Z,citation_topic,Recall facilitation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012047188,2025-06-26,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012047188,2025-06-26,2026-09-08T14:32:55Z,label,Ferring Microbiome Inc.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.166(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.188(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Batch production and Batch Control Record Requirements,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Component identification test,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Establish reliability of supplier's C of A,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Test methods,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,citation_topic,Written program not followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012088459,2025-06-04,2026-09-08T14:32:55Z,label,"DeVere Company, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012102437,2025-06-06,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012102437,2025-06-06,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012102437,2025-06-06,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012102437,2025-06-06,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012102437,2025-06-06,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012102437,2025-06-06,2026-09-08T14:32:55Z,label,"Synergy Health AST, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.160(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.166(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.194(a)(4),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.56(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(b)(3),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr,21 CFR 211.84(d)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Cleaning SOPs/instructions,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Complete Test Data,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Following/documenting laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Identity Testing of Each Component,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Microbiological testing,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,"Sanitation--buildings not clean, free of infestation",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Testing and release for distribution,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,citation_topic,Written program not followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012275336,2025-06-18,2026-09-08T14:32:55Z,label,Seaway Pharma Inc.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,cfr,21 CFR 211.58,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,citation_topic,Buildings not maintained in good state of repair,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012448339,2025-06-03,2026-09-08T14:32:55Z,label,Steri-Tek,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3012580398,2025-06-05,2026-09-08T14:32:55Z,label,LE PAPILLON LTD.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013103530,2025-06-25,2026-09-08T14:32:55Z,label,Instituto Pedro Nunes - Associacao para a Inovacao e Desenvolvimento em Ciencia e Tecnologia,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,cfr,21 CFR 211.56(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,cfr,21 CFR 310.305(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,cfr_part,310,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,citation_topic,Failure to submit ADE report,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,citation_topic,"Sanitation--buildings not clean, free of infestation",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013316698,2025-06-10,2026-09-08T14:32:55Z,label,MedisourceRx,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013896178,2025-06-02,2026-09-08T14:32:55Z,cfr,21 CFR 211.63,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013896178,2025-06-02,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013896178,2025-06-02,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013896178,2025-06-02,2026-09-08T14:32:55Z,citation_topic,"Equipment Design, Size and Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013896178,2025-06-02,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3013896178,2025-06-02,2026-09-08T14:32:55Z,label,"Strive Pharmaceuticals, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,cfr,FDCA 501(a)(2)(A),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,cfr_part,501,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Exposed to lower quality air/ISO 5,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,citation_topic,Inadequate smoke studies,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014480778,2025-06-13,2026-09-08T14:32:55Z,label,Pharmcore Inc. dba Hallandale Pharmacy,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014534,2025-06-26,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014534,2025-06-26,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014534,2025-06-26,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014534,2025-06-26,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014534,2025-06-26,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014534,2025-06-26,2026-09-08T14:32:55Z,label,HF Acquisition Co LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014725408,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014725408,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014725408,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014725408,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Records reviewed annually,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014725408,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3014725408,2025-06-05,2026-09-08T14:32:55Z,label,Textile-Based Delivery Inc.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(f),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,cfr,21 CFR 211.180(e)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,citation_topic,"Extent of discrepancy, failure  investigations",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,citation_topic,Failing drug products not rejected,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,citation_topic,Items to cover on annual reviews,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3015274499,2025-06-23,2026-09-08T14:32:55Z,label,Private Label Skin Care,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.188,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.194(a)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,cfr,21 CFR 211.68(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,citation_topic,Calibration/Inspection/Checking not done,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,citation_topic,"Prepared for each batch, include complete information",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,citation_topic,SOPs not followed / documented,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,citation_topic,Sample identification and other information,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3018083890,2025-06-20,2026-09-08T14:32:55Z,label,"Diagnostic Services Of Kansas State, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,citation_topic,"Training--operations, GMPs, written procedures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,citation_topic,Written record of investigation incomplete,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3020181366,2025-06-05,2026-09-08T14:32:55Z,label,RHYZ ANALYTICAL LABS,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.100(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.165(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.166(a)(3),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.186(b)(9),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.63,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr,21 CFR 211.67(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,"Equipment Design, Size and Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Manufacturing Instructions and Specifications,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,SOPs not followed / documented,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Testing and release for distribution,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Valid stability test methods,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,citation_topic,Written procedures not established/followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
+fda.citations.history,firm:3030548360,2025-06-27,2026-09-08T14:32:55Z,label,"BSO, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143255Z-5431b47a1bd8.json.gz,1
 fda.complianceactions.drugs,firm:1000448124,2025-06-26,2026-09-07T21:01:42Z,action_taken,20250626,yyyymmdd,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
 fda.complianceactions.drugs,firm:1000448124,2025-06-26,2026-09-07T21:01:42Z,action_warning_letter,1,count,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
 fda.complianceactions.drugs,firm:1000448124,2025-06-26,2026-09-07T21:01:42Z,compliance_action,1,count,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1

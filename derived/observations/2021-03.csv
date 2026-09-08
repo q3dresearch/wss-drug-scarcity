@@ -1,4 +1,260 @@
 series_id,entity_id,observed_at,captured_at,metric,value,unit,source_id,raw_ref,parser_version
+fda.citations.history,firm:1000150647,2021-03-24,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1000150647,2021-03-24,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1000150647,2021-03-24,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1000150647,2021-03-24,2026-09-08T14:32:24Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1000150647,2021-03-24,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1000150647,2021-03-24,2026-09-08T14:32:24Z,label,"Johnson & Johnson Consumer, Inc",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,citation_topic,Procedures for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,citation_topic,Validation lacking for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:1910619,2021-03-23,2026-09-08T14:32:24Z,label,"Sparhawk Laboratories, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:2027660,2021-03-12,2026-09-08T14:32:24Z,cfr,21 CFR 211.100(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:2027660,2021-03-12,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:2027660,2021-03-12,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:2027660,2021-03-12,2026-09-08T14:32:24Z,citation_topic,SOPs not followed / documented,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:2027660,2021-03-12,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:2027660,2021-03-12,2026-09-08T14:32:24Z,label,"Airgas USA, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.111,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.170(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.180(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.194(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.67(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Annual visual exams of drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Calibration/Inspection/Checking not done,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Complete test data included in records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Establish reliability of supplier's C of A,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Establishment of time limitations,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,No written record of investigation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Records reviewed annually,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Written procedures not established/followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3000207078,2021-03-26,2026-09-08T14:32:24Z,label,"Weckerle Cosmetics USA, INC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.110(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.198(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr,21 CFR 211.84(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Complaints reviewed by Quality Control Unit,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Control procedures to monitor and validate performance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Rejecting  When Specifications Not Met,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3001451695,2021-03-26,2026-09-08T14:32:24Z,label,Spartan Chemical Co Inc,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.160(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.160(b)(1),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.194(a)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.194(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.25(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Calibration/Inspection/Checking not done,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Following/documenting laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Inadequate number of  personnel,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,"Lab controls established, including changes",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Laboratory Test Method Verification,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Retesting,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Suitability of testing methods verified,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,citation_topic,Testing and standardization of standards et. al.,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003693795,2021-03-15,2026-09-08T14:32:24Z,label,"Advanced Botanical Consulting & Testing, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr,21 CFR 211.194(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr,21 CFR 211.42(c)(6),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation_topic,Approve or reject procedures or specs,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation_topic,Complete test data included in records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation_topic,Computer control of master formula records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation_topic,"Extent of discrepancy, failure  investigations",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation_topic,Pkg / Labeling Operations Area,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3003887639,2021-03-19,2026-09-08T14:32:24Z,label,"Diamond Wipes International, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,cfr,21 CFR 211.68(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,citation_topic,Calibration/Inspection/Checking not done,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,citation_topic,GMP Training Frequency,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,citation_topic,Quality control unit review of records,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,citation_topic,"Training , Education , Experience overall",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004070098,2021-03-02,2026-09-08T14:32:24Z,label,"Airgas USA, LLC",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004771217,2021-03-18,2026-09-08T14:32:24Z,cfr,21 CFR 212.50,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004771217,2021-03-18,2026-09-08T14:32:24Z,cfr_part,212,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004771217,2021-03-18,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004771217,2021-03-18,2026-09-08T14:32:24Z,citation_topic,Adequate controls (general),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004771217,2021-03-18,2026-09-08T14:32:24Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004771217,2021-03-18,2026-09-08T14:32:24Z,label,Cardinal Health 414 LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,cfr,21 CFR 211.100(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,cfr,21 CFR 211.137(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,cfr,21 CFR 211.170(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,cfr,21 CFR 211.180(e)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,citation_topic,Absence of Written Procedures,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,citation_topic,Expiration date lacking,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,citation_topic,Reserve sample quantity - active ingredients only,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,citation_topic,Review of problem drugs,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3004966182,2021-03-31,2026-09-08T14:32:24Z,label,"Eco Lips, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.110(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.166(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.188(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.67(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Batch production and Batch Control Record Requirements,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Control procedures to monitor and validate performance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Lack of written stability program,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Written procedures fail to include,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007162174,2021-03-05,2026-09-08T14:32:24Z,label,MakingCosmetics Inc,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr,21 CFR 211.170(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr,21 CFR 314.81(b)(1)(ii),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,cfr_part,314,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,citation_topic,Annual visual exams of drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,citation_topic,Failure to meet specifications,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007343300,2021-03-17,2026-09-08T14:32:24Z,label,PF Consumer Healthcare BV (Puerto Rico Operations) LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007500366,2021-03-03,2026-09-08T14:32:24Z,cfr,FDCA 501(a)(2)(A),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007500366,2021-03-03,2026-09-08T14:32:24Z,cfr_part,501,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007500366,2021-03-03,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007500366,2021-03-03,2026-09-08T14:32:24Z,citation_topic,"Highly potent drugs, prevention of cross-contamination",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007500366,2021-03-03,2026-09-08T14:32:24Z,is_gmp,0,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3007500366,2021-03-03,2026-09-08T14:32:24Z,label,First Pharma Associates LLC dba Riverpoint Pharmacy,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,cfr,21 CFR 211.122(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,cfr,21 CFR 211.122(e),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,cfr,21 CFR 211.142(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,cfr,21 CFR 211.166(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,cfr,21 CFR 211.194(a)(4),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,citation_topic,Complete Test Data,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,citation_topic,Destruction of obsolete labeling,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,citation_topic,Label storage access limited to authorized personnel,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,citation_topic,Storage under appropriate conditions,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,citation_topic,Written program not followed,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009631819,2021-03-16,2026-09-08T14:32:24Z,label,Neogen Corporation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.113(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.165(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.198(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.42(c)(10)(iv),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.42(c)(10)(v),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.84(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Cleaning System,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Complaint Handling Procedure,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Components withheld from use pending release,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Environmental Monitoring System,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Microbiological testing,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Procedures for sterile drug products,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009744960,2021-03-05,2026-09-08T14:32:24Z,label,"Smart Surgical, Inc",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.137(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.165(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(c),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.67(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.84(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.84(d)(2),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,"Approve or reject components, products",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Approve or reject procedures or specs,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Cleaning / Sanitizing / Maintenance,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Establish reliability of supplier's C of A,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Expiration date lacking,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,GMP Training Frequency,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Representative Samples,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Testing and release for distribution,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3009888617,2021-03-11,2026-09-08T14:32:24Z,label,"Destileria Serralles, Inc.",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,cfr,21 CFR 211.67(b)(3),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Cleaning SOPs/instructions,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,citation_topic,Written record of investigation incomplete,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3011976853,2021-03-11,2026-09-08T14:32:24Z,label,BSO LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.160(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.166(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.192,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,cfr,21 CFR 211.63,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,citation_topic,"Equipment Design, Size and Location",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,citation_topic,"Investigations of discrepancies, failures",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Lack of written stability program,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,citation_topic,Scientifically sound laboratory controls,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3014538924,2021-03-05,2026-09-08T14:32:24Z,label,"Sanit Technologies, LLC dba Durisan",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,cfr,21 CFR 211.150(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,cfr,21 CFR 211.56(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,citation_topic,Lack of quality control unit,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,citation_topic,Recall facilitation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,citation_topic,"Sanitation--buildings not clean, free of infestation",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016413581,2021-03-01,2026-09-08T14:32:24Z,label,Global Sanitizers LLC,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,cfr,21 CFR 211.150(b),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,cfr,21 CFR 211.22(d),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,cfr,21 CFR 211.25(a),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,cfr,21 CFR 211.42(c)(8),,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,cfr_part,211,part,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,citation,1,count,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,citation_topic,GMP Training Frequency,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,citation_topic,"Procedures not  in writing, fully followed",,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,citation_topic,Recall facilitation,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,citation_topic,Released Drug Products Area,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,is_gmp,1,bool,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
+fda.citations.history,firm:3016690364,2021-03-18,2026-09-08T14:32:24Z,label,Olein Recovery Corp,,fda.citations.history,raw/fda.citations.history/2026/09/20260908T143224Z-4eb13748606e.json.gz,1
 fda.complianceactions.drugs,firm:2937511,2021-03-26,2026-09-07T21:01:42Z,action_taken,20210326,yyyymmdd,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
 fda.complianceactions.drugs,firm:2937511,2021-03-26,2026-09-07T21:01:42Z,action_warning_letter,1,count,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
 fda.complianceactions.drugs,firm:2937511,2021-03-26,2026-09-07T21:01:42Z,compliance_action,1,count,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
@@ -89,3 +345,513 @@ fda.complianceactions.drugs,firm:3018092429,2021-03-12,2026-09-07T21:01:42Z,acti
 fda.complianceactions.drugs,firm:3018092429,2021-03-12,2026-09-07T21:01:42Z,compliance_action,1,count,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
 fda.complianceactions.drugs,firm:3018092429,2021-03-12,2026-09-07T21:01:42Z,is_foreign,0,bool,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
 fda.complianceactions.drugs,firm:3018092429,2021-03-12,2026-09-07T21:01:42Z,label,"RAVENSCROFT APOTHECARY, INC",,fda.complianceactions.drugs,raw/fda.complianceactions.drugs/2026/09/20260907T210142Z-90b93f350b34.json.gz,1
+fda.inspections.history,firm:1000150647,2021-03-24,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000150647,2021-03-24,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000150647,2021-03-24,2026-09-08T14:35:58Z,inspection_end,20210324,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000150647,2021-03-24,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000150647,2021-03-24,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000150647,2021-03-24,2026-09-08T14:35:58Z,label,"Johnson & Johnson Consumer, Inc",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000180094,2021-03-04,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000180094,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000180094,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000180094,2021-03-04,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000180094,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1000180094,2021-03-04,2026-09-08T14:35:58Z,label,Venator Germany GmbH,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1218077,2021-03-19,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1218077,2021-03-19,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1218077,2021-03-19,2026-09-08T14:35:58Z,inspection_end,20210319,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1218077,2021-03-19,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1218077,2021-03-19,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1218077,2021-03-19,2026-09-08T14:35:58Z,label,"Tom's of Maine, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1350044,2021-03-16,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1350044,2021-03-16,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1350044,2021-03-16,2026-09-08T14:35:58Z,inspection_end,20210316,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1350044,2021-03-16,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1350044,2021-03-16,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1350044,2021-03-16,2026-09-08T14:35:58Z,label,"Norwich Pharmaceuticals, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1819470,2021-03-16,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1819470,2021-03-16,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1819470,2021-03-16,2026-09-08T14:35:58Z,inspection_end,20210316,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1819470,2021-03-16,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1819470,2021-03-16,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:1819470,2021-03-16,2026-09-08T14:35:58Z,label,Eli Lilly & Company,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2020632,2021-03-12,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2020632,2021-03-12,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2020632,2021-03-12,2026-09-08T14:35:58Z,inspection_end,20210312,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2020632,2021-03-12,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2020632,2021-03-12,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2020632,2021-03-12,2026-09-08T14:35:58Z,label,"Spectrum Laboratory Products, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2023713,2021-03-19,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2023713,2021-03-19,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2023713,2021-03-19,2026-09-08T14:35:58Z,inspection_end,20210319,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2023713,2021-03-19,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2023713,2021-03-19,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2023713,2021-03-19,2026-09-08T14:35:58Z,label,We Pack It All LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2027660,2021-03-12,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2027660,2021-03-12,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2027660,2021-03-12,2026-09-08T14:35:58Z,inspection_end,20210312,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2027660,2021-03-12,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2027660,2021-03-12,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2027660,2021-03-12,2026-09-08T14:35:58Z,label,"Airgas USA, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2210396,2021-03-03,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2210396,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2210396,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2210396,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2210396,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2210396,2021-03-03,2026-09-08T14:35:58Z,label,Novartis Pharmaceuticals Corporation,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2410861,2021-03-03,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2410861,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2410861,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2410861,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2410861,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2410861,2021-03-03,2026-09-08T14:35:58Z,label,"ENDO USA, Inc",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2650141,2021-03-31,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2650141,2021-03-31,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2650141,2021-03-31,2026-09-08T14:35:58Z,inspection_end,20210331,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2650141,2021-03-31,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2650141,2021-03-31,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:2650141,2021-03-31,2026-09-08T14:35:58Z,label,"McNeil Healthcare, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000204955,2021-03-23,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000204955,2021-03-23,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000204955,2021-03-23,2026-09-08T14:35:58Z,inspection_end,20210323,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000204955,2021-03-23,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000204955,2021-03-23,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000204955,2021-03-23,2026-09-08T14:35:58Z,label,"Adamson Analytical Laboratories, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000207078,2021-03-26,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000207078,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000207078,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000207078,2021-03-26,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000207078,2021-03-26,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000207078,2021-03-26,2026-09-08T14:35:58Z,label,"Weckerle Cosmetics USA, INC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000235541,2021-03-09,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000235541,2021-03-09,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000235541,2021-03-09,2026-09-08T14:35:58Z,inspection_end,20210309,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000235541,2021-03-09,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000235541,2021-03-09,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3000235541,2021-03-09,2026-09-08T14:35:58Z,label,Lilly S.A.,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3001451695,2021-03-26,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3001451695,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3001451695,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3001451695,2021-03-26,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3001451695,2021-03-26,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3001451695,2021-03-26,2026-09-08T14:35:58Z,label,Spartan Chemical Co Inc,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002575797,2021-03-03,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002575797,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002575797,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002575797,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002575797,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002575797,2021-03-03,2026-09-08T14:35:58Z,label,Townley Inc,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002808119,2021-03-12,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002808119,2021-03-12,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002808119,2021-03-12,2026-09-08T14:35:58Z,inspection_end,20210312,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002808119,2021-03-12,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002808119,2021-03-12,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3002808119,2021-03-12,2026-09-08T14:35:58Z,label,SERIPHARM,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003089536,2021-03-30,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003089536,2021-03-30,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003089536,2021-03-30,2026-09-08T14:35:58Z,inspection_end,20210330,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003089536,2021-03-30,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003089536,2021-03-30,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003089536,2021-03-30,2026-09-08T14:35:58Z,label,"Daiichi Sankyo, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003099171,2021-03-26,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003099171,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003099171,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003099171,2021-03-26,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003099171,2021-03-26,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003099171,2021-03-26,2026-09-08T14:35:58Z,label,"ASIO Holdings, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003196692,2021-03-10,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003196692,2021-03-10,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003196692,2021-03-10,2026-09-08T14:35:58Z,inspection_end,20210310,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003196692,2021-03-10,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003196692,2021-03-10,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003196692,2021-03-10,2026-09-08T14:35:58Z,label,"Issam I Raad, MD/Clin Inv",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003612465,2021-03-18,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003612465,2021-03-18,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003612465,2021-03-18,2026-09-08T14:35:58Z,inspection_end,20210318,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003612465,2021-03-18,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003612465,2021-03-18,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003612465,2021-03-18,2026-09-08T14:35:58Z,label,"Pine Lake Investments, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003623331,2021-03-19,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003623331,2021-03-19,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003623331,2021-03-19,2026-09-08T14:35:58Z,inspection_end,20210319,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003623331,2021-03-19,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003623331,2021-03-19,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003623331,2021-03-19,2026-09-08T14:35:58Z,label,PCAS,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003693795,2021-03-15,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003693795,2021-03-15,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003693795,2021-03-15,2026-09-08T14:35:58Z,inspection_end,20210315,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003693795,2021-03-15,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003693795,2021-03-15,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003693795,2021-03-15,2026-09-08T14:35:58Z,label,"Advanced Botanical Consulting & Testing, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003818194,2021-03-04,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003818194,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003818194,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003818194,2021-03-04,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003818194,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003818194,2021-03-04,2026-09-08T14:35:58Z,label,"AFAM Concept, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003822002,2021-03-25,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003822002,2021-03-25,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003822002,2021-03-25,2026-09-08T14:35:58Z,inspection_end,20210325,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003822002,2021-03-25,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003822002,2021-03-25,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003822002,2021-03-25,2026-09-08T14:35:58Z,label,"Robert S. Call, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003887639,2021-03-19,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003887639,2021-03-19,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003887639,2021-03-19,2026-09-08T14:35:58Z,inspection_end,20210319,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003887639,2021-03-19,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003887639,2021-03-19,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3003887639,2021-03-19,2026-09-08T14:35:58Z,label,"Diamond Wipes International, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004070098,2021-03-02,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004070098,2021-03-02,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004070098,2021-03-02,2026-09-08T14:35:58Z,inspection_end,20210302,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004070098,2021-03-02,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004070098,2021-03-02,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004070098,2021-03-02,2026-09-08T14:35:58Z,label,"Airgas USA, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004186644,2021-03-22,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004186644,2021-03-22,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004186644,2021-03-22,2026-09-08T14:35:58Z,inspection_end,20210322,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004186644,2021-03-22,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004186644,2021-03-22,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004186644,2021-03-22,2026-09-08T14:35:58Z,label,SGS Lab Simon,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004565911,2021-03-03,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004565911,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004565911,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004565911,2021-03-03,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004565911,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004565911,2021-03-03,2026-09-08T14:35:58Z,label,Dressler Group GmbH,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004771217,2021-03-18,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004771217,2021-03-18,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004771217,2021-03-18,2026-09-08T14:35:58Z,inspection_end,20210318,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004771217,2021-03-18,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004771217,2021-03-18,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004771217,2021-03-18,2026-09-08T14:35:58Z,label,Cardinal Health 414 LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004966182,2021-03-31,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004966182,2021-03-31,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004966182,2021-03-31,2026-09-08T14:35:58Z,inspection_end,20210331,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004966182,2021-03-31,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004966182,2021-03-31,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3004966182,2021-03-31,2026-09-08T14:35:58Z,label,"Eco Lips, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005053832,2021-03-19,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005053832,2021-03-19,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005053832,2021-03-19,2026-09-08T14:35:58Z,inspection_end,20210319,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005053832,2021-03-19,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005053832,2021-03-19,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005053832,2021-03-19,2026-09-08T14:35:58Z,label,Materials Characterization Center Inc,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005343934,2021-03-17,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005343934,2021-03-17,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005343934,2021-03-17,2026-09-08T14:35:58Z,inspection_end,20210317,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005343934,2021-03-17,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005343934,2021-03-17,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005343934,2021-03-17,2026-09-08T14:35:58Z,label,Bioreliance Ltd.,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005495146,2021-03-16,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005495146,2021-03-16,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005495146,2021-03-16,2026-09-08T14:35:58Z,inspection_end,20210316,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005495146,2021-03-16,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005495146,2021-03-16,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005495146,2021-03-16,2026-09-08T14:35:58Z,label,John P Devincenzo MD,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005533399,2021-03-10,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005533399,2021-03-10,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005533399,2021-03-10,2026-09-08T14:35:58Z,inspection_end,20210310,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005533399,2021-03-10,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005533399,2021-03-10,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005533399,2021-03-10,2026-09-08T14:35:58Z,label,Niacet B.V.,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005911854,2021-03-29,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005911854,2021-03-29,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005911854,2021-03-29,2026-09-08T14:35:58Z,inspection_end,20210329,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005911854,2021-03-29,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005911854,2021-03-29,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3005911854,2021-03-29,2026-09-08T14:35:58Z,label,"Radhamangalam J. Ramamurthi,  M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3006895982,2021-03-12,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3006895982,2021-03-12,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3006895982,2021-03-12,2026-09-08T14:35:58Z,inspection_end,20210312,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3006895982,2021-03-12,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3006895982,2021-03-12,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3006895982,2021-03-12,2026-09-08T14:35:58Z,label,Jubilant Generics Limited,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007162174,2021-03-05,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007162174,2021-03-05,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007162174,2021-03-05,2026-09-08T14:35:58Z,inspection_end,20210305,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007162174,2021-03-05,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007162174,2021-03-05,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007162174,2021-03-05,2026-09-08T14:35:58Z,label,MakingCosmetics Inc,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007182567,2021-03-25,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007182567,2021-03-25,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007182567,2021-03-25,2026-09-08T14:35:58Z,inspection_end,20210325,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007182567,2021-03-25,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007182567,2021-03-25,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007182567,2021-03-25,2026-09-08T14:35:58Z,label,FUJIFILM Diosynth Biotechnologies UK Limited,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007343300,2021-03-17,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007343300,2021-03-17,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007343300,2021-03-17,2026-09-08T14:35:58Z,inspection_end,20210317,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007343300,2021-03-17,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007343300,2021-03-17,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007343300,2021-03-17,2026-09-08T14:35:58Z,label,PF Consumer Healthcare BV (Puerto Rico Operations) LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007389641,2021-03-18,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007389641,2021-03-18,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007389641,2021-03-18,2026-09-08T14:35:58Z,inspection_end,20210318,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007389641,2021-03-18,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007389641,2021-03-18,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007389641,2021-03-18,2026-09-08T14:35:58Z,label,Julie Shepard MD,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007459445,2021-03-17,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007459445,2021-03-17,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007459445,2021-03-17,2026-09-08T14:35:58Z,inspection_end,20210317,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007459445,2021-03-17,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007459445,2021-03-17,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007459445,2021-03-17,2026-09-08T14:35:58Z,label,Dr. Peter Szmuk,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007500366,2021-03-03,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007500366,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007500366,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007500366,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007500366,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007500366,2021-03-03,2026-09-08T14:35:58Z,label,First Pharma Associates LLC dba Riverpoint Pharmacy,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007801780,2021-03-05,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007801780,2021-03-05,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007801780,2021-03-05,2026-09-08T14:35:58Z,inspection_end,20210305,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007801780,2021-03-05,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007801780,2021-03-05,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3007801780,2021-03-05,2026-09-08T14:35:58Z,label,"Eurofins Advantar Laboratories, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008061850,2021-03-04,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008061850,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008061850,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008061850,2021-03-04,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008061850,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008061850,2021-03-04,2026-09-08T14:35:58Z,label,"Andrew J. Wagner, M.D., Ph.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008084217,2021-03-23,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008084217,2021-03-23,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008084217,2021-03-23,2026-09-08T14:35:58Z,inspection_end,20210323,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008084217,2021-03-23,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008084217,2021-03-23,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008084217,2021-03-23,2026-09-08T14:35:58Z,label,"Cancer Prevention Pharmaceuticals, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008661256,2021-03-17,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008661256,2021-03-17,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008661256,2021-03-17,2026-09-08T14:35:58Z,inspection_end,20210317,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008661256,2021-03-17,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008661256,2021-03-17,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3008661256,2021-03-17,2026-09-08T14:35:58Z,label,Kymos S.L.,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3009888617,2021-03-11,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3009888617,2021-03-11,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3009888617,2021-03-11,2026-09-08T14:35:58Z,inspection_end,20210311,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3009888617,2021-03-11,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3009888617,2021-03-11,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3009888617,2021-03-11,2026-09-08T14:35:58Z,label,"Destileria Serralles, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010165327,2021-03-26,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010165327,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010165327,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010165327,2021-03-26,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010165327,2021-03-26,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010165327,2021-03-26,2026-09-08T14:35:58Z,label,BBC Group Limited,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010317666,2021-03-30,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010317666,2021-03-30,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010317666,2021-03-30,2026-09-08T14:35:58Z,inspection_end,20210330,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010317666,2021-03-30,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010317666,2021-03-30,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010317666,2021-03-30,2026-09-08T14:35:58Z,label,Orexo Us Inc,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010394990,2021-03-01,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010394990,2021-03-01,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010394990,2021-03-01,2026-09-08T14:35:58Z,inspection_end,20210301,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010394990,2021-03-01,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010394990,2021-03-01,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010394990,2021-03-01,2026-09-08T14:35:58Z,label,"OPKO Health, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010477,2021-03-05,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010477,2021-03-05,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010477,2021-03-05,2026-09-08T14:35:58Z,inspection_end,20210305,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010477,2021-03-05,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010477,2021-03-05,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010477,2021-03-05,2026-09-08T14:35:58Z,label,Jubilant HollisterStier LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010626491,2021-03-22,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010626491,2021-03-22,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010626491,2021-03-22,2026-09-08T14:35:58Z,inspection_end,20210322,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010626491,2021-03-22,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010626491,2021-03-22,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010626491,2021-03-22,2026-09-08T14:35:58Z,label,"Joseph L. Lillo, D.O.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010770024,2021-03-15,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010770024,2021-03-15,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010770024,2021-03-15,2026-09-08T14:35:58Z,inspection_end,20210315,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010770024,2021-03-15,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010770024,2021-03-15,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3010770024,2021-03-15,2026-09-08T14:35:58Z,label,Fill It Pack It Inc,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011423417,2021-03-26,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011423417,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011423417,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011423417,2021-03-26,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011423417,2021-03-26,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011423417,2021-03-26,2026-09-08T14:35:58Z,label,"Robert J. Smyth-Medina, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011580268,2021-03-23,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011580268,2021-03-23,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011580268,2021-03-23,2026-09-08T14:35:58Z,inspection_end,20210323,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011580268,2021-03-23,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011580268,2021-03-23,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011580268,2021-03-23,2026-09-08T14:35:58Z,label,"AIAC International Pharma, LLC",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011976853,2021-03-11,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011976853,2021-03-11,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011976853,2021-03-11,2026-09-08T14:35:58Z,inspection_end,20210311,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011976853,2021-03-11,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011976853,2021-03-11,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3011976853,2021-03-11,2026-09-08T14:35:58Z,label,BSO LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3012884265,2021-03-03,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3012884265,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3012884265,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3012884265,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3012884265,2021-03-03,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3012884265,2021-03-03,2026-09-08T14:35:58Z,label,"Kaleido Biosciences, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013410843,2021-03-03,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013410843,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013410843,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013410843,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013410843,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013410843,2021-03-03,2026-09-08T14:35:58Z,label,Roy F. Chemaly,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013698215,2021-03-05,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013698215,2021-03-05,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013698215,2021-03-05,2026-09-08T14:35:58Z,inspection_end,20210305,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013698215,2021-03-05,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013698215,2021-03-05,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3013698215,2021-03-05,2026-09-08T14:35:58Z,label,"CARA THERAPEUTICS, INC.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014319167,2021-03-25,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014319167,2021-03-25,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014319167,2021-03-25,2026-09-08T14:35:58Z,inspection_end,20210325,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014319167,2021-03-25,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014319167,2021-03-25,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014319167,2021-03-25,2026-09-08T14:35:58Z,label,"David S. Hong, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014412058,2021-03-04,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014412058,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014412058,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014412058,2021-03-04,2026-09-08T14:35:58Z,is_foreign,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014412058,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014412058,2021-03-04,2026-09-08T14:35:58Z,label,Bioquim S.A.,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014423090,2021-03-02,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014423090,2021-03-02,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014423090,2021-03-02,2026-09-08T14:35:58Z,inspection_end,20210302,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014423090,2021-03-02,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014423090,2021-03-02,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014423090,2021-03-02,2026-09-08T14:35:58Z,label,"ARISTIDES MANIATIS, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014522540,2021-03-09,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014522540,2021-03-09,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014522540,2021-03-09,2026-09-08T14:35:58Z,inspection_end,20210309,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014522540,2021-03-09,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014522540,2021-03-09,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014522540,2021-03-09,2026-09-08T14:35:58Z,label,ICON Clinical Research LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014538924,2021-03-05,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014538924,2021-03-05,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014538924,2021-03-05,2026-09-08T14:35:58Z,inspection_end,20210305,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014538924,2021-03-05,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014538924,2021-03-05,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014538924,2021-03-05,2026-09-08T14:35:58Z,label,"Sanit Technologies, LLC dba Durisan",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014844250,2021-03-04,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014844250,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014844250,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014844250,2021-03-04,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014844250,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3014844250,2021-03-04,2026-09-08T14:35:58Z,label,"Joseph A. Pidala, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3015451503,2021-03-23,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3015451503,2021-03-23,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3015451503,2021-03-23,2026-09-08T14:35:58Z,inspection_end,20210323,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3015451503,2021-03-23,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3015451503,2021-03-23,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3015451503,2021-03-23,2026-09-08T14:35:58Z,label,"Rare Antibody Antigen Supply, Inc.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016413581,2021-03-01,2026-09-08T14:35:58Z,classification,2,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016413581,2021-03-01,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016413581,2021-03-01,2026-09-08T14:35:58Z,inspection_end,20210301,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016413581,2021-03-01,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016413581,2021-03-01,2026-09-08T14:35:58Z,is_oai,1,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016413581,2021-03-01,2026-09-08T14:35:58Z,label,Global Sanitizers LLC,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016690364,2021-03-18,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016690364,2021-03-18,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016690364,2021-03-18,2026-09-08T14:35:58Z,inspection_end,20210318,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016690364,2021-03-18,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016690364,2021-03-18,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3016690364,2021-03-18,2026-09-08T14:35:58Z,label,Olein Recovery Corp,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017150466,2021-03-29,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017150466,2021-03-29,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017150466,2021-03-29,2026-09-08T14:35:58Z,inspection_end,20210329,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017150466,2021-03-29,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017150466,2021-03-29,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017150466,2021-03-29,2026-09-08T14:35:58Z,label,"George Z. Han, M.D., PhD",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017461053,2021-03-04,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017461053,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017461053,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017461053,2021-03-04,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017461053,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017461053,2021-03-04,2026-09-08T14:35:58Z,label,"Lisa Usdan, MD",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017514925,2021-03-03,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017514925,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017514925,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017514925,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017514925,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017514925,2021-03-03,2026-09-08T14:35:58Z,label,"Valescent Pharmaceuticals, Inc. dba VPI Compounding",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017663689,2021-03-10,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017663689,2021-03-10,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017663689,2021-03-10,2026-09-08T14:35:58Z,inspection_end,20210310,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017663689,2021-03-10,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017663689,2021-03-10,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017663689,2021-03-10,2026-09-08T14:35:58Z,label,"Helen K. Chew, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017689547,2021-03-26,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017689547,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017689547,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017689547,2021-03-26,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017689547,2021-03-26,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017689547,2021-03-26,2026-09-08T14:35:58Z,label,"Eduardo Cifuentes, MD",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017709556,2021-03-25,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017709556,2021-03-25,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017709556,2021-03-25,2026-09-08T14:35:58Z,inspection_end,20210325,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017709556,2021-03-25,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017709556,2021-03-25,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017709556,2021-03-25,2026-09-08T14:35:58Z,label,"Michele Nanna, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017737242,2021-03-03,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017737242,2021-03-03,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017737242,2021-03-03,2026-09-08T14:35:58Z,inspection_end,20210303,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017737242,2021-03-03,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017737242,2021-03-03,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017737242,2021-03-03,2026-09-08T14:35:58Z,label,"Daniel Flynn, MD",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836882,2021-03-05,2026-09-08T14:35:58Z,classification,1,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836882,2021-03-05,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836882,2021-03-05,2026-09-08T14:35:58Z,inspection_end,20210305,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836882,2021-03-05,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836882,2021-03-05,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836882,2021-03-05,2026-09-08T14:35:58Z,label,"Eric Jonasch, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836885,2021-03-04,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836885,2021-03-04,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836885,2021-03-04,2026-09-08T14:35:58Z,inspection_end,20210304,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836885,2021-03-04,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836885,2021-03-04,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017836885,2021-03-04,2026-09-08T14:35:58Z,label,"Wendy Kimryn Rathmell, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017865479,2021-03-26,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017865479,2021-03-26,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017865479,2021-03-26,2026-09-08T14:35:58Z,inspection_end,20210326,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017865479,2021-03-26,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017865479,2021-03-26,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017865479,2021-03-26,2026-09-08T14:35:58Z,label,"Domenica Rubino, MD",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017871750,2021-03-08,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017871750,2021-03-08,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017871750,2021-03-08,2026-09-08T14:35:58Z,inspection_end,20210308,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017871750,2021-03-08,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017871750,2021-03-08,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017871750,2021-03-08,2026-09-08T14:35:58Z,label,"Joshua Sabari, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017896423,2021-03-22,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017896423,2021-03-22,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017896423,2021-03-22,2026-09-08T14:35:58Z,inspection_end,20210322,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017896423,2021-03-22,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017896423,2021-03-22,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017896423,2021-03-22,2026-09-08T14:35:58Z,label,"Flavia L. Thomas, D.O.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017924824,2021-03-22,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017924824,2021-03-22,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017924824,2021-03-22,2026-09-08T14:35:58Z,inspection_end,20210322,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017924824,2021-03-22,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017924824,2021-03-22,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017924824,2021-03-22,2026-09-08T14:35:58Z,label,"Patrick J.  McKiernan, MD",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017935213,2021-03-02,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017935213,2021-03-02,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017935213,2021-03-02,2026-09-08T14:35:58Z,inspection_end,20210302,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017935213,2021-03-02,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017935213,2021-03-02,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017935213,2021-03-02,2026-09-08T14:35:58Z,label,"Bindu Balani, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017979275,2021-03-11,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017979275,2021-03-11,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017979275,2021-03-11,2026-09-08T14:35:58Z,inspection_end,20210311,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017979275,2021-03-11,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017979275,2021-03-11,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3017979275,2021-03-11,2026-09-08T14:35:58Z,label,"Amit I. Patel,  M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3018062117,2021-03-31,2026-09-08T14:35:58Z,classification,0,ordinal,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3018062117,2021-03-31,2026-09-08T14:35:58Z,inspected,1,count,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3018062117,2021-03-31,2026-09-08T14:35:58Z,inspection_end,20210331,yyyymmdd,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3018062117,2021-03-31,2026-09-08T14:35:58Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3018062117,2021-03-31,2026-09-08T14:35:58Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
+fda.inspections.history,firm:3018062117,2021-03-31,2026-09-08T14:35:58Z,label,"Michael Barkoukis, M.D.",,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143558Z-5cd04e2b1a63.json.gz,1
