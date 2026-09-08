@@ -37,6 +37,8 @@ import re
 
 from wss import derive
 
+from ._names import firm_key
+
 PARSER_VERSION = "1"
 
 # Ordinal so it can live in a numeric `value` column. Higher is better supply.
@@ -95,6 +97,11 @@ def parse(body: bytes, ctx: derive.ParseContext):
 
     merged: dict[str, dict] = {}
     categories: set[tuple[str, str]] = set()
+    # Edges to the enforcement series. `made_by` is the establishment that makes
+    # it; `sold_by` is the company on the label. They are different roles and are
+    # kept apart: measured against the enforcement firms, manufacturer_name
+    # matches 86% of shortage records and company_name 78%.
+    makers: set[tuple[str, str, str]] = set()
 
     for record in payload.get("results") or []:
         ndc = _ndc11(record.get("package_ndc", ""))
@@ -128,6 +135,15 @@ def parse(body: bytes, ctx: derive.ParseContext):
             "inject" in (record.get("dosage_form") or "").lower())
         acc["is_injectable"] = max(injectable, acc.get("is_injectable", 0))
 
+        openfda = record.get("openfda") or {}
+        for name in (openfda.get("manufacturer_name") or []):
+            key = firm_key(name)
+            if key:
+                makers.add((entity, "made_by", key))
+        sold = firm_key(record.get("company_name"))
+        if sold:
+            makers.add((entity, "sold_by", sold))
+
         for category in record.get("therapeutic_category") or []:
             slug = _slug(category)
             if slug:
@@ -144,6 +160,12 @@ def parse(body: bytes, ctx: derive.ParseContext):
             yield derive.Observation(
                 entity_id=entity, metric=metric, value=value,
                 unit=_UNITS[metric])
+
+    # One drug can have several makers, so these are edges rather than a field:
+    # several rows share an entity and metric with different values, which is a
+    # set, not a quantity to be summed.
+    for entity, metric, key in sorted(makers):
+        yield derive.Observation(entity_id=entity, metric=metric, value=key, unit="")
 
     for generic, category in categories:
         yield derive.Observation(

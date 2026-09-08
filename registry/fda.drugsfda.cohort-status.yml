@@ -18,7 +18,13 @@
 # actually be observed, and once in never out so the dead stay visible.
 # See cohorts/select.py.
 source_id: fda.drugsfda.cohort-status
-status: paused  # flip to active when you want Q14 running
+status: active  # Q14 running since 2026-09-08; see supplier-exits.svg
+# Activated deliberately, not by drift: 438 attempts and 438 successes while
+# parked, so the cost is known -- ~122 KB a capture, ~1.4 MB a year monthly.
+# What it buys is the one thing the shortage chain is missing: a supplier exit
+# as a DATED event. Drugs@FDA publishes only a current marketing_status with no
+# discontinuation date anywhere in the API or the bulk files, so the count per
+# molecule per month is the only way the exit acquires a date.
 cadence: monthly
 schema_id: fda-drugsfda-count.v1
 

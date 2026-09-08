@@ -17,6 +17,8 @@ import re
 
 from wss import derive
 
+from ._names import firm_key
+
 PARSER_VERSION = "1"
 
 
@@ -55,6 +57,11 @@ def parse(body: bytes, ctx: derive.ParseContext):
         # reaching back into the raw archive, which charts must not do.
         name = (row.get("LegalName") or "").strip()
         if name:
+            # The join key to the shortage series, normalised by the one shared
+            # function so both sides cannot drift apart into an empty join.
+            key = firm_key(name)
+            if key:
+                yield derive.Observation(firm, "firm_key", key, "", observed_at=at)
             yield derive.Observation(firm, "label", name[:120], "", observed_at=at)
         yield derive.Observation(firm, "action_taken", taken, "yyyymmdd", observed_at=at)
 

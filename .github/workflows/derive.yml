@@ -35,7 +35,7 @@ env:
   # adding a parser needs no workflow edit -- which is the point. A stale
   # hardcoded list here silently ignored five new parsers, failing every
   # scheduled derive while the same command passed locally.
-  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.14"
+  ENGINE_SPEC: "wss @ git+https://github.com/${{ github.repository_owner }}/wss-engine.git@v0.6.16"
 
 jobs:
   derive:
