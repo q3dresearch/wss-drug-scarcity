@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>US Drug Scarcity History (wss-drug-scarcity)</title>
-<meta name="description" content="Point-in-time captures from 7 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
+<meta name="description" content="Point-in-time captures from 11 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "US Drug Scarcity History (wss-drug-scarcity)",
-  "description": "Point-in-time captures from 7 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
+  "description": "Point-in-time captures from 11 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
   "url": "https://github.com/q3dresearch/wss-drug-scarcity",
   "license": "CC-BY-4.0",
   "isAccessibleForFree": true,
@@ -44,7 +44,22 @@
     {
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/inspections_citations"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
       "url": "https://api-datadashboard.fda.gov/v1/compliance_actions"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api.fda.gov/drug/drugsfda.json?search=products.active_ingredients.name%3A%22ACETAMINOPHEN%22&count=products.marketing_status"
     },
     {
       "@type": "Dataset",
@@ -60,6 +75,11 @@
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
       "url": "https://api-datadashboard.fda.gov/v1/import_refusals"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/inspections_classifications"
     },
     {
       "@type": "Dataset",
@@ -95,18 +115,66 @@
 </head>
 <body>
 <h1>US Drug Scarcity History (wss-drug-scarcity)</h1>
-<p>Point-in-time captures from 7 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
+<p>Point-in-time captures from 11 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
 <p class="cov">History held: <strong>2026-09-02</strong> to <strong>2026-09-08</strong>.</p>
+
+
+<h2>Findings</h2>
+<p>Figures are rebuilt from the derived tables on every run; each one names the entities it is about so it can be acted on without a further query.</p>
+  <figure>
+    <a href="charts/availability.svg"><img src="charts/availability.svg" alt="Availability of drugs in shortage" loading="lazy"></a>
+    <figcaption><strong>Availability of drugs in shortage</strong> — Stacked bars of unavailable, limited and available packages for each drug currently in shortage.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/enforcement-year.svg"><img src="charts/enforcement-year.svg" alt="GMP import bans by year and origin" loading="lazy"></a>
+    <figcaption><strong>GMP import bans by year and origin</strong> — Stacked columns of firms added to FDA Import Alert 66-40 each year, split China, India, rest of world.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/escalation.svg"><img src="charts/escalation.svg" alt="After an Official Action, what follows and how fast" loading="lazy"></a>
+    <figcaption><strong>After an Official Action, what follows and how fast</strong> — Named establishments where FDA escalated, and the lag.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/inspection-capacity.svg"><img src="charts/inspection-capacity.svg" alt="Drug inspections a year, and the OAI rate" loading="lazy"></a>
+    <figcaption><strong>Drug inspections a year, and the OAI rate</strong> — Volume has not recovered; the share finding serious problems rose.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/shortage-age.svg"><img src="charts/shortage-age.svg" alt="Age structure of the shortage list" loading="lazy"></a>
+    <figcaption><strong>Age structure of the shortage list</strong> — Bar chart of how long each drug currently in shortage has been listed, in duration bands.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/shortage-duration.svg"><img src="charts/shortage-duration.svg" alt="Shortage duration — not yet answerable" loading="lazy"></a>
+    <figcaption><strong>Shortage duration — not yet answerable</strong> — Placeholder explaining that resolved-shortage durations require accumulated captures.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/single-supplier.svg"><img src="charts/single-supplier.svg" alt="Drugs down to one listed package" loading="lazy"></a>
+    <figcaption><strong>Drugs down to one listed package</strong> — Table naming the drugs in shortage that have only one package NDC listed, with therapeutic class.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/supplier-attrition.svg"><img src="charts/supplier-attrition.svg" alt="Approved makers left per shorted drug" loading="lazy"></a>
+    <figcaption><strong>Approved makers left per shorted drug</strong> — Dumbbell chart comparing products ever approved with products still marketed, for drugs in shortage.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/supplier-exits.svg"><img src="charts/supplier-exits.svg" alt="Supplier exit timing — not yet answerable" loading="lazy"></a>
+    <figcaption><strong>Supplier exit timing — not yet answerable</strong> — Placeholder explaining that dating supplier exits requires the cohort source to be active.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/whats-short.svg"><img src="charts/whats-short.svg" alt="Longest-running US drug shortages" loading="lazy"></a>
+    <figcaption><strong>Longest-running US drug shortages</strong> — Horizontal bars naming the 18 longest-running US drug shortages, coloured by therapeutic class.</figcaption>
+  </figure>
 
 <h2>What is captured</h2>
 <table>
   <thead><tr><th>source</th><th>publisher</th><th>cadence</th><th>terms</th></tr></thead>
   <tbody>
+      <tr><td><code>fda.citations.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.citations.history</code></td><td>US Food and Drug Administration</td><td>quarterly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.complianceactions.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.drugsfda.cohort-status</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US; https://open.fda.gov/terms/</td></tr>
       <tr><td><code>fda.importalert.66-40</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.importalert.66-41</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.importrefusals.recent</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.inspections.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.inspections.history</code></td><td>US Food and Drug Administration</td><td>quarterly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.productcodes.reference</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.shortages.current</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US; https://open.fda.gov/terms/</td></tr>
   </tbody>
