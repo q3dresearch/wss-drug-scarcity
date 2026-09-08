@@ -37,7 +37,7 @@ on three slots, which is why every mark carries a visible text label.
 from __future__ import annotations
 
 import csv
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -1030,6 +1030,115 @@ def q6c_inspection_capacity(obs) -> str:
             f"OAI rate {sum(pre) / len(pre):.1%} -> {sum(post) / len(post):.1%}")
 
 
+def q7b_sole_supplier_risk(obs) -> str:
+    """Plants that are the only listed maker of several shorted drugs at once."""
+    key2fei = defaultdict(set); ev = defaultdict(Counter); label = {}; made = defaultdict(set)
+    for r in obs:
+        e, m, v = r["entity_id"], r["metric"], r["value"]
+        if e.startswith("firm:"):
+            if m == "firm_key": key2fei[v].add(e)
+            elif m == "label":  label[e] = v
+            elif m in ("is_oai", "compliance_action", "recall", "citation") and v == "1":
+                ev[e][m] += 1
+        elif e.startswith("drug:") and m in ("made_by", "sold_by"):
+            made[e].add(v)
+
+    # An unmatched maker DISQUALIFIES a drug. Otherwise a drug with two makers,
+    # only one of which has an enforcement record, resolves to a single FEI and
+    # the other plant silently disappears -- 65 of 283 did exactly that.
+    clean = {}
+    for drug, keys in made.items():
+        if not keys or any(k not in key2fei for k in keys):
+            continue
+        feis = {f for k in keys for f in key2fei.get(k, ())}
+        if len(feis) == 1:
+            clean[drug] = next(iter(feis))
+    molecules = defaultdict(set)
+    for drug, fei in clean.items():
+        molecules[drug.split("/")[0][5:]].add(fei)
+    per_plant = Counter()
+    for fei_set in molecules.values():
+        for fei in fei_set:
+            per_plant[fei] += 1
+
+    ranked = [(f, n) for f, n in per_plant.most_common() if n >= 2][:12]
+    if not ranked:
+        return "sole-supplier: nothing resolved cleanly"
+
+    width, left, right = 980.0, 250.0, 250.0
+    row_h, gap = 17.0, 8.0
+    span = width - left - right
+    vmax, vticks = nice_axis(max(n for _, n in ranked))
+
+    body = [txt(24, 32, "Q7b — plants that are the only listed maker of several shorted drugs",
+                size=17, fill=INK, weight="600")]
+    lead, dy = para(24, 54,
+        f"Of 1,594 shorted drug packages, {len(clean)} ({len(clean) / 1594:.0%}) resolve "
+        f"cleanly to a single establishment — {len(molecules)} distinct molecules. "
+        "Bar length is how many of those a plant carries alone; the text at right "
+        "is that plant's enforcement record. Decision this supports: where a "
+        "second source is worth qualifying, because a single interruption here "
+        "takes several drugs at once. A clean record is not reassurance — Eli "
+        "Lilly carries eight with nothing recorded against it.",
+        size=12, fill=INK2, chars=118)
+    body += lead
+    caveat, dy2 = para(24, 54 + dy + 6,
+        "Read \u201conly listed maker\u201d strictly: it means every manufacturer named on the "
+        "shortage record matched one establishment. A drug whose second maker has no "
+        "enforcement record at all is EXCLUDED rather than counted as single-source — "
+        "65 of 283 failed that test, and counting them would have invented sole "
+        "suppliers that do not exist.",
+        size=11, fill=MUTED, chars=126)
+    body += caveat
+
+    legend_y = 54 + dy + dy2 + 16
+    top_y = legend_y + 26
+    plot_bottom = top_y + len(ranked) * (row_h + gap)
+    axis_y = plot_bottom + 18
+    height = axis_y + 62
+
+    body += legend([("an enforcement record exists", SLOTS[1]),
+                    ("nothing recorded", SLOTS[0])], 24, legend_y)
+
+    for i in range(vticks + 1):
+        gx = left + i / vticks * span
+        body.append(f'<line x1="{gx:.1f}" y1="{top_y - 10}" x2="{gx:.1f}" '
+                    f'y2="{plot_bottom + 4}" stroke="{GRID}" stroke-width="1"/>')
+        body.append(txt(gx, axis_y, f"{int(i / vticks * vmax)}", size=10, fill=MUTED,
+                        anchor="middle", tab=True))
+    body.append(txt(left + span / 2, axis_y + 18,
+                    "shorted molecules this plant is the only listed maker of",
+                    size=11, fill=MUTED, anchor="middle"))
+    body.append(f'<line x1="{left}" y1="{top_y - 10}" x2="{left}" '
+                f'y2="{plot_bottom + 4}" stroke="{BASELINE}" stroke-width="1"/>')
+
+    for i, (fei, n) in enumerate(ranked):
+        y = top_y + i * (row_h + gap)
+        w = max(2.0, n / vmax * span)
+        c = ev[fei]
+        has = sum(c.values()) > 0
+        body.append(txt(left - 10, y + 12, label.get(fei, fei)[:32], size=11,
+                        fill=INK, anchor="end"))
+        body.append(bar(left, y, w, row_h, SLOTS[1] if has else SLOTS[0]))
+        parts = [f"{c['recall']} recall" + ("s" if c["recall"] != 1 else "") if c["recall"] else "",
+                 f"{c['is_oai']} OAI" if c["is_oai"] else "",
+                 f"{c['citation']} citation" + ("s" if c["citation"] != 1 else "") if c["citation"] else ""]
+        tail = ", ".join(x for x in parts if x) or "nothing recorded"
+        body.append(txt(left + w + 8, y + 12, f"{n}  \u00b7  {tail}", size=10, fill=INK2))
+
+    body.append(txt(24, height - 28,
+                    "Source: openFDA drug shortages joined to FDA inspection, compliance, "
+                    "recall and citation records on a normalised firm name.",
+                    size=10, fill=MUTED))
+    out = OUT_DIR / "sole-supplier-risk.svg"
+    out.write_text(wrap(width, height,
+                        "Plants that alone supply several shorted drugs",
+                        "Where one interruption takes more than one drug with it.",
+                        "\n".join(body)), encoding="utf-8")
+    return (f"{out.relative_to(REPO)} — {len(ranked)} plants, "
+            f"{len(clean)} drugs / {len(molecules)} molecules resolve cleanly")
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     obs = rows()
@@ -1039,6 +1148,7 @@ def main() -> None:
                  q3_availability(obs), q13_attrition(obs),
                  q7_single_supplier(obs), q6_enforcement(obs),
                  q6b_escalation(obs), q6c_inspection_capacity(obs),
+                 q7b_sole_supplier_risk(obs),
                  q2_placeholder(obs), q14_placeholder(obs)):
         print(line)
 
