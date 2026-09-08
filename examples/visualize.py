@@ -866,7 +866,7 @@ def q6b_escalation(obs) -> str:
     out.write_text(wrap(width, height,
                         "After an Official Action, what follows and how fast",
                         "Named establishments where FDA escalated, and the lag.",
-                        body), encoding="utf-8")
+                        "\n".join(body)), encoding="utf-8")
     return f"{out.relative_to(REPO)} — {escalated} of {total_oai} OAI plants escalated"
 
 
