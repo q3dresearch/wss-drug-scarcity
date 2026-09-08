@@ -5,7 +5,7 @@
 # back. Every row carries firmfeinum, so all three join on FDA's own
 # establishment id rather than on company-name string matching.
 source_id: fda.recalls.cder
-status: active
+status: auto_disabled  # was active; auto-disabled 2026-09-08 after 10 consecutive failures
 cadence: weekly
 schema_id: fda-ires-recall.v1
 
