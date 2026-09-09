@@ -28,8 +28,22 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from visualize import (  # noqa: E402  -- shared palette and primitives
     BASELINE, DEEMPH, GRID, INK, INK2, MUTED, OUT_DIR, SLOTS,
-    bar, nice_axis, para, rows, txt, wrap,
+    FONT, bar, nice_axis, para, rows, txt, wrap,
 )
+from xml.etree import ElementTree  # noqa: E402
+
+
+def save(name: str, svg: str) -> str:
+    """Parse before writing.
+
+    This file wrote straight to disk with `out.write_text(...)` and shipped an
+    invalid SVG -- the exact crime docs/charts.md already lists, committed by
+    the one script that bypassed visualize.write(). A rule that lives in one
+    helper is not a rule; it is a habit of whoever calls that helper.
+    """
+    ElementTree.fromstring(svg)
+    (OUT_DIR / name).write_text(svg)
+    return f"wrote examples/charts/{name}"
 
 # ISO-3 in a trailing parenthesis is how DECRS ends every address:
 #   "Rugao, Jiangsu, China (CHN)"
@@ -106,6 +120,108 @@ def banned_by_country(obs) -> Counter:
     return out
 
 
+def chart_alert_vs_refusal(obs) -> str:
+    """The divergence, as the two-dimensional thing it is.
+
+    A bar chart of either measure hides this: alerts and refusals are separate
+    axes, and the interesting countries are the ones far off the diagonal.
+    Germany sits bottom-right (refused constantly, almost never alerted); China
+    sits top-left (alerted constantly, barely refused). Mexico is the only one
+    high on both.
+
+    Bubble area -- not radius -- is proportional to registered sites, so a
+    country with 5,321 sites does not read as 26x a country with 205 when it is
+    26x by count.
+    """
+    num, den = refusals_by_country(obs)
+    alerts = banned_by_country(obs)
+    pts = []
+    for c in den:
+        if den[c] < 40:
+            continue
+        x = num[c] / den[c]                    # refusal firm-days per site
+        y = 100 * alerts.get(c, 0) / den[c]    # alerts per 100 sites
+        if x or y:
+            pts.append((c, x, y, den[c]))
+    if not pts:
+        return "no points"
+
+    W, H, L, B = 880, 620, 78, 150
+    plot_w, plot_h = W - L - 210, H - B - 150
+    xmax, xt = nice_axis(max(p[1] for p in pts))
+    ymax, yt = nice_axis(max(p[2] for p in pts))
+    body = [txt(24, 38, "Alerted and refused are different failures",
+                size=19, fill=INK, weight="600")]
+    lead, dy = para(24, 62, (
+        "Each bubble is a country; area is the number of sites on the current drug "
+        "establishment register. An import alert is standing detention WITHOUT physical "
+        "examination, so an alerted firm stops shipping and its refusals collapse — which "
+        "is why the two axes are not the same measurement twice."),
+        size=12.5, fill=INK2, chars=112)
+    body += lead
+    T = 62 + dy + 30
+
+    for i in range(yt + 1):
+        gy = T + plot_h - plot_h * i / yt
+        body.append(f'<line x1="{L}" y1="{gy:.1f}" x2="{L+plot_w}" y2="{gy:.1f}" '
+                    f'stroke="{GRID}" stroke-width="1"/>')
+        body.append(txt(L - 10, gy + 4, f"{ymax*i/yt:.0f}", size=10.5, fill=MUTED,
+                        anchor="end", tab=True))
+    for i in range(xt + 1):
+        gx = L + plot_w * i / xt
+        body.append(f'<line x1="{gx:.1f}" y1="{T}" x2="{gx:.1f}" y2="{T+plot_h:.1f}" '
+                    f'stroke="{GRID}" stroke-width="1"/>')
+        body.append(txt(gx, T + plot_h + 20, f"{xmax*i/xt:.0f}", size=10.5, fill=MUTED,
+                        anchor="middle", tab=True))
+    body.append(txt(L + plot_w / 2, T + plot_h + 44,
+                    "refusal firm-days per registered site", size=11.5,
+                    fill=INK2, anchor="middle"))
+    # Rotate by wrapping the shared txt() helper, never by hand-writing a
+    # <text>. FONT here contains "Segoe UI" in DOUBLE quotes, so a
+    # double-quoted font-family attribute terminates early and the file stops
+    # being XML. The same bug exists in the other direction in wss-grid-queue,
+    # whose FONT uses single quotes -- which is the argument for one helper
+    # rather than two hand-rolled elements.
+    ax_y = T + plot_h / 2
+    body.append(f'<g transform="rotate(-90 18 {ax_y:.1f})">'
+                + txt(18, ax_y, "import alerts per 100 sites",
+                      size=11.5, fill=INK2, anchor="middle")
+                + '</g>')
+
+    import math
+    biggest = max(p[3] for p in pts)
+    # Label only what the caption argues about. Every other bubble is
+    # context, and naming all twelve is how a scatter becomes unreadable.
+    NAMED = {"MEX", "CHN", "DEU", "USA"}
+    for c, x, y, n in sorted(pts, key=lambda p: -p[3]):
+        cx = L + plot_w * x / xmax
+        cy = T + plot_h - plot_h * y / ymax
+        r = 6 + 26 * math.sqrt(n / biggest)      # AREA proportional to sites
+        hot = c in ("MEX", "CHN", "DEU")
+        body.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.1f}" '
+                    f'fill="{SLOTS[1] if hot else SLOTS[0]}" fill-opacity="0.42" '
+                    f'stroke="{SLOTS[1] if hot else SLOTS[0]}" stroke-width="1.5"/>')
+        if c in NAMED:
+            label = f"{LABEL.get(c, c)} ({n:,})"
+            if r > 20:      # a large bubble swallows a label placed beside it
+                body.append(txt(cx, cy - r - 8, label, size=11, fill=INK,
+                                anchor="middle", weight="600" if hot else "normal"))
+            else:
+                body.append(txt(cx + r + 6, cy + 4, label, size=11, fill=INK,
+                                weight="600" if hot else "normal"))
+    foot, _ = para(24, H - 62, (
+        "Q24. Germany bottom-right: refused constantly, almost never alerted. China top-left: "
+        "the inverse. Mexico is alone in the top-right. Refusals are FIRM-DAYS — a firm refused "
+        "five times in a day counts once. Countries with fewer than 40 registered sites are "
+        "excluded; one event there moves a rate by whole points."),
+        size=10.5, fill=MUTED, chars=142, leading=14)
+    body += foot
+    return save("alert-vs-refusal.svg", wrap(W, H, "Import alerts against import refusals, by country",
+                        "Scatter of alerts per 100 registered sites against refusal "
+                        "firm-days per site; bubble area is registered sites.",
+                        "\n".join(body)))
+
+
 def chart_refusal_rate(obs) -> str:
     """Refusal firm-days per registered site — the denser of the two measures."""
     num, den = refusals_by_country(obs)
@@ -160,11 +276,9 @@ def chart_refusal_rate(obs) -> str:
         "enforcement against the REGISTERED base, not enforcement overall."),
         size=10.5, fill=MUTED, chars=142, leading=14)
     body += foot
-    out = OUT_DIR / "refusal-rate-by-country.svg"
-    out.write_text(wrap(W, H, "Refusal firm-days per registered site",
+    return save("refusal-rate-by-country.svg", wrap(W, H, "Refusal firm-days per registered site",
                         "FDA import-refusal firm-days 2001-2026 per site on the current "
                         "drug establishment register, by country.", "\n".join(body)))
-    return f"wrote {out.name}"
 
 
 def chart(obs) -> str:
@@ -220,11 +334,9 @@ def chart(obs) -> str:
         f"than {FLOOR} registered sites are excluded, because one ban there moves the "
         "rate by whole points."), size=10.5, fill=MUTED, chars=142, leading=14)
     body += foot
-    out = OUT_DIR / "ban-rate-by-country.svg"
-    out.write_text(wrap(W, H, "Import bans per 100 registered sites",
+    return save("ban-rate-by-country.svg", wrap(W, H, "Import bans per 100 registered sites",
                         "FDA Import Alert 66-40 firms per 100 sites on the current "
                         "drug establishment register, by country.", "\n".join(body)))
-    return f"wrote {out.relative_to(OUT_DIR.parents[1])}"
 
 
 if __name__ == "__main__":
@@ -233,3 +345,4 @@ if __name__ == "__main__":
         raise SystemExit("no observations — run `wss derive` first")
     print(chart(obs))
     print(chart_refusal_rate(obs))
+    print(chart_alert_vs_refusal(obs))

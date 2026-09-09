@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="620" viewBox="0 0 880 620" role="img" aria-label="Import alerts against import refusals, by country">
+<title>Import alerts against import refusals, by country</title>
+<desc>Scatter of alerts per 100 registered sites against refusal firm-days per site; bubble area is registered sites.</desc>
+<rect width="880" height="620" fill="#fcfcfb"/>
+<text x="24.0" y="38.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="19" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Alerted and refused are different failures</text>
+<text x="24.0" y="62.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">Each bubble is a country; area is the number of sites on the current drug establishment register. An import</text>
+<text x="24.0" y="79.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">alert is standing detention WITHOUT physical examination, so an alerted firm stops shipping and its refusals</text>
+<text x="24.0" y="96.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="12.5" fill="#52514e" text-anchor="start" font-weight="normal" style="">collapse — which is why the two axes are not the same measurement twice.</text>
+<line x1="78" y1="463.0" x2="670" y2="463.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="467.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">0</text>
+<line x1="78" y1="383.0" x2="670" y2="383.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="387.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">5</text>
+<line x1="78" y1="303.0" x2="670" y2="303.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="307.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">10</text>
+<line x1="78" y1="223.0" x2="670" y2="223.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="227.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">15</text>
+<line x1="78" y1="143.0" x2="670" y2="143.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="68.0" y="147.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="end" font-weight="normal" style="font-variant-numeric: tabular-nums;">20</text>
+<line x1="78.0" y1="143.0" x2="78.0" y2="463.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="78.0" y="483.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">0</text>
+<line x1="226.0" y1="143.0" x2="226.0" y2="463.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="226.0" y="483.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">2</text>
+<line x1="374.0" y1="143.0" x2="374.0" y2="463.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="374.0" y="483.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">4</text>
+<line x1="522.0" y1="143.0" x2="522.0" y2="463.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="522.0" y="483.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">6</text>
+<line x1="670.0" y1="143.0" x2="670.0" y2="463.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="670.0" y="483.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="middle" font-weight="normal" style="font-variant-numeric: tabular-nums;">8</text>
+<text x="374.0" y="507.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="normal" style="">refusal firm-days per registered site</text>
+<g transform="rotate(-90 18 303.0)"><text x="18.0" y="303.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11.5" fill="#52514e" text-anchor="middle" font-weight="normal" style="">import alerts per 100 sites</text></g>
+<circle cx="89.1" cy="463.0" r="32.0" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="89.1" y="423.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#0b0b0b" text-anchor="middle" font-weight="normal" style="">United States (5,321)</text>
+<circle cx="116.3" cy="237.2" r="17.8" fill="#eb6834" fill-opacity="0.42" stroke="#eb6834" stroke-width="1.5"/>
+<text x="140.0" y="241.2" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">China (1,091)</text>
+<circle cx="171.5" cy="306.6" r="17.5" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="329.0" cy="449.9" r="11.6" fill="#eb6834" fill-opacity="0.42" stroke="#eb6834" stroke-width="1.5"/>
+<text x="346.6" y="453.9" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Germany (245)</text>
+<circle cx="357.0" cy="283.5" r="11.1" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="176.3" cy="412.2" r="10.9" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="241.1" cy="426.8" r="10.7" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="164.6" cy="463.0" r="10.4" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="221.0" cy="441.4" r="10.3" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="104.2" cy="419.5" r="10.3" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="162.0" cy="417.6" r="10.2" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="219.2" cy="448.3" r="9.7" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="633.4" cy="143.0" r="9.3" fill="#eb6834" fill-opacity="0.42" stroke="#eb6834" stroke-width="1.5"/>
+<text x="648.7" y="147.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="600" style="">Mexico (85)</text>
+<circle cx="262.5" cy="442.7" r="9.2" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="137.5" cy="348.7" r="8.7" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="242.3" cy="431.0" r="8.5" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="330.8" cy="429.7" r="8.5" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<circle cx="202.5" cy="463.0" r="8.4" fill="#2a78d6" fill-opacity="0.42" stroke="#2a78d6" stroke-width="1.5"/>
+<text x="24.0" y="558.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="start" font-weight="normal" style="">Q24. Germany bottom-right: refused constantly, almost never alerted. China top-left: the inverse. Mexico is alone in the top-right. Refusals</text>
+<text x="24.0" y="572.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="start" font-weight="normal" style="">are FIRM-DAYS — a firm refused five times in a day counts once. Countries with fewer than 40 registered sites are excluded; one event there</text>
+<text x="24.0" y="586.0" font-family='system-ui, -apple-system, "Segoe UI", sans-serif' font-size="10.5" fill="#898781" text-anchor="start" font-weight="normal" style="">moves a rate by whole points.</text>
+</svg>
