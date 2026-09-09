@@ -1,0 +1,494 @@
+# Drug and biologic import refusals for every year FDA publishes, 2001-2026.
+#
+# Split from fda.importrefusals.recent on the ARCHETYPE, not the subject. That
+# source watches a rolling 5,000-row window reaching back ~55 days, which is the
+# wss slice; this one holds the back-catalogue, which FDA serves on demand and
+# does not move. Same division as fda.inspections.history.
+#
+# WHY 89,086 AND NOT 532,484. Unfiltered, this endpoint is every FDA import
+# refusal of any kind -- 532,484 records, of which drugs and biologics are 17%.
+# The rest is food, devices and tobacco. An earlier measurement in this repo was
+# inflated 2x by counting an unfiltered response, so the ProductCategory filter
+# is not an optimisation, it is the difference between measuring drugs and
+# measuring imports.
+#
+# WHY YEAR SLICES AND NOT OFFSET PAGING. The API caps a response at 5,000 rows.
+# Paging with `start` against a DESC sort drifts: refusals arrive daily, so an
+# offset points at a different record on every capture and a row can be missed
+# or double-counted between them. A date-bounded slice is stable -- 2015 holds
+# 2,422 records today and will hold 2,422 next quarter.
+#
+# WHY SOME YEARS ARE HALVED. Measured 2026-09-10, every year 2001-2023 sits
+# under 4,500, but 2004 (4,588), 2020 (4,895), 2024 (4,925), 2025 (6,559) and
+# 2026 (5,113) do not. A single endpoint on those silently truncates at 5,000 --
+# no error, just a short answer. Each half was verified to sum exactly to its
+# year, so the split partitions with no gap and no overlap.
+#
+# The 4,500 watermark is deliberately below the 5,000 cap: 2024 at 4,925 is
+# 98.5% of it, and one restatement would push it over.
+source_id: fda.refusals.backfill
+status: active
+cadence: quarterly
+schema_id: fda-importrefusal.v1
+
+publisher: US Food and Drug Administration
+publisher_tier: first_party
+# TRUE, and the distinction matters. FDA serves the closed years on demand, so
+# the RECORDS are archived -- but it publishes only their current values, so a
+# REVISION is not. If a 2015 refusal is restated tomorrow, the figure standing
+# today is gone and nothing FDA publishes will say it ever differed. That is
+# what this flag asks: can you reconstruct the value as of an arbitrary past
+# date. You cannot.
+#
+# A quarterly poll costs almost nothing and turns "closed years are immutable"
+# from an assertion in a comment into something falsifiable. The same poll on
+# WHO GHO found 95-year-old figures being restated, and that became the finding
+# rather than a footnote.
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: parties_only
+storage: git
+
+# SEAM WITH fda.importrefusals.recent, and the OPPOSITE choice from
+# fda.inspections.history. That source left four years held by neither slice to
+# avoid double-counting; here the 2026 endpoints deliberately OVERLAP the
+# rolling window, because the alternative is worse. `recent` reaches back only
+# ~55 days and the boundary slides daily, so carving 2026 to avoid it would
+# leave a permanent, moving, unobservable gap. An overlap is visible and can be
+# deduped on the refusal's own identifiers; a gap cannot be seen at all.
+#
+# Anything SUMMING across both sources must dedupe first. A count of refusals
+# per firm that adds `fda.refusals.backfill` to `fda.importrefusals.recent`
+# will double-count roughly the last two months.
+
+# WHO CARES, and what changes for them (step 3 of the wss sequence):
+#   Generic manufacturers and group purchasing orgs qualifying a supplier --
+#     a firm with repeated refusals is a supply risk before it is an alert.
+#   Hospital pharmacy buyers -- refusal pressure on a molecule's makers is an
+#     earlier signal than a shortage notice.
+#   FDA policy analysts and health journalists -- whether enforcement reaches
+#     the registered base at all, which Q23 says it mostly does not.
+
+notes: >-
+  Refused firms, not individuals: FirmName and a business address, the consignee
+  of a refused shipment. Same basis as fda.importrefusals.recent.
+
+auth:
+  headers:
+    Authorization-User: FDA_DASHBOARD_API_USER
+    Authorization-Key: FDA_DASHBOARD_API_KEY
+
+endpoints:
+  # 559 records. The series begins 2001-10-01 -- FDA fiscal 2002 -- and 1990-2026 returns exactly the same 89,086 as all-years, so nothing predates this.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2001-10-01"], "RefusalDateTo": ["2001-12-31"]}
+      columns: []
+  # 2002: 2,973 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2002-01-01"], "RefusalDateTo": ["2002-12-31"]}
+      columns: []
+  # 2003: 2,921 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2003-01-01"], "RefusalDateTo": ["2003-12-31"]}
+      columns: []
+  # 2004 H1. Year holds 4,588, above the 4,500 watermark, so it is halved.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2004-01-01"], "RefusalDateTo": ["2004-06-30"]}
+      columns: []
+  # 2004 H2.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2004-07-01"], "RefusalDateTo": ["2004-12-31"]}
+      columns: []
+  # 2005: 4,074 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2005-01-01"], "RefusalDateTo": ["2005-12-31"]}
+      columns: []
+  # 2006: 3,095 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2006-01-01"], "RefusalDateTo": ["2006-12-31"]}
+      columns: []
+  # 2007: 2,705 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2007-01-01"], "RefusalDateTo": ["2007-12-31"]}
+      columns: []
+  # 2008: 2,359 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2008-01-01"], "RefusalDateTo": ["2008-12-31"]}
+      columns: []
+  # 2009: 2,698 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2009-01-01"], "RefusalDateTo": ["2009-12-31"]}
+      columns: []
+  # 2010: 2,356 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2010-01-01"], "RefusalDateTo": ["2010-12-31"]}
+      columns: []
+  # 2011: 4,022 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2011-01-01"], "RefusalDateTo": ["2011-12-31"]}
+      columns: []
+  # 2012: 3,672 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2012-01-01"], "RefusalDateTo": ["2012-12-31"]}
+      columns: []
+  # 2013: 2,924 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2013-01-01"], "RefusalDateTo": ["2013-12-31"]}
+      columns: []
+  # 2014: 2,883 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2014-01-01"], "RefusalDateTo": ["2014-12-31"]}
+      columns: []
+  # 2015: 2,422 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2015-01-01"], "RefusalDateTo": ["2015-12-31"]}
+      columns: []
+  # 2016: 3,679 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2016-01-01"], "RefusalDateTo": ["2016-12-31"]}
+      columns: []
+  # 2017: 3,705 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2017-01-01"], "RefusalDateTo": ["2017-12-31"]}
+      columns: []
+  # 2018: 3,226 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2018-01-01"], "RefusalDateTo": ["2018-12-31"]}
+      columns: []
+  # 2019: 2,770 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2019-01-01"], "RefusalDateTo": ["2019-12-31"]}
+      columns: []
+  # 2020 H1. Year holds 4,895, above the 4,500 watermark, so it is halved.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2020-01-01"], "RefusalDateTo": ["2020-06-30"]}
+      columns: []
+  # 2020 H2.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2020-07-01"], "RefusalDateTo": ["2020-12-31"]}
+      columns: []
+  # 2021: 3,440 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2021-01-01"], "RefusalDateTo": ["2021-12-31"]}
+      columns: []
+  # 2022: 2,881 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2022-01-01"], "RefusalDateTo": ["2022-12-31"]}
+      columns: []
+  # 2023: 3,642 records.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2023-01-01"], "RefusalDateTo": ["2023-12-31"]}
+      columns: []
+  # 2024 H1. Year holds 4,925, above the 4,500 watermark, so it is halved.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2024-01-01"], "RefusalDateTo": ["2024-06-30"]}
+      columns: []
+  # 2024 H2.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2024-07-01"], "RefusalDateTo": ["2024-12-31"]}
+      columns: []
+  # 2025 H1. Year holds 6,559, above the 4,500 watermark, so it is halved.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2025-01-01"], "RefusalDateTo": ["2025-06-30"]}
+      columns: []
+  # 2025 H2.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2025-07-01"], "RefusalDateTo": ["2025-12-31"]}
+      columns: []
+  # 2026 H1. Year holds 5,113, above the 4,500 watermark, so it is halved.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2026-01-01"], "RefusalDateTo": ["2026-06-30"]}
+      columns: []
+  # 2026 H2.
+  - url: "https://api-datadashboard.fda.gov/v1/import_refusals"
+    method: POST
+    delay_seconds: 2
+    timeout_seconds: 180
+    body:
+      start: 1
+      rows: 5000
+      returntotalcount: true
+      sort: "RefusalDate"
+      sortorder: "ASC"
+      filters: {"ProductCategory": ["Drugs and Biologics"], "RefusalDateFrom": ["2026-07-01"], "RefusalDateTo": ["2026-12-31"]}
+      columns: []
+
+gates:
+  expect_status: 200
+  # A year slice is 559 rows at its smallest, so the floor is set against that
+  # rather than against the 5,000-row maximum.
+  min_bytes: 90000
+  content_type_any: [json]
+  must_contain: ["FEINumber", "RefusalDate", "totalrecordcount"]
+  must_not_contain: ["Not Authorized"]
+  max_shrink_pct: 50

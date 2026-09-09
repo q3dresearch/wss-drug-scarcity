@@ -1916,3 +1916,565 @@ fda.inspections.history,firm:3015709932,2010-01-07,2026-09-08T14:33:17Z,inspecti
 fda.inspections.history,firm:3015709932,2010-01-07,2026-09-08T14:33:17Z,is_foreign,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143317Z-f9ff402067e0.json.gz,1
 fda.inspections.history,firm:3015709932,2010-01-07,2026-09-08T14:33:17Z,is_oai,0,bool,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143317Z-f9ff402067e0.json.gz,1
 fda.inspections.history,firm:3015709932,2010-01-07,2026-09-08T14:33:17Z,label,Pacon Manufacturing Corporation,,fda.inspections.history,raw/fda.inspections.history/2026/09/20260908T143317Z-f9ff402067e0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,firm_key,YUHAN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,label,Yuhan Corporation,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000247296,2010-01-21,2026-09-09T17:04:39Z,refused_at,20100121,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,firm_key,LABORATOIRES BOIRON,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,label,Laboratoires Boiron,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000261402,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,firm_key,HOMEOLAB USA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,label,Homeolab USA Inc.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000399435,2010-01-22,2026-09-09T17:04:39Z,refused_at,20100122,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,firm_key,DERMALOGICA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,is_foreign,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,label,"Dermalogica, LLC",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000561585,2010-01-25,2026-09-09T17:04:39Z,refused_at,20100125,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,firm_key,HANBUL COSMETICS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,label,Hanbul Cosmetics Co.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:1000613595,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,firm_key,ADVANCE COSMETIC,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,label,Advance Cosmetic Co Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000252440,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,firm_key,CHANGCHUN KANGDA INDUSTRY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,label,Changchun Kangda Industry Co. Ltd.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000286306,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,firm_key,LABOMAR CANADA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,label,Labomar Canada Inc,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3000999767,2010-01-13,2026-09-09T17:04:39Z,refused_at,20100113,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,firm_key,PFIZER CANADA KIRKLAND QC ADMINISTRATIVE SITE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,label,"Pfizer Canada Inc. - Kirkland, QC Administrative Site",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001203985,2010-01-27,2026-09-09T17:04:39Z,refused_at,20100127,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,firm_key,SELDER S A DE C V,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,label,Selder S.A. de C.V.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001362772,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,firm_key,AARTI DRUGS MAHENDRA INDUSTRIA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,label,Aarti Drugs Limited Mahendra Industria,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3001611965,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,firm_key,GLAXO SAUDI ARABIA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,label,Glaxo Saudi Arabia Ltd.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002624237,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,firm_key,ALPS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,label,Alps Co Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002673524,2010-01-19,2026-09-09T17:04:39Z,refused_at,20100119,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,firm_key,SHAHNAZ HUSAIN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,label,Shahnaz Husain Group,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002746829,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,firm_key,N V ORGANON,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,label,N.V. Organon,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002806821,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,firm_key,SUN INDUSTRIES PREV RANBAXY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,label,Sun Pharmaceutical Industries (prev. Ranbaxy),,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3002807977,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,firm_key,UNIVERSE BEAUTY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,label,Universe Beauty Co Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003101202,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,firm_key,FEED RITE FORT MACLEOD A DIVISION OF RIDLEY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,label,"Feed Rite Fort Macleod a division of Ridley, Inc.",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003227169,2010-01-07,2026-09-09T17:04:39Z,refused_at,20100107,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,firm_key,I T SUPPLIES,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,label,I.T. Pharmaceutical Supplies Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003244983,2010-01-21,2026-09-09T17:04:39Z,refused_at,20100121,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,firm_key,DASAN MEDICHEM,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,label,"Dasan Medichem Co., Ltd.",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003503944,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,firm_key,JABONES PARDO S A,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,label,Jabones Pardo S.A.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003569504,2010-01-25,2026-09-09T17:04:39Z,refused_at,20100125,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,firm_key,FERINSA GB DE CV,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,label,Ferinsa Gb Sa De Cv,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003778564,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,firm_key,MOSCOW FACTORY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,label,Moscow Pharmaceutical Factory,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3003991563,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,firm_key,EYEFIVE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,is_foreign,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,label,"EyeFive, Inc",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004039817,2010-01-27,2026-09-09T17:04:39Z,refused_at,20100127,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,firm_key,SINTETICA S A,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,label,Sintetica S.A.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004058163,2010-01-25,2026-09-09T17:04:39Z,refused_at,20100125,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,firm_key,NANG LOY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,label,"Nang Loy Co.,Ltd.",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004109779,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,firm_key,THAKAR EXPORTS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,label,Thakar Exports,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004254426,2010-01-15,2026-09-09T17:04:39Z,refused_at,20100115,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,firm_key,EVALAR ZAO,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,label,EVALAR ZAO,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004255139,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,firm_key,RAVI SPICE PROCESSORS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,label,Ravi Spice Processors Pvt Ltd.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004287224,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,firm_key,FITOPHARM,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,label,Fitopharm,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004530527,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,firm_key,BIOTIKI,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,label,Biotiki,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004703599,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,firm_key,SCHERING PLOUGH S A,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,label,Schering-Plough S.A.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3004724440,2010-01-06,2026-09-09T17:04:39Z,refused_at,20100106,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,firm_key,CHEMO S A LUGANO BRANCH,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,label,Chemo S.A. Lugano Branch,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005144955,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,firm_key,TIANJIN JINLIXIN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,label,Tianjin Jinlixin,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005215956,2010-01-21,2026-09-09T17:04:39Z,refused_at,20100121,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,firm_key,SINERGA S P A,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,label,Sinerga S.p.A.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005488671,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,firm_key,VEGEWAX CANDLEWORX,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,label,Vegewax Candleworx Ltd.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005787511,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,firm_key,SICHUAN HUAMAI TECHNOLOGY,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,label,Sichuan Huamai Technology Co Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3005889768,2010-01-21,2026-09-09T17:04:39Z,refused_at,20100121,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,firm_key,UPS ENVIOS RTS ADUANA GUADALAJARA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,label,Ups Envios Rts Aduana Guadalajara,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006003915,2010-01-29,2026-09-09T17:04:39Z,refused_at,20100129,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,firm_key,GO GENERAL OVERNIGHT SERV,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,label,Go General Overnight Serv.Ag,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006261583,2010-01-13,2026-09-09T17:04:39Z,refused_at,20100113,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,firm_key,AMARTE COSMETICS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,label,"Amarte Cosmetics Co., Ltd.",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006285693,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,firm_key,INTELLIGENT SKIN CARE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,label,Intelligent Skin Care Inc,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006520708,2010-01-07,2026-09-09T17:04:39Z,refused_at,20100107,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,firm_key,LONDON GYNACOLOGY CENTRE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,label,London Gynacology Centre,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006539896,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,firm_key,XI AN MAXSUN BIO TECH,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,label,"Xi'an Maxsun Bio&Tech Co., Ltd",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006682937,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,firm_key,CHIERON ACTIVE INGREDIENTS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,label,Chieron Active Ingredients Private Limited,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3006897905,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,firm_key,GOLD MINTS PRODUCTS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,label,GOLD MINTS PRODUCTS CO. LTD.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007143344,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,firm_key,NOVERO,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,label,Novero Inc,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007167532,2010-01-27,2026-09-09T17:04:39Z,refused_at,20100127,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,firm_key,J K,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,label,J & K International Co.Ltd.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007200190,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,firm_key,CALIX HERBAL,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,label,Calix Herbal Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007297605,2010-01-28,2026-09-09T17:04:39Z,refused_at,20100128,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,firm_key,TOPSEE INTL,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,label,Topsee Intl Co Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007307633,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,firm_key,MALAVIT,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,label,Malavit Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007697540,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,firm_key,BEST PHARM,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,label,Best Pharm,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007706752,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,firm_key,ALKOR RUSSIA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,label,Alkor Ltd. Russia,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007711547,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,firm_key,HIDROCONTRATO CONTRATACAO E CORRDEN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,label,Hidrocontrato-Contratacao E Corrden,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007722071,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,firm_key,JINGWEI TRADE LT,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,label,Jingwei International Trade Lt,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007725912,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,firm_key,BUIDCA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,is_foreign,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,label,Buidca,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007816332,2010-01-22,2026-09-09T17:04:39Z,refused_at,20100122,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,firm_key,SMILE PHANT COSMETIC,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,label,"Smile Phant Cosmetic Co.,",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007879839,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,firm_key,KOVELMAN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,label,Kovelman,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007904959,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,firm_key,HUBEI UNITEX IMPORT AND EXPORT,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,label,Hubei Unitex Import And Export Corp Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007919895,2010-01-06,2026-09-09T17:04:39Z,refused_at,20100106,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,firm_key,HWP SHANGHAI JIMAN TRADING,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,label,Hwp Shanghai Jiman Trading Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007940104,2010-01-29,2026-09-09T17:04:39Z,refused_at,20100129,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,firm_key,HIMALYAS PRINTING,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,label,Himalyas Printing Company,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007944042,2010-01-12,2026-09-09T17:04:39Z,refused_at,20100112,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,firm_key,T SHEAVEEMEESOOK KKC,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,label,T.Sheaveemeesook Kkc Ltd,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007963890,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,firm_key,RAKESH,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,label,Rakesh,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007981329,2010-01-04,2026-09-09T17:04:39Z,refused_at,20100104,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,firm_key,JOBIN JOHN THO,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,label,Jobin John Tho,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007996326,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,firm_key,RAINUL ABEEDEN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,label,Rainul Abeeden,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3007999088,2010-01-04,2026-09-09T17:04:39Z,refused_at,20100104,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,firm_key,DR M N RANGARAJAN,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,label,Dr M.N. Rangarajan,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008013620,2010-01-05,2026-09-09T17:04:39Z,refused_at,20100105,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,firm_key,JANE ONDIEKI,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,label,Jane Ondieki,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008022027,2010-01-19,2026-09-09T17:04:39Z,refused_at,20100119,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,firm_key,SAJID MEHMOOD,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,label,Sajid Mehmood,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008045009,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,firm_key,MAYFLOWER HEALTHCARE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,label,Mayflower Healthcare,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008047119,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,firm_key,LOTT,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,label,Lott Gmbh,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008055883,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,firm_key,WILLIAM RANSOM AND SONS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,label,William Ransom And Sons Plc,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008069912,2010-01-13,2026-09-09T17:04:39Z,refused_at,20100113,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,firm_key,EDUARDO VALVERDE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,label,Eduardo Valverde,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008078963,2010-01-27,2026-09-09T17:04:39Z,refused_at,20100127,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,firm_key,PFA LAIBER VICTOR,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,label,Pfa  Laiber  Victor,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008081835,2010-01-13,2026-09-09T17:04:39Z,refused_at,20100113,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,firm_key,FERCY PERSONAL CARE PRODUCTS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,label,"Fercy Personal Care Products Co., Ltd",,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008254880,2010-01-15,2026-09-09T17:04:39Z,refused_at,20100115,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,firm_key,GRUPO NUTRIVIDA,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,label,Grupo Nutrivida,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3008323586,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,firm_key,NASALEZE,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,label,Nasaleze International Limited,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3011788145,2010-01-07,2026-09-09T17:04:39Z,refused_at,20100107,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,firm_key,SOUTHERN DRUGS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,label,southern drugs pharmaceuticals,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012224722,2010-01-14,2026-09-09T17:04:39Z,refused_at,20100114,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,firm_key,ALK ABELLO S A,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,label,Alk-abello S.A.,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3012749590,2010-01-12,2026-09-09T17:04:39Z,refused_at,20100112,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,firm_key,SURE CROP FEEDS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,label,Sure Crop Feeds,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3013254642,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,firm_key,GRIME EATER PRODUCTS,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,is_human_drug,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,label,Grime Eater Products Limited,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3017292079,2010-01-20,2026-09-09T17:04:39Z,refused_at,20100120,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,firm_key,WANGPROM HERB,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,import_refusal,1,count,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,is_drug_or_biologic,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,is_foreign,1,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,is_human_drug,0,bool,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,label,Wangprom Herb,,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1
+fda.refusals.backfill,firm:3021547810,2010-01-26,2026-09-09T17:04:39Z,refused_at,20100126,yyyymmdd,fda.refusals.backfill,raw/fda.refusals.backfill/2026/09/20260909T170439Z-0c5077c505d0.json.gz,1

@@ -49,6 +49,16 @@ def parse(body: bytes, ctx: derive.ParseContext):
         firm = f"firm:{fei}"
         at = row.get("RefusalDate")[:10]
 
+        # COUNTS FIRM-DAYS, NOT REFUSALS. This row is (firm, 1, that date), so a
+        # firm refused five times on one day yields five IDENTICAL rows and
+        # derive collapses them to one -- correctly, since it dedupes on every
+        # column but captured_at. Measured on the 2001-2026 backfill: 89,086
+        # refusal records reduce to 55,875 firm-days, so anything summing this
+        # metric and calling it "refusals" undercounts by 37%.
+        #
+        # Left as firm-days deliberately. A firm refused five times in a day is
+        # one enforcement event met at one border crossing, and inflating it
+        # five-fold would make a single large shipment look like a pattern.
         yield derive.Observation(firm, "import_refusal", 1, "count", observed_at=at)
         # The entity is a bare FEI, which no reader can act on. The name
         # travels with every row so a chart can title a bar without
