@@ -428,12 +428,13 @@ def q6_enforcement(obs) -> str:
                 f'y2="{top_y + plot_h}" stroke="{BASELINE}" stroke-width="1"/>')
 
     foot, _ = para(24, height - 44,
-                   "RAW COUNTS WITH NO DENOMINATOR. FDA publishes no fetchable "
-                   "list of registered sites per country, so these cannot be "
-                   "turned into rates — 'more Chinese firms banned' may only "
-                   "mean 'more Chinese firms' (Q12). Country is parsed from a "
-                   "free-text address; firms whose country cannot be read fall "
-                   "into rest of world.", size=10, fill=MUTED, chars=140,
+                   "RAW COUNTS. The denominator now exists — DECRS supplies "
+                   "10,080 registered sites with a country on 100% of them, so "
+                   "Q12 is answered in ban-rate-by-country.svg. It reorders "
+                   "this chart: by rate Mexico leads at 18.9 per 100 sites and "
+                   "Canada is third, neither visible here. Country is parsed "
+                   "from a free-text address; firms whose country cannot be "
+                   "read fall into rest of world.", size=10, fill=MUTED, chars=140,
                    leading=14)
     body += foot
     out = OUT_DIR / "enforcement-year.svg"

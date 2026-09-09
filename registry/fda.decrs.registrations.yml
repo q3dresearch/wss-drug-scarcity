@@ -1,0 +1,49 @@
+source_id: fda.decrs.registrations
+status: active
+cadence: monthly
+schema_id: fda.decrs.v1
+
+publisher: FDA CDER — Drug Establishments Current Registration Site
+publisher_tier: first_party
+# FDA publishes the CURRENT register and no history at all. An establishment
+# is removed when its registration lapses or is inactivated by an enforcement
+# action, and the removal is published nowhere -- the row simply stops being
+# in the file. That disappearance is the event this source exists to record.
+destroys_own_history: true
+licence: "US federal government work, public domain"
+
+# CONTACT PII. The file carries ESTABLISHMENT_CONTACT_NAME/EMAIL and
+# REGISTRANT_CONTACT_NAME/EMAIL -- named people at named firms, with working
+# addresses. Measured 2026-09-09: all four contact columns are populated on
+# 100% of 10,452 rows -- 20,904 named individuals. The raw bytes are kept
+# verbatim in object storage, never in git;
+# the parser drops those four columns so nothing published carries them.
+# Censoring at derive rather than dropping the source keeps the record intact
+# and reversible: a question that needs a contact can be answered privately,
+# and one that does not never sees them.
+personal_data: present
+storage: object
+
+# CI CANNOT CAPTURE THIS SOURCE. accessdata.fda.gov runs Akamai Bot Manager
+# and scores GitHub runner IPs as bots -- verified 2026-09-09, a runner gets
+# HTTP 404 and 420 bytes where a residential IP gets 200 and 1200000. Three sources
+# in this repo already have the same problem and the same answer.
+#
+# HOW TO CAPTURE IT: run `wss capture --cadence monthly` locally during the
+# monthly review. Cadence is monthly, so a local run is a complete substitute,
+# not a stopgap. Expect the CI run to keep failing on this source; that failure
+# is true and should stay loud.
+
+endpoints:
+  - url: "https://www.accessdata.fda.gov/cder/drls_reg.zip"
+    delay_seconds: 2
+
+gates:
+  expect_status: 200
+  min_bytes: 1200000
+  content_type_any: [zip, octet-stream]
+  must_not_contain: ["Access Denied", "apology"]
+  max_shrink_pct: 30
+
+notes: |
+  10,452 registered drug establishments, 2.4 MB zipped. A DISAPPEARANCE here is ambiguous on its own -- expiry, closure, merger or enforcement -- which is why the exclusion list is captured alongside it.

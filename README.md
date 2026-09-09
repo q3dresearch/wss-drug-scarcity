@@ -49,14 +49,17 @@ the next thing to build. Append freely.
 | Q7 | How concentrated is supply per drug? | answerable — 6 drugs are down to one listed package |
 | Q8 | Which dosage forms are fragile, against a benchmark? | **answered: injectables are 7.6% of products, 71% of shortages** |
 | Q9 | Is the shortage list maintained, or stale? | **answered: 1,010 of 1,623 records touched within 8–30 days** |
-| Q10 | Do recalls precede shortages? | needs ~12 months — source not yet added |
+| Q10 | Do recalls precede shortages? | needs ~12 months. **Not** waiting on a new source: `fda.recalls.cder` exists and is `auto_disabled` after 10 consecutive failures, so this is waiting on a repair, not an addition |
 | Q11 | Is scarcity a US artefact or global? | blocked — EMA shortage page 404s, needs casing |
-| Q12 | What share of a country's registered sites are banned? | blocked — DECRS is JavaScript-gated, no public denominator |
+| Q12 | What share of a country's registered sites are banned? | **answered.** DECRS ships as a plain zip after all — 10,080 registered sites, country on 100%. By RATE Mexico leads at 18.9 bans per 100 sites, then China 13.4 and **Canada 11.1**; India falls to 4th. The raw-count chart showed only China and India, because they have the most sites |
 | Q13 | **Why doesn't someone else just make it?** | **answered: 51% of every product ever approved for these drugs is discontinued** |
 | Q14 | Do suppliers leave *before* a shortage or after? | source built, cohort frozen, **paused pending activation** |
 | Q15 | How big is the gap, in units? | **not observable — nobody publishes demand** |
 | Q17 | How far does the official resolved-shortage count diverge from observed resolutions? | needs ~12 months — **the divergence claim**, see above |
 | Q16 | Which shortages mean-revert, and which stop? | forward: capture builds it. backward: **tested and failed** |
+| Q18 | How many plants keep making drugs after FDA's most serious finding? | **answered: 713 registered establishments carry at least one OAI.** Named and joinable to the shortage series |
+| Q19 | Which of those 713 quietly stop renewing, and how long after the OAI? | needs ~12 months. All 9,882 registrations expire on **31 Dec 2026**, so non-renewals surface in one capture, not spread through the year |
+| Q20 | Does an enforcement action precede exclusion from the register? | **tested and not supported yet.** Of 7 FEI-keyed firms on the exclusion list, 0 carry an OAI. n=7 is too small to conclude, and the list shows who is excluded now rather than who ever was |
 
 Q15 and Q16 look answerable and are not. Nobody publishes demand, so there is
 no gap to compute; and reconstructing ended episodes from Medicaid volume was
