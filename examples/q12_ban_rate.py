@@ -144,8 +144,13 @@ def chart_refusal_rate(obs) -> str:
         body.append(txt(L - 12, y + 22, LABEL.get(iso, iso), size=12, fill=INK, anchor="end"))
         w = plot_w * (n / d) / peak
         body.append(bar(L, y + 6, max(w, 2), 22, SLOTS[1] if i < 3 else SLOTS[0]))
+        # "773 of 205 sites" is impossible and was on the first render: the
+        # label template came from the alert chart, where n IS a subset of the
+        # sites (17 of 90 firms were banned). Here n is firm-DAYS across those
+        # sites -- a different unit, so "of" is nonsense. Units, not "of".
         body.append(txt(L + max(w, 2) + 10, y + 22,
-                        f"{n/d:.1f}   ·   {n:,} of {d:,} sites", size=11, fill=INK2, tab=True))
+                        f"{n/d:.1f}   ·   {n:,} firm-days across {d:,} sites",
+                        size=11, fill=INK2, tab=True))
     body.append(f'<line x1="{L}" y1="{T-8}" x2="{L}" y2="{T + row_h*len(pairs):.1f}" '
                 f'stroke="{BASELINE}" stroke-width="1.5"/>')
     foot, _ = para(24, H - 76, (
