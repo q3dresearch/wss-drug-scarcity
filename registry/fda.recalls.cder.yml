@@ -5,7 +5,7 @@
 # back. Every row carries firmfeinum, so all three join on FDA's own
 # establishment id rather than on company-name string matching.
 source_id: fda.recalls.cder
-status: auto_disabled  # was active; auto-disabled 2026-09-08 after 10 consecutive failures
+status: active  # re-enabled 2026-09-10; see CI CANNOT CAPTURE below
 cadence: weekly
 schema_id: fda-ires-recall.v1
 
@@ -16,6 +16,20 @@ licence: "US federal work, no copyright in the US"
 personal_data: parties_only
 storage: git
 
+# CI CANNOT CAPTURE THIS SOURCE, and that is why it auto-disabled.
+# www.accessdata.fda.gov runs Akamai Bot Manager and scores GitHub runner IPs
+# as bots, answering them with /apology_objects/excessive-requests-apology.html
+# served as HTTP 404 -- so the failure reads as "page gone" and invites someone
+# to "fix" a URL that is correct. The same host, the same block and the same
+# note already sit on fda.importalert.66-40, 66-41 and both DECRS entries;
+# nobody carried it here, so ten CI failures flipped this source off.
+#
+# Verified 2026-09-10 from a residential IP: HTTP 200, 1,099,337 bytes.
+#
+# HOW TO CAPTURE IT: run `wss capture --cadence weekly` locally. Expect the CI
+# run to keep failing on this source; that failure is true and should stay
+# loud. A local success resets consecutive_failures.
+#
 # ONE ENDPOINT PER YEAR, and the reason is not cosmetic. The API caps a
 # response at 5000 rows and wss bodies are static, so a single growing window
 # would silently truncate: measured CDER volume is 532-1392 a year (2022-2026),
