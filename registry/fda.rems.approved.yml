@@ -1,0 +1,56 @@
+# FDA's list of currently-approved REMS — the drugs whose prescribing is
+# restricted TODAY, and nothing about the ones released.
+#
+# A REMS (Risk Evaluation and Mitigation Strategy) is the machinery FDA imposes
+# when a drug is approved only on condition that its use is controlled:
+# prescriber certification, pharmacy enrolment, patient registries. 71 programs
+# are approved right now.
+#
+# WHAT PERISHES. FDA can RELEASE a REMS when it decides the restriction is no
+# longer needed, and a released programme leaves this page. That release is a
+# substantive event — the drug becomes materially easier to prescribe — and the
+# index carries no released, inactive or archived view. Every link on it points
+# back to itself or out to fda.gov. So "which drugs stopped being restricted,
+# and when" is answerable only by someone who kept the list.
+#
+# The second moving part is `Last Updated`, which is edited in place while
+# `REMS Approved` stays fixed. Adasuve was approved 2012-12-21 and last updated
+# 2026-05-11: fourteen years of modifications, with only the latest visible.
+#
+# LAPTOP-ONLY, DELIBERATELY. accessdata.fda.gov answers this machine and serves
+# GitHub runners a 404 apology page — a block already documented on five other
+# entries in this repo. So this source captures when a human runs it, which is
+# worse than a cron and far better than nothing: an uncaptured release is gone,
+# a late capture is merely late.
+source_id: fda.rems.approved
+status: active
+cadence: monthly
+schema_id: fda-rems.v1
+
+publisher: US Food and Drug Administration (CDER)
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: none
+storage: git
+
+notes: >-
+  71 rows, 8 columns, every row the same width — a rare thing on accessdata.
+  The four flag columns (MedGuide, Communication Plan, ETASU, Implementation
+  System) are the shape of the restriction, not its presence: a programme with
+  ETASU and IS controls distribution, one with only a MedGuide informs. 1 MB of
+  page for 71 rows, which is markup rather than data.
+
+endpoints:
+  - url: "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm"
+    delay_seconds: 5
+
+gates:
+  expect_status: 200
+  # Observed 1,087,000 bytes. Half, and well above the ~30 KB apology page a
+  # runner receives, so a blocked capture fails loudly instead of archiving the
+  # block as content.
+  min_bytes: 500000
+  content_type_any: [html]
+  must_contain: ["REMS Approved", "Imp. System", "ETASU"]
+  max_shrink_pct: 50

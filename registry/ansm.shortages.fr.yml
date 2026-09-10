@@ -1,0 +1,58 @@
+# France's medicine availability register — and the correction it forces.
+#
+# A batch screen of seven European regulators concluded that Europe keeps its
+# shortage history: Britain lists 75 expired Serious Shortage Protocols back to
+# 2019, Germany's BfArM shows resolved notifications and runs a dedicated
+# Archiv, EUDAMED versions all 3.4 million of its device records. France does
+# not. The behaviour is regulator-specific, not continental.
+#
+# WHAT PERISHES, measured. 291 rows on first look: 139 "Tension
+# d'approvisionnement", 89 "Remise à disposition", 47 "Rupture de stock", 16
+# "Arrêt de commercialisation". Of the 89 RESOLVED entries, **85 are 2026 and 4
+# are 2025** — none older. Meanwhile unresolved shortages carry `Mise à jour`
+# dates back to 2021. Live rows kept, closed rows purged after roughly a year:
+# the same signature as tga.shortages.au, and the same reason to capture.
+#
+# This gives the repo a third jurisdiction on one question. FDA holds 7 resolved
+# records across fourteen years, TGA about a year's worth, ANSM about a year's
+# worth. Only the two that purge can be reconstructed by archiving them, and
+# only an archive makes the US silence measurable rather than merely asserted.
+#
+# No pagination, no export, no archive link — 291 rows rendered server-side, so
+# the page is the interface.
+source_id: ansm.shortages.fr
+status: active
+cadence: weekly
+schema_id: ansm-shortage.v1
+
+publisher: Agence nationale de sécurité du médicament (France)
+publisher_tier: first_party
+destroys_own_history: true
+licence: "ANSM public information; see https://ansm.sante.fr/page/documents-administratifs-mis-a-la-disposition-du-public"
+personal_data: none
+storage: git
+
+notes: >-
+  Five columns: Statut, Mise à jour, Spécialité, Remise à disposition, Domaines
+  médicaux. Dates are French DD/MM/YYYY. The Spécialité string carries dose and
+  form and the INN in brackets — "Prevymis 120 mg, granulés en sachet –
+  [létermovir]" — so the substance is recoverable without a second source.
+  `Remise à disposition` is populated on exactly the rows whose Statut says the
+  same thing, which is what makes the roll-off measurable.
+
+endpoints:
+  - url: "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments"
+    delay_seconds: 5
+
+gates:
+  expect_status: 200
+  # Observed 361,805 bytes; half, so a page that renders chrome without the
+  # table fails rather than being archived as a successful fetch.
+  min_bytes: 180000
+  content_type_any: [html]
+  # NO APOSTROPHES. The page renders "Tension d’approvisionnement" with a
+  # typographic U+2019, so the ASCII spelling matched zero times and
+  # quarantined a perfectly good 361,805-byte capture on first run. Matching a
+  # bare token avoids betting the gate on a punctuation character.
+  must_contain: ["Remise à disposition", "approvisionnement", "Rupture de stock"]
+  max_shrink_pct: 50
