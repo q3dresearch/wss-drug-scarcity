@@ -1,0 +1,57 @@
+# Australia's medicine shortage database. The same disease as
+# `fda.shortages.current`, at a different severity, and that difference is the
+# reason to capture it.
+#
+# FDA serves what is short TODAY and holds SEVEN resolved shortages across
+# fourteen years. TGA holds 204 — but on 2026-09-10, **203 of those 204 ended
+# in 2026**, and exactly one older record survives (2022). Meanwhile CURRENT
+# shortages persist all the way back to 2003. So the live rows are kept and the
+# closed rows are purged after roughly a year.
+#
+# That is the whole argument. The resolution is the only event that says how
+# long a shortage LASTED, and TGA shows it for about twelve months and then
+# deletes it. A weekly capture turns a rolling one-year window into a permanent
+# duration series — something neither regulator publishes, and which FDA's
+# seven-record memory makes impossible for the US.
+#
+# NOT AN API. The payload is a 723 KB `var tabularData = {...}` literal inlined
+# in the search page — 984 records, 16 fields, no XHR and no key. The Angular
+# bundles name no endpoint, so the page IS the interface and the whole page is
+# archived verbatim. `must_contain` guards the literal, because a redesign that
+# moves the data behind an XHR would still return a valid 1.7 MB HTML page.
+source_id: tga.shortages.au
+status: active
+cadence: weekly
+schema_id: tga-shortage.v1
+
+publisher: Therapeutic Goods Administration (Australia)
+publisher_tier: first_party
+destroys_own_history: true
+licence: "Australian Government (TGA); site content CC BY 4.0 unless marked — https://www.tga.gov.au/copyright"
+personal_data: none
+storage: git
+
+notes: >-
+  984 records on first look. Status is a single letter: C current (409),
+  D discontinued (278), R resolved (204), A anticipated (93). `deleted_date` is
+  filled on all 278 discontinued rows and nothing else, spanning Apr–Oct 2026,
+  which is the second roll-off window and worth watching alongside the first.
+  Dates arrive in two formats in the same record — `shortage_start` as
+  "01 Jan 2013" and `last_updated` as "16-10-2009" — so the parser must handle
+  both rather than assuming one.
+
+endpoints:
+  - url: "https://apps.tga.gov.au/prod/MSI/search/"
+    delay_seconds: 5
+
+gates:
+  expect_status: 200
+  # Observed 1,737,956 bytes, of which 723,612 is the data literal. Half the
+  # observed body, so a page that renders its chrome but loses the payload
+  # fails rather than being archived as a successful fetch.
+  min_bytes: 850000
+  content_type_any: [html]
+  # The literal itself, plus two field names from inside it. A soft-404 or a
+  # redesign that drops the inline data still returns a large valid page.
+  must_contain: ["var tabularData", "shortage_start", "shortage_end"]
+  max_shrink_pct: 50
