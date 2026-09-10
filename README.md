@@ -1,7 +1,21 @@
 # wss-drug-scarcity
 
-**Which medicines America cannot get, and for how long** — captured weekly,
-because the FDA deletes the answer.
+**What a health system cannot get, and for how long** — captured weekly,
+because the regulators delete the answer.
+
+The name says drugs and America. It now holds three things, because they are
+one question asked three ways:
+
+| | what it covers | why it is here |
+| --- | --- | --- |
+| **US drugs** (16 sources) | FDA shortages, recalls, refusals, inspections | the founding subject |
+| **US devices** (1 source) | FDA's device shortage list — **six** devices today | same regulator, same reader, and it perishes harder: no resolved list at all |
+| **Australian drugs** (1 source) | TGA's shortage database | the only place the duration question is currently *answerable*, which is what makes FDA's silence measurable |
+
+The Australian source is not scope creep, it is the control. TGA holds 204
+resolved shortages against FDA's 7, so **median 62 days, p90 360** exists for
+Australia and does not exist for the US. Without the comparison, "FDA deletes
+the answer" is an assertion; with it, it is a measurement.
 
 FDA publishes the drugs in shortage *today*. When a shortage ends, the record
 leaves the feed. On 2026-08-31 the openFDA endpoint held **1,173 Current, 443
@@ -64,6 +78,10 @@ the next thing to build. Append freely.
 | Q22 | What share of a country's registered sites face refusals? | nothing | **answered.** Mexico 7.5 refusal firm-days per registered site, Canada 3.8, Germany 3.4 — and Mexico also tops the import-alert rate at 18.9 per 100 sites. Two independent instruments, same answer |
 | Q23 | Is enforcement aimed at the registered base at all? | nothing | **answered, and it reframes the denominator: only 7,984 of 55,875 firm-days (14%) hit a currently-registered establishment.** The other 86% are importers and consignees outside the register |
 | Q24 | Does an import alert stop the refusals, or run alongside them? | nothing | **answered, and they diverge** — see `alert-vs-refusal.svg`. Germany: 3.4 refusal firm-days per site on 0.8 alerts per 100. China: 0.5 refusals on 14.1 alerts — the inverse. An alert is standing detention without physical examination, so an alerted firm stops shipping. The alert is the policy, the refusal is its exercise, and measuring one as a proxy for the other is wrong |
+| Q25 | How long does a resolved shortage last, where anyone can still measure it? | nothing | **answered, for Australia.** TGA: median **62 days**, p90 **360**, 10% over a year, longest 6,538. The US number does not exist — FDA keeps 7 resolved records. This is the yardstick Q1 is trying to build for the US |
+| Q26 | Does Australia's memory hold, or does it roll off too? | ~12 months | **it rolls off, and that is why it is captured.** 203 of TGA's 204 resolved shortages ended in 2026 and exactly one 2022 record survives, while current shortages persist to 2003. Live rows kept, closed rows purged after ~a year |
+| Q27 | How long is a DEVICE shortage, and does the estimate move first? | ~12 months | needs the archive. Six devices listed today, each with an estimate ("Estimated through Q1 2027") that FDA revises in place. There is no resolved device list at all, so a device that recovers leaves no trace |
+| Q28 | Do drug and device shortages move together, or independently? | ~12 months | needs both archives. Same regulator, same supply chains, two lists that have never been read against each other |
 
 Q15 and Q16 look answerable and are not. Nobody publishes demand, so there is
 no gap to compute; and reconstructing ended episodes from Medicaid volume was
