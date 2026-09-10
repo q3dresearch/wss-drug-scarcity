@@ -1,0 +1,51 @@
+# FDA's register of 503B outsourcing facilities — who is currently allowed to
+# compound sterile drugs at scale, and who quietly stopped being allowed.
+#
+# 503B exists because of the 2012 NECC meningitis outbreak. The register is the
+# list of facilities operating under that regime TODAY: 96 of them. Registration
+# must be renewed, so a facility that lapses, withdraws or is shut down simply
+# stops appearing. FDA publishes no departure event and no former-registrant
+# list, so the exit — which is often the interesting one, because it follows an
+# inspection — leaves no trace.
+#
+# The second perishing field is enforcement status. "Action Based on Last
+# Inspection" reads Open or Closed and is edited in place, as are "Form 483
+# Issued?" and "Recall Conducted?". A facility that moves from Open to Closed
+# has had something resolved, and the resolution is invisible after the fact.
+#
+# PERSONAL DATA. The Contact column carries an individual's name beside a direct
+# phone number — "Kenneth Metzler 1-754-265-428". These are named people at
+# named firms, so the raw page goes to object storage and never to git, and the
+# parser drops the column at derive. The business question needs the facility,
+# never the person; if one ever needs the contact, the raw bytes still hold it.
+source_id: fda.outsourcing.facilities
+status: active
+cadence: monthly
+schema_id: fda-outsourcing.v1
+
+publisher: US Food and Drug Administration (CDER)
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: present
+storage: object
+
+notes: >-
+  96 facilities in one server-rendered table, nine columns, 864 cells. Monthly
+  rather than weekly: registration renews annually and inspections are years
+  apart, so weekly would be 52 identical captures a year of a register that
+  moves a handful of times. The only archive link on the page is FDA's generic
+  site archive, which does not hold dated copies of this list.
+
+endpoints:
+  - url: "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities"
+    delay_seconds: 5
+
+gates:
+  expect_status: 200
+  # Observed 69,909 bytes. Half, so a page that renders chrome without the
+  # table fails rather than being archived as a good fetch.
+  min_bytes: 35000
+  content_type_any: [html]
+  must_contain: ["Action Based on Last Inspection", "Intends to Compound", "Initial Registration Date"]
+  max_shrink_pct: 50
