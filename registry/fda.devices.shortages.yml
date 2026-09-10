@@ -1,0 +1,48 @@
+# FDA's medical device shortage list — the device half of the question
+# `fda.shortages.current` asks about drugs, and it perishes harder.
+#
+# On 2026-09-10 the page carried SIX devices in shortage and 145
+# discontinuations. Six. A live set that small turns over invisibly: a device
+# enters, a device leaves, and FDA publishes no transition event and no
+# resolved list. The drug feed at least admits its seven resolved records; this
+# page does not have the concept.
+#
+# The second thing that perishes is a promise. "Availability and Estimated
+# Shortage Duration" reads "Estimated through Q4 2026", and the Date column
+# concatenates its own revision trail in place — "2026/03/13 Initial
+# 2026/06/16 Revised". The estimate moves and the page keeps only where it
+# landed most recently.
+#
+# 506J is the statutory reporting duty that creates this list, so the entries
+# are filings rather than journalism.
+source_id: fda.devices.shortages
+status: active
+cadence: weekly
+schema_id: fda-device-shortage.v1
+
+publisher: US Food and Drug Administration (CDRH)
+publisher_tier: first_party
+destroys_own_history: true
+licence: "US federal work, no copyright in the US"
+personal_data: none
+storage: git
+
+notes: >-
+  Two server-rendered tables in one Drupal node — no JavaScript, no API, 906
+  cells across 153 rows. Table 1 is the shortage list (6 rows, six columns);
+  table 2 is discontinuations (145 rows, six different columns). They are
+  parsed separately because they share no schema beyond Category and Product
+  Code. Manufacturer names are companies, not people.
+
+endpoints:
+  - url: "https://www.fda.gov/medical-devices/medical-device-supply-chain-and-shortages/medical-device-shortages-list"
+    delay_seconds: 5
+
+gates:
+  expect_status: 200
+  # Observed 92,626 bytes. Half, so a page that renders its chrome and drops
+  # both tables fails instead of being archived as a good fetch.
+  min_bytes: 45000
+  content_type_any: [html]
+  must_contain: ["Reason for Interruption", "Reason for Discontinuance", "Product Code"]
+  max_shrink_pct: 50
