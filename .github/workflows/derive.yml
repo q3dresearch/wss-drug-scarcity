@@ -49,6 +49,20 @@ jobs:
       - name: Install engine
         run: pip install "$ENGINE_SPEC"
       - name: Rebuild derived/ from the raw archive
+        env:
+          # Object storage for sources declaring `storage: object`. Without these
+          # the monthly shard died on its first DECRS capture and stayed red --
+          # object_config() resolves to an entirely empty config and there is
+          # nowhere to write the raw bytes.
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          WSS_OBJECT_PREFIX: ${{ secrets.WSS_OBJECT_PREFIX }}
+          # One-way fingerprints of personal data. Must match the local salt or
+          # fingerprints will not line up across captures; if unset, the parser
+          # emits no fingerprint rather than a phone number.
+          WSS_PII_SALT: ${{ secrets.WSS_PII_SALT }}
         run: wss derive
       - name: Refresh the dataset page
         # Coverage dates come from the manifest, so the page goes stale the
