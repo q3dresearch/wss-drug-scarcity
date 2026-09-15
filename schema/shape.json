@@ -1,0 +1,2978 @@
+{
+  "generated_at": "2026-09-15T13:14:32Z",
+  "note": "Inferred from the derived rows by `wss schema`, not hand-written. Regenerate after any derive.",
+  "sources": {
+    "ansm.shortages.fr": {
+      "source_id": "ansm.shortages.fr",
+      "schema_id": "ansm-shortage.v1",
+      "cadence": "weekly",
+      "licence": "ANSM public information; see https://ansm.sante.fr/page/documents-administratifs-mis-a-la-disposition-du-public",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "Agence nationale de sécurité du médicament (France)",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.citations.drugs": {
+      "source_id": "fda.citations.drugs",
+      "schema_id": "fda-inspection-citation.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.citations.history": {
+      "source_id": "fda.citations.history",
+      "schema_id": "fda-inspection-citation.v1",
+      "cadence": "quarterly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 18
+    },
+    "fda.complianceactions.drugs": {
+      "source_id": "fda.complianceactions.drugs",
+      "schema_id": "fda-compliance-action.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.decrs.excluded": {
+      "source_id": "fda.decrs.excluded",
+      "schema_id": "fda.decrs.v1",
+      "cadence": "monthly",
+      "licence": "US federal government work, public domain",
+      "personal_data": "present",
+      "storage": "object",
+      "publisher": "FDA CDER — Drug Establishments Current Registration Site",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.decrs.registrations": {
+      "source_id": "fda.decrs.registrations",
+      "schema_id": "fda.decrs.v1",
+      "cadence": "monthly",
+      "licence": "US federal government work, public domain",
+      "personal_data": "present",
+      "storage": "object",
+      "publisher": "FDA CDER — Drug Establishments Current Registration Site",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.devices.shortages": {
+      "source_id": "fda.devices.shortages",
+      "schema_id": "fda-device-shortage.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration (CDRH)",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.drugsfda.cohort-status": {
+      "source_id": "fda.drugsfda.cohort-status",
+      "schema_id": "fda-drugsfda-count.v1",
+      "cadence": "monthly",
+      "licence": "US federal work, no copyright in the US; https://open.fda.gov/terms/",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 304
+    },
+    "fda.importalert.66-40": {
+      "source_id": "fda.importalert.66-40",
+      "schema_id": "fda-importalert.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.importalert.66-41": {
+      "source_id": "fda.importalert.66-41",
+      "schema_id": "fda-importalert.v1",
+      "cadence": "monthly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.importrefusals.recent": {
+      "source_id": "fda.importrefusals.recent",
+      "schema_id": "fda-importrefusal.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.inspections.drugs": {
+      "source_id": "fda.inspections.drugs",
+      "schema_id": "fda-inspection-classification.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.inspections.history": {
+      "source_id": "fda.inspections.history",
+      "schema_id": "fda-inspection-classification.v1",
+      "cadence": "quarterly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 14
+    },
+    "fda.nsde.marketing": {
+      "source_id": "fda.nsde.marketing",
+      "schema_id": "archive.v1",
+      "cadence": "monthly",
+      "licence": "US federal work, no copyright in the US; https://open.fda.gov/terms/",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.outsourcing.facilities": {
+      "source_id": "fda.outsourcing.facilities",
+      "schema_id": "fda-outsourcing.v1",
+      "cadence": "monthly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "present",
+      "storage": "object",
+      "publisher": "US Food and Drug Administration (CDER)",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.productcodes.reference": {
+      "source_id": "fda.productcodes.reference",
+      "schema_id": "fda-pcb-reference.v1",
+      "cadence": "monthly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 4
+    },
+    "fda.recalls.cder": {
+      "source_id": "fda.recalls.cder",
+      "schema_id": "fda-ires-recall.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 5
+    },
+    "fda.refusals.backfill": {
+      "source_id": "fda.refusals.backfill",
+      "schema_id": "fda-importrefusal.v1",
+      "cadence": "quarterly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "parties_only",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 31
+    },
+    "fda.rems.approved": {
+      "source_id": "fda.rems.approved",
+      "schema_id": "fda-rems.v1",
+      "cadence": "monthly",
+      "licence": "US federal work, no copyright in the US",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration (CDER)",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    },
+    "fda.shortages.current": {
+      "source_id": "fda.shortages.current",
+      "schema_id": "fda-shortage.v1",
+      "cadence": "weekly",
+      "licence": "US federal work, no copyright in the US; https://open.fda.gov/terms/",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "US Food and Drug Administration",
+      "publisher_tier": "first_party",
+      "endpoints": 2
+    },
+    "tga.shortages.au": {
+      "source_id": "tga.shortages.au",
+      "schema_id": "tga-shortage.v1",
+      "cadence": "weekly",
+      "licence": "Australian Government (TGA); site content CC BY 4.0 unless marked — https://www.tga.gov.au/copyright",
+      "personal_data": "none",
+      "storage": "git",
+      "publisher": "Therapeutic Goods Administration (Australia)",
+      "publisher_tier": "first_party",
+      "endpoints": 1
+    }
+  },
+  "observations": {
+    "rows": 1382774,
+    "columns": [
+      "series_id",
+      "entity_id",
+      "observed_at",
+      "captured_at",
+      "metric",
+      "value",
+      "unit",
+      "source_id",
+      "raw_ref",
+      "parser_version"
+    ],
+    "partitions": [
+      "2001-10.csv.gz",
+      "2001-11.csv.gz",
+      "2001-12.csv.gz",
+      "2002-01.csv.gz",
+      "2002-02.csv.gz",
+      "2002-03.csv.gz",
+      "2002-04.csv.gz",
+      "2002-05.csv.gz",
+      "2002-06.csv.gz",
+      "2002-07.csv.gz",
+      "2002-08.csv.gz",
+      "2002-09.csv.gz",
+      "2002-10.csv.gz",
+      "2002-11.csv.gz",
+      "2002-12.csv.gz",
+      "2003-01.csv.gz",
+      "2003-02.csv.gz",
+      "2003-03.csv.gz",
+      "2003-04.csv.gz",
+      "2003-05.csv.gz",
+      "2003-06.csv.gz",
+      "2003-07.csv.gz",
+      "2003-08.csv.gz",
+      "2003-09.csv.gz",
+      "2003-10.csv.gz",
+      "2003-11.csv.gz",
+      "2003-12.csv.gz",
+      "2004-01.csv.gz",
+      "2004-02.csv.gz",
+      "2004-03.csv.gz",
+      "2004-04.csv.gz",
+      "2004-05.csv.gz",
+      "2004-06.csv.gz",
+      "2004-07.csv.gz",
+      "2004-08.csv.gz",
+      "2004-09.csv.gz",
+      "2004-10.csv.gz",
+      "2004-11.csv.gz",
+      "2004-12.csv.gz",
+      "2005-01.csv.gz",
+      "2005-02.csv.gz",
+      "2005-03.csv.gz",
+      "2005-04.csv.gz",
+      "2005-05.csv.gz",
+      "2005-06.csv.gz",
+      "2005-07.csv.gz",
+      "2005-08.csv.gz",
+      "2005-09.csv.gz",
+      "2005-10.csv.gz",
+      "2005-11.csv.gz",
+      "2005-12.csv.gz",
+      "2006-01.csv.gz",
+      "2006-02.csv.gz",
+      "2006-03.csv.gz",
+      "2006-04.csv.gz",
+      "2006-05.csv.gz",
+      "2006-06.csv.gz",
+      "2006-07.csv.gz",
+      "2006-08.csv.gz",
+      "2006-09.csv.gz",
+      "2006-10.csv.gz",
+      "2006-11.csv.gz",
+      "2006-12.csv.gz",
+      "2007-01.csv.gz",
+      "2007-02.csv.gz",
+      "2007-03.csv.gz",
+      "2007-04.csv.gz",
+      "2007-05.csv.gz",
+      "2007-06.csv.gz",
+      "2007-07.csv.gz",
+      "2007-08.csv.gz",
+      "2007-09.csv.gz",
+      "2007-10.csv.gz",
+      "2007-11.csv.gz",
+      "2007-12.csv.gz",
+      "2008-01.csv.gz",
+      "2008-02.csv.gz",
+      "2008-03.csv.gz",
+      "2008-04.csv.gz",
+      "2008-05.csv.gz",
+      "2008-06.csv.gz",
+      "2008-07.csv.gz",
+      "2008-08.csv.gz",
+      "2008-09.csv.gz",
+      "2008-10.csv.gz",
+      "2008-11.csv.gz",
+      "2008-12.csv.gz",
+      "2009-01.csv.gz",
+      "2009-02.csv.gz",
+      "2009-03.csv.gz",
+      "2009-04.csv.gz",
+      "2009-05.csv.gz",
+      "2009-06.csv.gz",
+      "2009-07.csv.gz",
+      "2009-08.csv.gz",
+      "2009-09.csv.gz",
+      "2009-10.csv.gz",
+      "2009-11.csv.gz",
+      "2009-12.csv.gz",
+      "2010-01.csv.gz",
+      "2010-02.csv.gz",
+      "2010-03.csv.gz",
+      "2010-04.csv.gz",
+      "2010-05.csv.gz",
+      "2010-06.csv.gz",
+      "2010-07.csv.gz",
+      "2010-08.csv.gz",
+      "2010-09.csv.gz",
+      "2010-10.csv.gz",
+      "2010-11.csv.gz",
+      "2010-12.csv.gz",
+      "2011-01.csv.gz",
+      "2011-02.csv.gz",
+      "2011-03.csv.gz",
+      "2011-04.csv.gz",
+      "2011-05.csv.gz",
+      "2011-06.csv.gz",
+      "2011-07.csv.gz",
+      "2011-08.csv.gz",
+      "2011-09.csv.gz",
+      "2011-10.csv.gz",
+      "2011-11.csv.gz",
+      "2011-12.csv.gz",
+      "2012-01.csv.gz",
+      "2012-02.csv.gz",
+      "2012-03.csv.gz",
+      "2012-04.csv.gz",
+      "2012-05.csv.gz",
+      "2012-06.csv.gz",
+      "2012-07.csv.gz",
+      "2012-08.csv.gz",
+      "2012-09.csv.gz",
+      "2012-10.csv.gz",
+      "2012-11.csv.gz",
+      "2012-12.csv.gz",
+      "2013-01.csv.gz",
+      "2013-02.csv.gz",
+      "2013-03.csv.gz",
+      "2013-04.csv.gz",
+      "2013-05.csv.gz",
+      "2013-06.csv.gz",
+      "2013-07.csv.gz",
+      "2013-08.csv.gz",
+      "2013-09.csv.gz",
+      "2013-10.csv.gz",
+      "2013-11.csv.gz",
+      "2013-12.csv.gz",
+      "2014-01.csv.gz",
+      "2014-02.csv.gz",
+      "2014-03.csv.gz",
+      "2014-04.csv.gz",
+      "2014-05.csv.gz",
+      "2014-06.csv.gz",
+      "2014-07.csv.gz",
+      "2014-08.csv.gz",
+      "2014-09.csv.gz",
+      "2014-10.csv.gz",
+      "2014-11.csv.gz",
+      "2014-12.csv.gz",
+      "2015-01.csv.gz",
+      "2015-02.csv.gz",
+      "2015-03.csv.gz",
+      "2015-04.csv.gz",
+      "2015-05.csv.gz",
+      "2015-06.csv.gz",
+      "2015-07.csv.gz",
+      "2015-08.csv.gz",
+      "2015-09.csv.gz",
+      "2015-10.csv.gz",
+      "2015-11.csv.gz",
+      "2015-12.csv.gz",
+      "2016-01.csv.gz",
+      "2016-02.csv.gz",
+      "2016-03.csv.gz",
+      "2016-04.csv.gz",
+      "2016-05.csv.gz",
+      "2016-06.csv.gz",
+      "2016-07.csv.gz",
+      "2016-08.csv.gz",
+      "2016-09.csv.gz",
+      "2016-10.csv.gz",
+      "2016-11.csv.gz",
+      "2016-12.csv.gz",
+      "2017-01.csv.gz",
+      "2017-02.csv.gz",
+      "2017-03.csv.gz",
+      "2017-04.csv.gz",
+      "2017-05.csv.gz",
+      "2017-06.csv.gz",
+      "2017-07.csv.gz",
+      "2017-08.csv.gz",
+      "2017-09.csv.gz",
+      "2017-10.csv.gz",
+      "2017-11.csv.gz",
+      "2017-12.csv.gz",
+      "2018-01.csv.gz",
+      "2018-02.csv.gz",
+      "2018-03.csv.gz",
+      "2018-04.csv.gz",
+      "2018-05.csv.gz",
+      "2018-06.csv.gz",
+      "2018-07.csv.gz",
+      "2018-08.csv.gz",
+      "2018-09.csv.gz",
+      "2018-10.csv.gz",
+      "2018-11.csv.gz",
+      "2018-12.csv.gz",
+      "2019-01.csv.gz",
+      "2019-02.csv.gz",
+      "2019-03.csv.gz",
+      "2019-04.csv.gz",
+      "2019-05.csv.gz",
+      "2019-06.csv.gz",
+      "2019-07.csv.gz",
+      "2019-08.csv.gz",
+      "2019-09.csv.gz",
+      "2019-10.csv.gz",
+      "2019-11.csv.gz",
+      "2019-12.csv.gz",
+      "2020-01.csv.gz",
+      "2020-02.csv.gz",
+      "2020-03.csv.gz",
+      "2020-04.csv.gz",
+      "2020-05.csv.gz",
+      "2020-06.csv.gz",
+      "2020-07.csv.gz",
+      "2020-08.csv.gz",
+      "2020-09.csv.gz",
+      "2020-10.csv.gz",
+      "2020-11.csv.gz",
+      "2020-12.csv.gz",
+      "2021-01.csv.gz",
+      "2021-02.csv.gz",
+      "2021-03.csv.gz",
+      "2021-04.csv.gz",
+      "2021-05.csv.gz",
+      "2021-06.csv.gz",
+      "2021-07.csv.gz",
+      "2021-08.csv.gz",
+      "2021-09.csv.gz",
+      "2021-10.csv.gz",
+      "2021-11.csv.gz",
+      "2021-12.csv.gz",
+      "2022-01.csv.gz",
+      "2022-02.csv.gz",
+      "2022-03.csv.gz",
+      "2022-04.csv.gz",
+      "2022-05.csv.gz",
+      "2022-06.csv.gz",
+      "2022-07.csv.gz",
+      "2022-08.csv.gz",
+      "2022-09.csv.gz",
+      "2022-10.csv.gz",
+      "2022-11.csv.gz",
+      "2022-12.csv.gz",
+      "2023-01.csv.gz",
+      "2023-02.csv.gz",
+      "2023-03.csv.gz",
+      "2023-04.csv.gz",
+      "2023-05.csv.gz",
+      "2023-06.csv.gz",
+      "2023-07.csv.gz",
+      "2023-08.csv.gz",
+      "2023-09.csv.gz",
+      "2023-10.csv.gz",
+      "2023-11.csv.gz",
+      "2023-12.csv.gz",
+      "2024-01.csv.gz",
+      "2024-02.csv.gz",
+      "2024-03.csv.gz",
+      "2024-04.csv.gz",
+      "2024-05.csv.gz",
+      "2024-06.csv.gz",
+      "2024-07.csv.gz",
+      "2024-08.csv.gz",
+      "2024-09.csv.gz",
+      "2024-10.csv.gz",
+      "2024-11.csv.gz",
+      "2024-12.csv.gz",
+      "2025-01.csv.gz",
+      "2025-02.csv.gz",
+      "2025-03.csv.gz",
+      "2025-04.csv.gz",
+      "2025-05.csv.gz",
+      "2025-06.csv.gz",
+      "2025-07.csv.gz",
+      "2025-08.csv.gz",
+      "2025-09.csv.gz",
+      "2025-10.csv.gz",
+      "2025-11.csv.gz",
+      "2025-12.csv.gz",
+      "2026-01.csv.gz",
+      "2026-02.csv.gz",
+      "2026-03.csv.gz",
+      "2026-04.csv.gz",
+      "2026-05.csv.gz",
+      "2026-06.csv.gz",
+      "2026-07.csv.gz",
+      "2026-08.csv.gz",
+      "2026-09.csv.gz"
+    ],
+    "series": {
+      "ansm.shortages.fr": {
+        "rows": 1830,
+        "entities": 291,
+        "entity_id_samples": [
+          "feed:ansm_shortages",
+          "med:acadione-250-mg-comprim-drag-ifi-tiopronine",
+          "med:acide-ac-tylsalicylique-75-mg-comprim-gastro-r-sistant-acide-ac-"
+        ],
+        "metrics": [
+          "domain",
+          "product",
+          "records_discontinued",
+          "records_resolved",
+          "records_rupture",
+          "records_tension",
+          "records_total",
+          "resolved_at",
+          "status",
+          "status_fr",
+          "substance",
+          "updated_at"
+        ]
+      },
+      "fda.citations.drugs": {
+        "rows": 2614,
+        "entities": 206,
+        "entity_id_samples": [
+          "feed:citations",
+          "firm:1000110034",
+          "firm:1000110912"
+        ],
+        "metrics": [
+          "cfr",
+          "cfr_part",
+          "citation",
+          "citation_topic",
+          "feed_records_total",
+          "firm_key",
+          "is_gmp",
+          "label"
+        ]
+      },
+      "fda.citations.history": {
+        "rows": 123285,
+        "entities": 4848,
+        "entity_id_samples": [
+          "feed:citations",
+          "firm:1000034649",
+          "firm:1000036852"
+        ],
+        "metrics": [
+          "cfr",
+          "cfr_part",
+          "citation",
+          "citation_topic",
+          "feed_records_total",
+          "firm_key",
+          "is_gmp",
+          "label"
+        ]
+      },
+      "fda.complianceactions.drugs": {
+        "rows": 17538,
+        "entities": 2710,
+        "entity_id_samples": [
+          "feed:compliance_actions",
+          "firm:1000049118",
+          "firm:1000071237"
+        ],
+        "metrics": [
+          "action_injunction",
+          "action_seizure",
+          "action_taken",
+          "action_warning_letter",
+          "compliance_action",
+          "feed_records_total",
+          "firm_key",
+          "is_foreign",
+          "label"
+        ]
+      },
+      "fda.decrs.excluded": {
+        "rows": 273,
+        "entities": 21,
+        "entity_id_samples": [
+          "duns:074300557",
+          "duns:117450324",
+          "duns:118240178"
+        ],
+        "metrics": [
+          "address",
+          "duns",
+          "exclusion_flag",
+          "fei",
+          "firm_name"
+        ]
+      },
+      "fda.decrs.registrations": {
+        "rows": 275223,
+        "entities": 10085,
+        "entity_id_samples": [
+          "duns:007910702",
+          "duns:013147097",
+          "duns:017329950"
+        ],
+        "metrics": [
+          "address",
+          "duns",
+          "exclusion_flag",
+          "fei",
+          "firm_name",
+          "operations",
+          "registrant_duns",
+          "registrant_name",
+          "registration_expires"
+        ]
+      },
+      "fda.devices.shortages": {
+        "rows": 2910,
+        "entities": 138,
+        "entity_id_samples": [
+          "device:BYS",
+          "device:DTZ",
+          "device:DXT"
+        ],
+        "metrics": [
+          "additional_info",
+          "availability",
+          "category",
+          "date_posted",
+          "date_raw",
+          "devices_discontinued",
+          "devices_in_shortage",
+          "listed",
+          "manufacturer",
+          "product_code",
+          "reason",
+          "trade_name"
+        ]
+      },
+      "fda.drugsfda.cohort-status": {
+        "rows": 5980,
+        "entities": 303,
+        "entity_id_samples": [
+          "molecule:acetaminophen",
+          "molecule:acetazolamide",
+          "molecule:acyclovir-sodium"
+        ],
+        "metrics": [
+          "products_discontinued",
+          "products_ever",
+          "products_marketed",
+          "products_otc",
+          "products_prescription",
+          "products_tentative"
+        ]
+      },
+      "fda.importalert.66-40": {
+        "rows": 13477,
+        "entities": 451,
+        "entity_id_samples": [
+          "alert:total",
+          "country:armenia/firm:babikian-healthcare-products",
+          "country:aruba/firm:aruba-aloe-balm-n-v"
+        ],
+        "metrics": [
+          "firms_listed",
+          "first_listed",
+          "listed",
+          "product_entries"
+        ]
+      },
+      "fda.importalert.66-41": {
+        "rows": 37660,
+        "entities": 1794,
+        "entity_id_samples": [
+          "alert:total",
+          "country:aa-ghana/firm:henacent-limited",
+          "country:ab-canada/firm:canada-prescriptions-plus"
+        ],
+        "metrics": [
+          "firms_listed",
+          "first_listed",
+          "listed",
+          "product_entries"
+        ]
+      },
+      "fda.importrefusals.recent": {
+        "rows": 27453,
+        "entities": 1790,
+        "entity_id_samples": [
+          "feed:import_refusals",
+          "firm:1000110364",
+          "firm:1000113495"
+        ],
+        "metrics": [
+          "feed_records_total",
+          "firm_key",
+          "import_refusal",
+          "is_drug_or_biologic",
+          "is_foreign",
+          "is_human_drug",
+          "label",
+          "refused_at"
+        ]
+      },
+      "fda.inspections.drugs": {
+        "rows": 60375,
+        "entities": 7537,
+        "entity_id_samples": [
+          "feed:inspections",
+          "firm:1000021877",
+          "firm:1000022237"
+        ],
+        "metrics": [
+          "classification",
+          "feed_records_total",
+          "firm_key",
+          "inspected",
+          "inspection_end",
+          "is_foreign",
+          "is_oai",
+          "label"
+        ]
+      },
+      "fda.inspections.history": {
+        "rows": 213273,
+        "entities": 15729,
+        "entity_id_samples": [
+          "feed:inspections",
+          "firm:1000021877",
+          "firm:1000022036"
+        ],
+        "metrics": [
+          "classification",
+          "feed_records_total",
+          "firm_key",
+          "inspected",
+          "inspection_end",
+          "is_foreign",
+          "is_oai",
+          "label"
+        ]
+      },
+      "fda.outsourcing.facilities": {
+        "rows": 2126,
+        "entities": 97,
+        "entity_id_samples": [
+          "facility:503b-outsourcing-facility-one-llc-west-palm-beach-fl",
+          "facility:ajenat-pharmaceuticals-llc-largo-fl",
+          "facility:anazaohealth-corporation-las-vegas-nv"
+        ],
+        "metrics": [
+          "action_none",
+          "action_open",
+          "action_other",
+          "action_regulatory_meeting",
+          "action_status",
+          "action_untitled_letter",
+          "action_warning_letter",
+          "contact_person_fp",
+          "contact_phone_fp",
+          "facilities_registered",
+          "facility_name",
+          "form_483_issued",
+          "initial_registration",
+          "intends_sterile_from_bulk",
+          "last_inspection",
+          "most_recent_registration",
+          "recall_conducted",
+          "registered"
+        ]
+      },
+      "fda.productcodes.reference": {
+        "rows": 6004,
+        "entities": 375,
+        "entity_id_samples": [
+          "pcb:indid-classid-classdesc",
+          "pcb:indid-classid-classdesc/code:00",
+          "pcb:indid-classid-classdesc/code:02"
+        ],
+        "metrics": [
+          "label",
+          "listed",
+          "rows_listed"
+        ]
+      },
+      "fda.recalls.cder": {
+        "rows": 13998,
+        "entities": 562,
+        "entity_id_samples": [
+          "feed:recalls",
+          "firm:1000036852",
+          "firm:1000076625"
+        ],
+        "metrics": [
+          "feed_records_total",
+          "firm_key",
+          "is_class_i",
+          "label",
+          "recall",
+          "recall_class",
+          "recall_initiated",
+          "recall_terminated"
+        ]
+      },
+      "fda.refusals.backfill": {
+        "rows": 392012,
+        "entities": 31253,
+        "entity_id_samples": [
+          "feed:import_refusals",
+          "firm:1000028832",
+          "firm:1000036852"
+        ],
+        "metrics": [
+          "feed_records_total",
+          "firm_key",
+          "import_refusal",
+          "is_drug_or_biologic",
+          "is_foreign",
+          "is_human_drug",
+          "label",
+          "refused_at"
+        ]
+      },
+      "fda.rems.approved": {
+        "rows": 715,
+        "entities": 72,
+        "entity_id_samples": [
+          "feed:fda_rems",
+          "rems:adasuve-loxapine-aerosol-powder-nda-022549",
+          "rems:alvimopan-shared-system-rems-shared-system-rems"
+        ],
+        "metrics": [
+          "active_ingredients",
+          "approved",
+          "approved_at",
+          "flag_communication_plan",
+          "flag_etasu",
+          "flag_implementation_system",
+          "flag_medication_guide",
+          "last_updated",
+          "product_count",
+          "rems_approved_total",
+          "rems_name",
+          "total_flag_communication_plan",
+          "total_flag_etasu",
+          "total_flag_implementation_system",
+          "total_flag_medication_guide"
+        ]
+      },
+      "fda.shortages.current": {
+        "rows": 165360,
+        "entities": 1919,
+        "entity_id_samples": [
+          "drug:acetaminophen-oxycodone-hydrochloride-tablet/category:analgesia-addiction",
+          "drug:acetaminophen-oxycodone-hydrochloride-tablet/ndc:60951060270",
+          "drug:acetaminophen-oxycodone-hydrochloride-tablet/ndc:60951060285"
+        ],
+        "metrics": [
+          "availability",
+          "feed_records_total",
+          "first_listed",
+          "in_category",
+          "is_injectable",
+          "last_update",
+          "listed",
+          "made_by",
+          "sold_by",
+          "status_code"
+        ]
+      },
+      "tga.shortages.au": {
+        "rows": 20668,
+        "entities": 985,
+        "entity_id_samples": [
+          "artg:100517",
+          "artg:100703",
+          "artg:101685"
+        ],
+        "metrics": [
+          "active_ingredient",
+          "atc_level1",
+          "availability",
+          "deleted_date",
+          "dose_form",
+          "duration_days",
+          "last_updated",
+          "patient_impact",
+          "records_anticipated",
+          "records_current",
+          "records_discontinued",
+          "records_resolved",
+          "records_total",
+          "resolved_with_duration",
+          "shortage_end",
+          "shortage_impact",
+          "shortage_start",
+          "status",
+          "trade_name"
+        ]
+      }
+    },
+    "parser_versions": [
+      "1"
+    ]
+  },
+  "metrics": {
+    "action_injunction": {
+      "rows": 48,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.complianceactions.drugs"
+      ],
+      "entities": 48,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "action_none": {
+      "rows": 2,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "41",
+      "max": "41",
+      "samples": [
+        "41"
+      ]
+    },
+    "action_open": {
+      "rows": 2,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "36",
+      "max": "36",
+      "samples": [
+        "36"
+      ]
+    },
+    "action_other": {
+      "rows": 2,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "5",
+      "max": "5",
+      "samples": [
+        "5"
+      ]
+    },
+    "action_regulatory_meeting": {
+      "rows": 2,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "6",
+      "max": "6",
+      "samples": [
+        "6"
+      ]
+    },
+    "action_seizure": {
+      "rows": 24,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.complianceactions.drugs"
+      ],
+      "entities": 24,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "action_status": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 22,
+      "empty": 0,
+      "samples": [
+        "FMD-145 Letter Issued 6/17/2026",
+        "FMD-145 Letter Issued 6/23/2025",
+        "FMD-145 Letter Issued 6/5/2025"
+      ]
+    },
+    "action_taken": {
+      "rows": 2922,
+      "unit": "yyyymmdd",
+      "type": "number",
+      "series": [
+        "fda.complianceactions.drugs"
+      ],
+      "entities": 2709,
+      "distinct_values": 1730,
+      "empty": 0,
+      "min": "20081001",
+      "max": "20260904",
+      "samples": [
+        "20081001",
+        "20081003",
+        "20081021"
+      ]
+    },
+    "action_untitled_letter": {
+      "rows": 2,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "3",
+      "max": "3",
+      "samples": [
+        "3"
+      ]
+    },
+    "action_warning_letter": {
+      "rows": 2852,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.complianceactions.drugs",
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 2677,
+      "distinct_values": 2,
+      "empty": 0,
+      "min": "1",
+      "max": "5",
+      "samples": [
+        "1",
+        "5"
+      ]
+    },
+    "active_ingredient": {
+      "rows": 1968,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 984,
+      "distinct_values": 405,
+      "empty": 0,
+      "samples": [
+        "Adalimumab",
+        "Albumin",
+        "American house dust mite extract"
+      ]
+    },
+    "active_ingredients": {
+      "rows": 71,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 70,
+      "empty": 0,
+      "samples": [
+        "Copper",
+        "Crovalimab-akkz",
+        "Iberdomide"
+      ]
+    },
+    "additional_info": {
+      "rows": 18,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 6,
+      "distinct_values": 5,
+      "empty": 0,
+      "samples": [
+        "Angiographic control syringes with rotating adapters are in shortage.",
+        "Neurosurgical patties, sponges & strip products are in shortage. The FDA has issued a Letter to Health Care Providers to provide recommendations to health care providers and facilities that use neurosurgical patties.",
+        "Oxygenator devices intended for extracorporeal circulation are in shortage."
+      ]
+    },
+    "address": {
+      "rows": 31345,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.decrs.excluded",
+        "fda.decrs.registrations"
+      ],
+      "entities": 10105,
+      "distinct_values": 10421,
+      "empty": 0,
+      "samples": [
+        "# 5-5-35/169/1, Plot No-19, Ground floor, Prashanth Nagar, I.E. Kukatpally Nagar, Hyderabad, Telangana 500072, India (IND)",
+        "#1 Haiyan Road, Xintai, Shandong 271200, China (CHN)",
+        "#1 Heilman Avenue, Willow Island, West Virginia (WV) 26134-9732, United States (USA)"
+      ]
+    },
+    "approved": {
+      "rows": 71,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "yes"
+      ]
+    },
+    "approved_at": {
+      "rows": 71,
+      "unit": "date",
+      "type": "date",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 68,
+      "empty": 0,
+      "min": "2009-12-11",
+      "max": "2026-08-13",
+      "samples": [
+        "2009-12-11",
+        "2010-02-02",
+        "2010-06-01"
+      ]
+    },
+    "atc_level1": {
+      "rows": 1964,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 982,
+      "distinct_values": 14,
+      "empty": 0,
+      "samples": [
+        "Alimentary tract and metabolism",
+        "Antineoplastic and immunomodulating agents",
+        "Antiparasitic products, insecticides and repellents"
+      ]
+    },
+    "availability": {
+      "rows": 17148,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages",
+        "fda.shortages.current",
+        "tga.shortages.au"
+      ],
+      "entities": 2158,
+      "distinct_values": 11,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "category": {
+      "rows": 414,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 137,
+      "distinct_values": 27,
+      "empty": 0,
+      "samples": [
+        "ANESTHESIOLOGY - Division of Anesthesia, Respiratory, & Sleep Devices",
+        "Anesthesiology - Anesthesia, Respiratory, and Sleep Devices",
+        "Anesthesiology – Anesthesia, Respiratory, and Sleep Devices"
+      ]
+    },
+    "cfr": {
+      "rows": 40481,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history"
+      ],
+      "entities": 4919,
+      "distinct_values": 370,
+      "empty": 0,
+      "samples": [
+        "21 CFR 211.100(a)",
+        "21 CFR 211.100(b)",
+        "21 CFR 211.101(a)"
+      ]
+    },
+    "cfr_part": {
+      "rows": 8943,
+      "unit": "part",
+      "type": "number",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history"
+      ],
+      "entities": 4919,
+      "distinct_values": 11,
+      "empty": 0,
+      "min": "211",
+      "max": "760",
+      "samples": [
+        "211",
+        "212",
+        "310"
+      ]
+    },
+    "citation": {
+      "rows": 8583,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history"
+      ],
+      "entities": 4919,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "citation_topic": {
+      "rows": 41775,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history"
+      ],
+      "entities": 4919,
+      "distinct_values": 654,
+      "empty": 0,
+      "samples": [
+        ">50% of members not at RDRC meeting",
+        "Absence of Written Procedures",
+        "Accelerated stability studies"
+      ]
+    },
+    "classification": {
+      "rows": 39240,
+      "unit": "ordinal",
+      "type": "number",
+      "series": [
+        "fda.inspections.drugs",
+        "fda.inspections.history"
+      ],
+      "entities": 18907,
+      "distinct_values": 3,
+      "empty": 0,
+      "min": "0",
+      "max": "2",
+      "samples": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "compliance_action": {
+      "rows": 2922,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.complianceactions.drugs"
+      ],
+      "entities": 2709,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "contact_person_fp": {
+      "rows": 192,
+      "unit": "id",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 88,
+      "empty": 0,
+      "samples": [
+        "0b200f97d93a",
+        "0cd59a5ef5a7",
+        "0cdef494661f"
+      ]
+    },
+    "contact_phone_fp": {
+      "rows": 192,
+      "unit": "id",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 90,
+      "empty": 0,
+      "samples": [
+        "00000402cb44",
+        "0203a7e2a724",
+        "02a6497df176"
+      ]
+    },
+    "date_posted": {
+      "rows": 393,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 131,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "3/13/2026",
+        "6/16/2026"
+      ]
+    },
+    "date_raw": {
+      "rows": 18,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 6,
+      "distinct_values": 5,
+      "empty": 0,
+      "samples": [
+        "2023/09/11 Initial 2025/07/16 Reverified 2026/03/13 Reverified 2026/06/16 Reverified",
+        "2024/11/15 Initial 2025/07/16 Reverified 2026/03/13 Reverified 2026/06/16 Reverified",
+        "2026/03/13 Initial"
+      ]
+    },
+    "deleted_date": {
+      "rows": 556,
+      "unit": "date",
+      "type": "date",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 278,
+      "distinct_values": 131,
+      "empty": 0,
+      "min": "2024-01-31",
+      "max": "2027-12-31",
+      "samples": [
+        "2024-01-31",
+        "2025-09-11",
+        "2025-09-12"
+      ]
+    },
+    "devices_discontinued": {
+      "rows": 3,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "145",
+      "max": "145",
+      "samples": [
+        "145"
+      ]
+    },
+    "devices_in_shortage": {
+      "rows": 3,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "6",
+      "max": "6",
+      "samples": [
+        "6"
+      ]
+    },
+    "domain": {
+      "rows": 290,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 290,
+      "distinct_values": 49,
+      "empty": 0,
+      "samples": [
+        "Addictologie, Neurologie",
+        "Allergologie",
+        "Allergologie, Infectiologie, Neurologie"
+      ]
+    },
+    "dose_form": {
+      "rows": 1968,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 984,
+      "distinct_values": 52,
+      "empty": 0,
+      "samples": [
+        "Capsule",
+        "Capsule, enteric",
+        "Capsule, hard"
+      ]
+    },
+    "duns": {
+      "rows": 31423,
+      "unit": "text",
+      "type": "number",
+      "series": [
+        "fda.decrs.excluded",
+        "fda.decrs.registrations"
+      ],
+      "entities": 10105,
+      "distinct_values": 10478,
+      "empty": 0,
+      "min": "000000000",
+      "max": "989968644",
+      "samples": [
+        "000000000",
+        "001073530",
+        "001127661"
+      ]
+    },
+    "duration_days": {
+      "rows": 408,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 204,
+      "distinct_values": 113,
+      "empty": 0,
+      "min": "0",
+      "max": "6538",
+      "samples": [
+        "0",
+        "10",
+        "100"
+      ]
+    },
+    "exclusion_flag": {
+      "rows": 30305,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.decrs.excluded",
+        "fda.decrs.registrations"
+      ],
+      "entities": 10105,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "E",
+        "N"
+      ]
+    },
+    "facilities_registered": {
+      "rows": 2,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "96",
+      "max": "96",
+      "samples": [
+        "96"
+      ]
+    },
+    "facility_name": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 96,
+      "empty": 0,
+      "samples": [
+        "503B Outsourcing Facility One, LLC, West Palm Beach, FL",
+        "Ajenat Pharmaceuticals, LLC, Largo, FL",
+        "AnazaoHealth Corporation, Las Vegas, NV"
+      ]
+    },
+    "feed_records_total": {
+      "rows": 195,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history",
+        "fda.complianceactions.drugs",
+        "fda.importrefusals.recent",
+        "fda.inspections.drugs",
+        "fda.inspections.history",
+        "fda.recalls.cder",
+        "fda.refusals.backfill",
+        "fda.shortages.current"
+      ],
+      "entities": 6,
+      "distinct_values": 80,
+      "empty": 0,
+      "min": "408",
+      "max": "532484",
+      "samples": [
+        "1120",
+        "1167",
+        "1334"
+      ]
+    },
+    "fei": {
+      "rows": 29663,
+      "unit": "text",
+      "type": "number",
+      "series": [
+        "fda.decrs.excluded",
+        "fda.decrs.registrations"
+      ],
+      "entities": 9890,
+      "distinct_values": 9890,
+      "empty": 0,
+      "min": "0000000360",
+      "max": "8129176060",
+      "samples": [
+        "0000000360",
+        "0000000405",
+        "0000001073"
+      ]
+    },
+    "firm_key": {
+      "rows": 112268,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history",
+        "fda.complianceactions.drugs",
+        "fda.importrefusals.recent",
+        "fda.inspections.drugs",
+        "fda.inspections.history",
+        "fda.recalls.cder",
+        "fda.refusals.backfill"
+      ],
+      "entities": 50313,
+      "distinct_values": 42324,
+      "empty": 0,
+      "samples": [
+        "0944 AMP AMPELOKIPI SPEEDEX",
+        "1 A",
+        "1 GLOBE HEALTH INSTITUTE"
+      ]
+    },
+    "firm_name": {
+      "rows": 30761,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.decrs.excluded",
+        "fda.decrs.registrations"
+      ],
+      "entities": 10105,
+      "distinct_values": 7795,
+      "empty": 0,
+      "samples": [
+        "1201258 Ontario Inc.",
+        "1256 Cattle Company",
+        "1Link LLC dba USA Diagnostix"
+      ]
+    },
+    "firms_listed": {
+      "rows": 17,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.importalert.66-40",
+        "fda.importalert.66-41"
+      ],
+      "entities": 1,
+      "distinct_values": 3,
+      "empty": 0,
+      "min": "448",
+      "max": "1793",
+      "samples": [
+        "1793",
+        "448",
+        "449"
+      ]
+    },
+    "first_listed": {
+      "rows": 37871,
+      "unit": "yyyymmdd",
+      "type": "number",
+      "series": [
+        "fda.importalert.66-40",
+        "fda.importalert.66-41",
+        "fda.shortages.current"
+      ],
+      "entities": 3810,
+      "distinct_values": 1311,
+      "empty": 0,
+      "min": "20090910",
+      "max": "20260909",
+      "samples": [
+        "20090910",
+        "20090930",
+        "20091020"
+      ]
+    },
+    "flag_communication_plan": {
+      "rows": 71,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "no",
+        "yes"
+      ]
+    },
+    "flag_etasu": {
+      "rows": 71,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "no",
+        "yes"
+      ]
+    },
+    "flag_implementation_system": {
+      "rows": 71,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "no",
+        "yes"
+      ]
+    },
+    "flag_medication_guide": {
+      "rows": 71,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "no",
+        "yes"
+      ]
+    },
+    "form_483_issued": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 4,
+      "empty": 0,
+      "samples": [
+        "483",
+        "N/A",
+        "No"
+      ]
+    },
+    "import_refusal": {
+      "rows": 59778,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.importrefusals.recent",
+        "fda.refusals.backfill"
+      ],
+      "entities": 32057,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "in_category": {
+      "rows": 6475,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.shortages.current"
+      ],
+      "entities": 322,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "initial_registration": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 94,
+      "empty": 0,
+      "samples": [
+        "1/11/2023",
+        "1/12/2015",
+        "1/14/2015"
+      ]
+    },
+    "inspected": {
+      "rows": 39054,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.inspections.drugs",
+        "fda.inspections.history"
+      ],
+      "entities": 18907,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "inspection_end": {
+      "rows": 39054,
+      "unit": "yyyymmdd",
+      "type": "number",
+      "series": [
+        "fda.inspections.drugs",
+        "fda.inspections.history"
+      ],
+      "entities": 18907,
+      "distinct_values": 4519,
+      "empty": 0,
+      "min": "20081001",
+      "max": "20260819",
+      "samples": [
+        "20081001",
+        "20081002",
+        "20081003"
+      ]
+    },
+    "intends_sterile_from_bulk": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "No",
+        "Yes"
+      ]
+    },
+    "is_class_i": {
+      "rows": 2003,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.recalls.cder"
+      ],
+      "entities": 559,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "is_drug_or_biologic": {
+      "rows": 59830,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.importrefusals.recent",
+        "fda.refusals.backfill"
+      ],
+      "entities": 32057,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "is_foreign": {
+      "rows": 101754,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.complianceactions.drugs",
+        "fda.importrefusals.recent",
+        "fda.inspections.drugs",
+        "fda.inspections.history",
+        "fda.refusals.backfill"
+      ],
+      "entities": 49719,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "is_gmp": {
+      "rows": 8914,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history"
+      ],
+      "entities": 4919,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "is_human_drug": {
+      "rows": 60750,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.importrefusals.recent",
+        "fda.refusals.backfill"
+      ],
+      "entities": 32057,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "is_injectable": {
+      "rows": 20831,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.shortages.current"
+      ],
+      "entities": 1596,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "is_oai": {
+      "rows": 39095,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.inspections.drugs",
+        "fda.inspections.history"
+      ],
+      "entities": 18907,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "label": {
+      "rows": 116830,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "fda.citations.drugs",
+        "fda.citations.history",
+        "fda.complianceactions.drugs",
+        "fda.importrefusals.recent",
+        "fda.inspections.drugs",
+        "fda.inspections.history",
+        "fda.productcodes.reference",
+        "fda.recalls.cder",
+        "fda.refusals.backfill"
+      ],
+      "entities": 50712,
+      "distinct_values": 47443,
+      "empty": 0,
+      "samples": [
+        "\"Agropharm\" Ltd",
+        "\"Eliava Biopreparations\" LLC",
+        "\"Orhei-Vit\" JSC"
+      ]
+    },
+    "last_inspection": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 49,
+      "empty": 0,
+      "samples": [
+        "1/14/2026",
+        "1/28/2026",
+        "10/30/2025"
+      ]
+    },
+    "last_update": {
+      "rows": 20831,
+      "unit": "yyyymmdd",
+      "type": "number",
+      "series": [
+        "fda.shortages.current"
+      ],
+      "entities": 1596,
+      "distinct_values": 141,
+      "empty": 0,
+      "min": "20230428",
+      "max": "20260909",
+      "samples": [
+        "20230428",
+        "20250829",
+        "20250904"
+      ]
+    },
+    "last_updated": {
+      "rows": 2039,
+      "unit": "date",
+      "type": "date",
+      "series": [
+        "fda.rems.approved",
+        "tga.shortages.au"
+      ],
+      "entities": 1055,
+      "distinct_values": 376,
+      "empty": 0,
+      "min": "2008-10-01",
+      "max": "2026-09-10",
+      "samples": [
+        "2008-10-01",
+        "2009-10-16",
+        "2016-10-01"
+      ]
+    },
+    "listed": {
+      "rows": 39766,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages",
+        "fda.importalert.66-40",
+        "fda.importalert.66-41",
+        "fda.productcodes.reference",
+        "fda.shortages.current"
+      ],
+      "entities": 4318,
+      "distinct_values": 3,
+      "empty": 0,
+      "samples": [
+        "1",
+        "device",
+        "discontinued"
+      ]
+    },
+    "made_by": {
+      "rows": 18685,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "fda.shortages.current"
+      ],
+      "entities": 1431,
+      "distinct_values": 128,
+      "empty": 0,
+      "samples": [
+        "ABBVIE",
+        "ACCORD HEALTHCARE",
+        "ACTAVIS"
+      ]
+    },
+    "manufacturer": {
+      "rows": 396,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 131,
+      "distinct_values": 29,
+      "empty": 0,
+      "samples": [
+        "AirLife",
+        "Angelini Pharma Inc.",
+        "Baxter Healthcare Corporation"
+      ]
+    },
+    "most_recent_registration": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 52,
+      "empty": 0,
+      "samples": [
+        "1/1/2026",
+        "1/10/2026",
+        "1/15/2026"
+      ]
+    },
+    "operations": {
+      "rows": 30694,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.decrs.registrations"
+      ],
+      "entities": 10085,
+      "distinct_values": 181,
+      "empty": 0,
+      "samples": [
+        "ANALYSIS",
+        "ANALYSIS; API MANUFACTURE",
+        "ANALYSIS; API MANUFACTURE; DISTRIBUTE; LABEL; MANUFACTURE; PACK"
+      ]
+    },
+    "patient_impact": {
+      "rows": 4,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 2,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "SEVERE"
+      ]
+    },
+    "product": {
+      "rows": 291,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 290,
+      "distinct_values": 291,
+      "empty": 0,
+      "samples": [
+        "Acadione 250 mg, comprimé dragéifié – [tiopronine]",
+        "Acide acétylsalicylique 75 mg, , comprimé gastro-résistant – [acide acétylsalicylique]",
+        "Actosolv 100 000 UI et 600 000 UI, poudre pour solution injectable / pour perfusion - [Urokinase]"
+      ]
+    },
+    "product_code": {
+      "rows": 411,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 137,
+      "distinct_values": 59,
+      "empty": 0,
+      "samples": [
+        "BSR (STYLET, TRACHEAL TUBE)",
+        "BTR (TUBE, TRACHEAL (W/WO CONNECTOR))",
+        "BYD (CONDENSER, HEAT AND MOISTURE (ARTIFICIAL NOSE))"
+      ]
+    },
+    "product_count": {
+      "rows": 71,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 13,
+      "empty": 0,
+      "min": "1",
+      "max": "36900",
+      "samples": [
+        "1",
+        "10",
+        "11"
+      ]
+    },
+    "product_entries": {
+      "rows": 17040,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.importalert.66-40",
+        "fda.importalert.66-41"
+      ],
+      "entities": 2214,
+      "distinct_values": 66,
+      "empty": 0,
+      "min": "2",
+      "max": "253",
+      "samples": [
+        "10",
+        "100",
+        "106"
+      ]
+    },
+    "products_discontinued": {
+      "rows": 1323,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.drugsfda.cohort-status"
+      ],
+      "entities": 278,
+      "distinct_values": 69,
+      "empty": 0,
+      "min": "1",
+      "max": "401",
+      "samples": [
+        "1",
+        "10",
+        "11"
+      ]
+    },
+    "products_ever": {
+      "rows": 1442,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.drugsfda.cohort-status"
+      ],
+      "entities": 303,
+      "distinct_values": 98,
+      "empty": 0,
+      "min": "0",
+      "max": "536",
+      "samples": [
+        "0",
+        "1",
+        "10"
+      ]
+    },
+    "products_marketed": {
+      "rows": 1442,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.drugsfda.cohort-status"
+      ],
+      "entities": 303,
+      "distinct_values": 62,
+      "empty": 0,
+      "min": "0",
+      "max": "147",
+      "samples": [
+        "0",
+        "1",
+        "10"
+      ]
+    },
+    "products_otc": {
+      "rows": 66,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.drugsfda.cohort-status"
+      ],
+      "entities": 14,
+      "distinct_values": 8,
+      "empty": 0,
+      "min": "1",
+      "max": "24",
+      "samples": [
+        "1",
+        "17",
+        "24"
+      ]
+    },
+    "products_prescription": {
+      "rows": 1391,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.drugsfda.cohort-status"
+      ],
+      "entities": 292,
+      "distinct_values": 59,
+      "empty": 0,
+      "min": "1",
+      "max": "147",
+      "samples": [
+        "1",
+        "10",
+        "11"
+      ]
+    },
+    "products_tentative": {
+      "rows": 316,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.drugsfda.cohort-status"
+      ],
+      "entities": 67,
+      "distinct_values": 8,
+      "empty": 0,
+      "min": "1",
+      "max": "15",
+      "samples": [
+        "1",
+        "10",
+        "15"
+      ]
+    },
+    "reason": {
+      "rows": 429,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages"
+      ],
+      "entities": 137,
+      "distinct_values": 24,
+      "empty": 0,
+      "samples": [
+        "Device on backorder (i.e., temporarily out of stock); Strategic product portfolio simplification",
+        "Discontinuance of the manufacture of the device",
+        "Discontinuance of the manufacture of the device."
+      ]
+    },
+    "recall": {
+      "rows": 1989,
+      "unit": "count",
+      "type": "bool",
+      "series": [
+        "fda.recalls.cder"
+      ],
+      "entities": 561,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "1"
+      ]
+    },
+    "recall_class": {
+      "rows": 2016,
+      "unit": "class",
+      "type": "number",
+      "series": [
+        "fda.recalls.cder"
+      ],
+      "entities": 559,
+      "distinct_values": 3,
+      "empty": 0,
+      "min": "1",
+      "max": "3",
+      "samples": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "recall_conducted": {
+      "rows": 192,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "N/A",
+        "No"
+      ]
+    },
+    "recall_initiated": {
+      "rows": 1989,
+      "unit": "yyyymmdd",
+      "type": "number",
+      "series": [
+        "fda.recalls.cder"
+      ],
+      "entities": 561,
+      "distinct_values": 830,
+      "empty": 0,
+      "min": "20220104",
+      "max": "20260903",
+      "samples": [
+        "20220104",
+        "20220105",
+        "20220107"
+      ]
+    },
+    "recall_terminated": {
+      "rows": 1993,
+      "unit": "bool",
+      "type": "bool",
+      "series": [
+        "fda.recalls.cder"
+      ],
+      "entities": 561,
+      "distinct_values": 2,
+      "empty": 0,
+      "samples": [
+        "0",
+        "1"
+      ]
+    },
+    "records_anticipated": {
+      "rows": 4,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "93",
+      "max": "93",
+      "samples": [
+        "93"
+      ]
+    },
+    "records_current": {
+      "rows": 4,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "409",
+      "max": "409",
+      "samples": [
+        "409"
+      ]
+    },
+    "records_discontinued": {
+      "rows": 5,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "ansm.shortages.fr",
+        "tga.shortages.au"
+      ],
+      "entities": 2,
+      "distinct_values": 2,
+      "empty": 0,
+      "min": "16",
+      "max": "278",
+      "samples": [
+        "16",
+        "278"
+      ]
+    },
+    "records_resolved": {
+      "rows": 5,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "ansm.shortages.fr",
+        "tga.shortages.au"
+      ],
+      "entities": 2,
+      "distinct_values": 2,
+      "empty": 0,
+      "min": "89",
+      "max": "204",
+      "samples": [
+        "204",
+        "89"
+      ]
+    },
+    "records_rupture": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "47",
+      "max": "47",
+      "samples": [
+        "47"
+      ]
+    },
+    "records_tension": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "139",
+      "max": "139",
+      "samples": [
+        "139"
+      ]
+    },
+    "records_total": {
+      "rows": 5,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "ansm.shortages.fr",
+        "tga.shortages.au"
+      ],
+      "entities": 2,
+      "distinct_values": 2,
+      "empty": 0,
+      "min": "291",
+      "max": "984",
+      "samples": [
+        "291",
+        "984"
+      ]
+    },
+    "refused_at": {
+      "rows": 59778,
+      "unit": "yyyymmdd",
+      "type": "number",
+      "series": [
+        "fda.importrefusals.recent",
+        "fda.refusals.backfill"
+      ],
+      "entities": 32057,
+      "distinct_values": 6328,
+      "empty": 0,
+      "min": "20011001",
+      "max": "20260903",
+      "samples": [
+        "20011001",
+        "20011003",
+        "20011004"
+      ]
+    },
+    "registered": {
+      "rows": 192,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "fda.outsourcing.facilities"
+      ],
+      "entities": 96,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "yes"
+      ]
+    },
+    "registrant_duns": {
+      "rows": 30578,
+      "unit": "text",
+      "type": "number",
+      "series": [
+        "fda.decrs.registrations"
+      ],
+      "entities": 10085,
+      "distinct_values": 7052,
+      "empty": 0,
+      "min": "000000000",
+      "max": "989968644",
+      "samples": [
+        "000000000",
+        "000726082",
+        "001018816"
+      ]
+    },
+    "registrant_name": {
+      "rows": 30485,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.decrs.registrations"
+      ],
+      "entities": 10085,
+      "distinct_values": 6789,
+      "empty": 0,
+      "samples": [
+        "1201258 Ontario Inc. O/A Nanz Pharma",
+        "1256 Cattle Company",
+        "1Link LLC dba USA Diagnostix"
+      ]
+    },
+    "registration_expires": {
+      "rows": 30242,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.decrs.registrations"
+      ],
+      "entities": 10085,
+      "distinct_values": 1,
+      "empty": 0,
+      "samples": [
+        "12/31/2026"
+      ]
+    },
+    "rems_approved_total": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "71",
+      "max": "71",
+      "samples": [
+        "71"
+      ]
+    },
+    "rems_name": {
+      "rows": 71,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 71,
+      "distinct_values": 71,
+      "empty": 0,
+      "samples": [
+        "Adasuve ( loxapine ), aerosol, powder NDA #022549",
+        "Alvimopan Shared System REMS Shared System REMS",
+        "Aqvesme ( mitapivat ), tablet NDA #216196"
+      ]
+    },
+    "resolved_at": {
+      "rows": 89,
+      "unit": "date",
+      "type": "date",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 89,
+      "distinct_values": 64,
+      "empty": 0,
+      "min": "2025-07-25",
+      "max": "2026-09-08",
+      "samples": [
+        "2025-07-25",
+        "2025-10-06",
+        "2025-11-01"
+      ]
+    },
+    "resolved_with_duration": {
+      "rows": 4,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "204",
+      "max": "204",
+      "samples": [
+        "204"
+      ]
+    },
+    "rows_listed": {
+      "rows": 16,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.productcodes.reference"
+      ],
+      "entities": 4,
+      "distinct_values": 4,
+      "empty": 0,
+      "min": "80",
+      "max": "1159",
+      "samples": [
+        "1159",
+        "117",
+        "80"
+      ]
+    },
+    "shortage_end": {
+      "rows": 1968,
+      "unit": "date",
+      "type": "text",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 984,
+      "distinct_values": 157,
+      "empty": 0,
+      "samples": [
+        "2022-08-23",
+        "2025-12-05",
+        "2025-12-12"
+      ]
+    },
+    "shortage_impact": {
+      "rows": 1968,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 984,
+      "distinct_values": 3,
+      "empty": 0,
+      "samples": [
+        "Critical",
+        "Low",
+        "Medium"
+      ]
+    },
+    "shortage_start": {
+      "rows": 1968,
+      "unit": "date",
+      "type": "date",
+      "series": [
+        "tga.shortages.au"
+      ],
+      "entities": 984,
+      "distinct_values": 416,
+      "empty": 0,
+      "min": "2003-01-01",
+      "max": "2028-01-01",
+      "samples": [
+        "2003-01-01",
+        "2008-10-01",
+        "2013-01-01"
+      ]
+    },
+    "sold_by": {
+      "rows": 20857,
+      "unit": "",
+      "type": "text",
+      "series": [
+        "fda.shortages.current"
+      ],
+      "entities": 1596,
+      "distinct_values": 131,
+      "empty": 0,
+      "samples": [
+        "ABBVIE",
+        "ACCORD HEALTHCARE",
+        "ACTAVIS"
+      ]
+    },
+    "status": {
+      "rows": 2258,
+      "unit": "state",
+      "type": "text",
+      "series": [
+        "ansm.shortages.fr",
+        "tga.shortages.au"
+      ],
+      "entities": 1274,
+      "distinct_values": 6,
+      "empty": 0,
+      "samples": [
+        "anticipated",
+        "current",
+        "discontinued"
+      ]
+    },
+    "status_code": {
+      "rows": 20831,
+      "unit": "code",
+      "type": "number",
+      "series": [
+        "fda.shortages.current"
+      ],
+      "entities": 1596,
+      "distinct_values": 3,
+      "empty": 0,
+      "min": "0",
+      "max": "2",
+      "samples": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "status_fr": {
+      "rows": 290,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 290,
+      "distinct_values": 4,
+      "empty": 0,
+      "samples": [
+        "Arrêt de commercialisation",
+        "Remise à disposition",
+        "Rupture de stock"
+      ]
+    },
+    "substance": {
+      "rows": 285,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 285,
+      "distinct_values": 227,
+      "empty": 0,
+      "samples": [
+        "acide acétylsalicylique",
+        "acide ascorbique, ascorbate de sodium, macrogol 3350, potassium (chlorure de), sodium (chlorure de), sodium (sulfate de) anhydre",
+        "acide glutamique, calcium (chlorure de) dihydraté, glutathion, histidine, lactobionique (acide), magnésium (chlorure de) hexahydraté, mannitol, potassium (chlorure de), sodium (hydroxyde de)"
+      ]
+    },
+    "total_flag_communication_plan": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "17",
+      "max": "17",
+      "samples": [
+        "17"
+      ]
+    },
+    "total_flag_etasu": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "59",
+      "max": "59",
+      "samples": [
+        "59"
+      ]
+    },
+    "total_flag_implementation_system": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "58",
+      "max": "58",
+      "samples": [
+        "58"
+      ]
+    },
+    "total_flag_medication_guide": {
+      "rows": 1,
+      "unit": "count",
+      "type": "number",
+      "series": [
+        "fda.rems.approved"
+      ],
+      "entities": 1,
+      "distinct_values": 1,
+      "empty": 0,
+      "min": "9",
+      "max": "9",
+      "samples": [
+        "9"
+      ]
+    },
+    "trade_name": {
+      "rows": 2364,
+      "unit": "text",
+      "type": "text",
+      "series": [
+        "fda.devices.shortages",
+        "tga.shortages.au"
+      ],
+      "entities": 1115,
+      "distinct_values": 1115,
+      "empty": 0,
+      "samples": [
+        "(SKU# 39575NA)",
+        "(SKU# 7198D, 7197D, 7196D, 6726, 6198D, 6197D, 6196D, 6021, 3250, 3041, 1824, 1522, 1334, 1143)",
+        "(SKU# 8881225224)"
+      ]
+    },
+    "updated_at": {
+      "rows": 290,
+      "unit": "date",
+      "type": "date",
+      "series": [
+        "ansm.shortages.fr"
+      ],
+      "entities": 290,
+      "distinct_values": 165,
+      "empty": 0,
+      "min": "2021-05-19",
+      "max": "2026-09-09",
+      "samples": [
+        "2021-05-19",
+        "2022-08-09",
+        "2022-11-23"
+      ]
+    }
+  },
+  "raw": {
+    "files": 1079,
+    "bytes_on_disk": 27508532,
+    "capture_dates": 5,
+    "first_capture": "2026-09-02T13:22:06Z",
+    "last_capture": "2026-09-10T12:45:48Z"
+  }
+}
