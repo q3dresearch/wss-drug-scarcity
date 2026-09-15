@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>US Drug Scarcity History (wss-drug-scarcity)</title>
-<meta name="description" content="Point-in-time captures from 11 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
+<meta name="description" content="Point-in-time captures from 20 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Dataset",
   "name": "US Drug Scarcity History (wss-drug-scarcity)",
-  "description": "Point-in-time captures from 11 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
+  "description": "Point-in-time captures from 20 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.",
   "url": "https://github.com/q3dresearch/wss-drug-scarcity",
   "license": "CC-BY-4.0",
   "isAccessibleForFree": true,
@@ -39,8 +39,13 @@
       "contentUrl": "https://github.com/q3dresearch/wss-drug-scarcity/tree/main/data"
     }
   ],
-  "temporalCoverage": "2026-09-02/2026-09-08",
+  "temporalCoverage": "2026-09-02/2026-09-15",
   "isBasedOn": [
+    {
+      "@type": "Dataset",
+      "name": "Agence nationale de sécurité du médicament (France)",
+      "url": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments"
+    },
     {
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
@@ -55,6 +60,21 @@
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
       "url": "https://api-datadashboard.fda.gov/v1/compliance_actions"
+    },
+    {
+      "@type": "Dataset",
+      "name": "FDA CDER — Drug Establishments Current Registration Site",
+      "url": "https://www.accessdata.fda.gov/cder/drls_excluded.zip"
+    },
+    {
+      "@type": "Dataset",
+      "name": "FDA CDER — Drug Establishments Current Registration Site",
+      "url": "https://www.accessdata.fda.gov/cder/drls_reg.zip"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration (CDRH)",
+      "url": "https://www.fda.gov/medical-devices/medical-device-supply-chain-and-shortages/medical-device-shortages-list"
     },
     {
       "@type": "Dataset",
@@ -88,13 +108,38 @@
     },
     {
       "@type": "Dataset",
+      "name": "US Food and Drug Administration (CDER)",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities"
+    },
+    {
+      "@type": "Dataset",
       "name": "US Food and Drug Administration",
       "url": "https://www.accessdata.fda.gov/rest/pcbapi/v1/industry"
     },
     {
       "@type": "Dataset",
       "name": "US Food and Drug Administration",
+      "url": "https://www.accessdata.fda.gov/rest/iresapi/recalls/"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
+      "url": "https://api-datadashboard.fda.gov/v1/import_refusals"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration (CDER)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm"
+    },
+    {
+      "@type": "Dataset",
+      "name": "US Food and Drug Administration",
       "url": "https://api.fda.gov/drug/shortages.json?limit=1000&skip=0"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Therapeutic Goods Administration (Australia)",
+      "url": "https://apps.tga.gov.au/prod/MSI/search/"
     }
   ]
 }
@@ -115,15 +160,23 @@
 </head>
 <body>
 <h1>US Drug Scarcity History (wss-drug-scarcity)</h1>
-<p>Point-in-time captures from 11 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
-<p class="cov">History held: <strong>2026-09-02</strong> to <strong>2026-09-08</strong>.</p>
+<p>Point-in-time captures from 20 sources that do not keep their own history. Each capture stores the bytes as served, with a manifest row recording the URL, fetch time and SHA-256.</p>
+<p class="cov">History held: <strong>2026-09-02</strong> to <strong>2026-09-15</strong>.</p>
 
 
 <h2>Findings</h2>
 <p>Figures are rebuilt from the derived tables on every run; each one names the entities it is about so it can be acted on without a further query.</p>
   <figure>
+    <a href="charts/alert-vs-refusal.svg"><img src="charts/alert-vs-refusal.svg" alt="Import alerts against import refusals, by country" loading="lazy"></a>
+    <figcaption><strong>Import alerts against import refusals, by country</strong> — Scatter of alerts per 100 registered sites against refusal firm-days per site; bubble area is registered sites.</figcaption>
+  </figure>
+  <figure>
     <a href="charts/availability.svg"><img src="charts/availability.svg" alt="Availability of drugs in shortage" loading="lazy"></a>
     <figcaption><strong>Availability of drugs in shortage</strong> — Stacked bars of unavailable, limited and available packages for each drug currently in shortage.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/ban-rate-by-country.svg"><img src="charts/ban-rate-by-country.svg" alt="Import bans per 100 registered sites" loading="lazy"></a>
+    <figcaption><strong>Import bans per 100 registered sites</strong> — FDA Import Alert 66-40 firms per 100 sites on the current drug establishment register, by country.</figcaption>
   </figure>
   <figure>
     <a href="charts/enforcement-year.svg"><img src="charts/enforcement-year.svg" alt="GMP import bans by year and origin" loading="lazy"></a>
@@ -136,6 +189,10 @@
   <figure>
     <a href="charts/inspection-capacity.svg"><img src="charts/inspection-capacity.svg" alt="Drug inspections a year, and the OAI rate" loading="lazy"></a>
     <figcaption><strong>Drug inspections a year, and the OAI rate</strong> — Volume has not recovered; the share finding serious problems rose.</figcaption>
+  </figure>
+  <figure>
+    <a href="charts/refusal-rate-by-country.svg"><img src="charts/refusal-rate-by-country.svg" alt="Refusal firm-days per registered site" loading="lazy"></a>
+    <figcaption><strong>Refusal firm-days per registered site</strong> — FDA import-refusal firm-days 2001-2026 per site on the current drug establishment register, by country.</figcaption>
   </figure>
   <figure>
     <a href="charts/shortage-age.svg"><img src="charts/shortage-age.svg" alt="Age structure of the shortage list" loading="lazy"></a>
@@ -170,17 +227,26 @@
 <table>
   <thead><tr><th>source</th><th>publisher</th><th>cadence</th><th>terms</th></tr></thead>
   <tbody>
+      <tr><td><code>ansm.shortages.fr</code></td><td>Agence nationale de sécurité du médicament (France)</td><td>weekly</td><td>ANSM public information; see https://ansm.sante.fr/page/documents-administratifs-mis-a-la-disposition-du-public</td></tr>
       <tr><td><code>fda.citations.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.citations.history</code></td><td>US Food and Drug Administration</td><td>quarterly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.complianceactions.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.decrs.excluded</code></td><td>FDA CDER — Drug Establishments Current Registration Site</td><td>monthly</td><td>US federal government work, public domain</td></tr>
+      <tr><td><code>fda.decrs.registrations</code></td><td>FDA CDER — Drug Establishments Current Registration Site</td><td>monthly</td><td>US federal government work, public domain</td></tr>
+      <tr><td><code>fda.devices.shortages</code></td><td>US Food and Drug Administration (CDRH)</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.drugsfda.cohort-status</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US; https://open.fda.gov/terms/</td></tr>
       <tr><td><code>fda.importalert.66-40</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.importalert.66-41</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.importrefusals.recent</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.inspections.drugs</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.inspections.history</code></td><td>US Food and Drug Administration</td><td>quarterly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.outsourcing.facilities</code></td><td>US Food and Drug Administration (CDER)</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.productcodes.reference</code></td><td>US Food and Drug Administration</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.recalls.cder</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.refusals.backfill</code></td><td>US Food and Drug Administration</td><td>quarterly</td><td>US federal work, no copyright in the US</td></tr>
+      <tr><td><code>fda.rems.approved</code></td><td>US Food and Drug Administration (CDER)</td><td>monthly</td><td>US federal work, no copyright in the US</td></tr>
       <tr><td><code>fda.shortages.current</code></td><td>US Food and Drug Administration</td><td>weekly</td><td>US federal work, no copyright in the US; https://open.fda.gov/terms/</td></tr>
+      <tr><td><code>tga.shortages.au</code></td><td>Therapeutic Goods Administration (Australia)</td><td>weekly</td><td>Australian Government (TGA); site content CC BY 4.0 unless marked — https://www.tga.gov.au/copyright</td></tr>
   </tbody>
 </table>
 
@@ -192,7 +258,7 @@
 matching manifest row holds that <code>raw_ref</code> with the URL, the fetch
 timestamp and a SHA-256 of exactly what came back, so any number here traces to
 the bytes it came from.</p>
-<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/q3dresearch/wss-drug-scarcity">https://github.com/q3dresearch/wss-drug-scarcity</a>, accessed 2026-09-08.</p>
+<p>Cite this dataset by its repository and the date you took it from: <a href="https://github.com/q3dresearch/wss-drug-scarcity">https://github.com/q3dresearch/wss-drug-scarcity</a>, accessed 2026-09-15.</p>
 
 <footer>
 <p>Repository code and captured data are licensed separately. This dataset is
