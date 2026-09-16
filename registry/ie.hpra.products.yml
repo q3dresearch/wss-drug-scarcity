@@ -1,0 +1,61 @@
+# A STATUS FIELD THAT HAS ONLY EVER HAD ONE VALUE.
+#
+# HPRA publishes its whole authorised-medicines register as two bulk XML files.
+# Every product carries `RegistrationStatus`, and across 10,335 human products
+# and 1,991 veterinary ones it reads `AU` on every single row -- not a sample,
+# the entire file, checked 2026-09-17. Ireland built the field that would make a
+# withdrawal observable and has never set it to anything else, so a withdrawn or
+# suspended product simply LEAVES THE FILE.
+#
+# That is the same shape as Singapore's dataset catalogue, where `status` was
+# `active` on all 4,615 rows. The field is not a status, it is a constant.
+#
+# THE FILENAME IS THE SECOND TELL. `latestHumanlist.xml` is overwritten in
+# place, not published at a dated path. There is no edition history and the blob
+# store carries no withdrawn or suspended list -- latestWithdrawnlist.xml,
+# withdrawnlist.xml and latestSuspendedlist.xml all 404.
+#
+# ONE THING IS UNRESOLVED AND IS RECORDED RATHER THAN GLOSSED. HPRA DOES publish
+# "Withdrawn medicines" and "Suspended medicines" pages, which by the incentive
+# rule points at larder. Both are JavaScript-gated shells that render nothing
+# server-side; the widget calls /api/HumanApprovedProducts, whose base path could
+# not be resolved from the page or from a cache-busted bundle that now 404s. So
+# it is NOT PROVEN that withdrawals are unpublished -- only that they are not in
+# this file, not in the blob store, and not reachable without executing JS.
+# If that page turns out to list withdrawals completely, this source is a larder
+# and should be retired. Settling it is the first entry in docs/research-questions.md.
+source_id: ie.hpra.products
+status: active
+cadence: monthly
+schema_id: hpra-products.v1
+
+publisher: Health Products Regulatory Authority (Ireland)
+publisher_tier: first_party
+destroys_own_history: true
+licence: "unstated on hpra.ie; robots.txt permits and names no agent (checked 2026-09-17)"
+personal_data: none
+storage: git
+
+notes: >-
+  Which medicines lose Irish authorisation, and when? The register answers only
+  what is authorised today. 10,335 human and 1,991 veterinary products, each
+  keyed on a publisher-minted DrugIDPK, in two files overwritten in place.
+  RegistrationStatus is `AU` on 12,326 of 12,326 rows, so a departure is
+  invisible except by comparing captures. MarketInfo is a second signal and
+  does vary: Marketed 3,730 / Not marketed 2,032 / Unknown 4,573 on the human
+  list.
+
+endpoints:
+  - url: "https://hpraproddocsstg.blob.core.windows.net/products/xml/latestHumanlist.xml"
+    delay_seconds: 3
+  - url: "https://hpraproddocsstg.blob.core.windows.net/products/xml/latestAnimallist.xml"
+    delay_seconds: 3
+
+gates:
+  expect_status: 200
+  # Human list is 13.5 MB and animal 2.3 MB; the floor sits below the smaller.
+  min_bytes: 1500000
+  content_type_any: [xml]
+  must_contain: ["<DrugIDPK>", "<RegistrationStatus>"]
+  must_not_contain: ["BlobNotFound", "AuthenticationFailed"]
+  max_shrink_pct: 30
