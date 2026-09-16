@@ -15,15 +15,33 @@
 # store carries no withdrawn or suspended list -- latestWithdrawnlist.xml,
 # withdrawnlist.xml and latestSuspendedlist.xml all 404.
 #
-# ONE THING IS UNRESOLVED AND IS RECORDED RATHER THAN GLOSSED. HPRA DOES publish
-# "Withdrawn medicines" and "Suspended medicines" pages, which by the incentive
-# rule points at larder. Both are JavaScript-gated shells that render nothing
-# server-side; the widget calls /api/HumanApprovedProducts, whose base path could
-# not be resolved from the page or from a cache-busted bundle that now 404s. So
-# it is NOT PROVEN that withdrawals are unpublished -- only that they are not in
-# this file, not in the blob store, and not reachable without executing JS.
-# If that page turns out to list withdrawals completely, this source is a larder
-# and should be retired. Settling it is the first entry in docs/research-questions.md.
+# X1 RESOLVED 2026-09-17, AND IT WEAKENS THE CASE. HPRA DOES PUBLISH ITS
+# WITHDRAWALS. The withdrawn-medicines page calls
+# https://sfapi.hpra.ie/api/HumanApprovedProducts by POST, and its default
+# request body -- readable in the page source -- is:
+#
+#   {"id":null,"skip":0,"take":10,"query":null,"order":"LastUpdated DESC",
+#    "status":"Withdrawn","filters":{...,"atcCode":null,"medicineType":null}}
+#
+# `"status": "Withdrawn"` is the whole answer. The API has a status dimension
+# that the bulk XML does not, and HPRA serves withdrawn products through it. So
+# the claim "nobody records this" is FALSE and must not be made.
+#
+# WHAT WE STILL CANNOT DO IS READ IT. The endpoint returns 403 with a ZERO-BYTE
+# body to an honest client -- identical for the key in the query string, the
+# URL-encoded key, and an x-functions-key header. A wrong key returns 401 with a
+# message; a zero-byte 403 is a WAF refusing non-browser clients. Reading it
+# would mean impersonating a browser, which this fleet does not do.
+#
+# SO THE HONEST POSITION IS NARROW. Retention exists; our ACCESS to it does not.
+# That is the availability axis, not the retention axis. This capture is kept
+# because two requests a month buys a machine-readable departure record that
+# HPRA offers only through a JS app we are refused -- NOT because the history is
+# destroyed. Whether the withdrawn list is complete or rolling remains unknown.
+#
+# RETIRE THIS SOURCE if sfapi.hpra.ie ever answers an honest client, or if HPRA
+# publishes a withdrawn list in the blob store. Either makes the capture
+# redundant on the spot.
 source_id: ie.hpra.products
 status: active
 cadence: monthly

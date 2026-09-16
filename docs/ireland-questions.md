@@ -34,17 +34,48 @@ ATC code is attached on the ANSM side. That is a real limit, not a to-do.
 | IE4 | **Do withdrawals cluster by authorisation holder?** | A `PAHolder` leaving Ireland would show as several products vanishing together — visible only across captures |
 | IE5 | **Does a substance short in Australia lack Irish authorisation at all?** | Answerable today for the 81% that join. A substance short everywhere and authorised nowhere is a different problem from one short in one market |
 
-## The caveat that outranks all of them
+## X1 — resolved, and it cuts against us
 
-**X1: it is not proven that HPRA leaves withdrawals unpublished.** HPRA does
-publish "Withdrawn medicines" and "Suspended medicines" pages. Both render
-nothing server-side, their widget calls an API whose base path could not be
-resolved, and the blob store carries no withdrawn list. Not in the file, not in
-the blob store, not reachable without executing JS — **but that is not the same
-as unpublished**, and if those pages are complete this source is a larder.
+**HPRA does publish its withdrawals.** Settled 17 September 2026 by reading the
+withdrawn page's own request body, which is in the page source:
 
-Settle X1 before building anything on IE2 or IE4, which both assume departures
-are invisible.
+```
+{"id":null,"skip":0,"take":10,"query":null,"order":"LastUpdated DESC",
+ "status":"Withdrawn","filters":{...}}
+```
+
+`"status": "Withdrawn"` is the answer. `sfapi.hpra.ie/api/HumanApprovedProducts`
+has a status dimension the bulk XML does not, and HPRA serves withdrawn products
+through it.
+
+**So the claim "nobody records this" is false, and this repo must not make it.**
+
+**What we cannot do is read it.** That endpoint returns 403 with a **zero-byte
+body** to an honest client — identical for the key in the query string, the
+URL-encoded key, and an `x-functions-key` header. A wrong key returns 401 with a
+message; a zero-byte 403 is a WAF refusing non-browser clients. Reading it means
+impersonating a browser, which this fleet does not do.
+
+### What that does to the questions above
+
+**IE2 and IE4 lose their premise.** Both assumed departures are invisible. They
+are not invisible — they are *unreadable by us*. Those two are now bounded: we
+can still observe a product leaving the XML, but we cannot claim that observation
+is the only record of it.
+
+**IE1, IE3 and IE5 are untouched.** They use the register as a denominator and a
+therapeutic classification, and neither depends on withdrawals being unpublished.
+
+### Why the capture is kept anyway
+
+Two requests a month buys a **machine-readable** departure record that HPRA
+offers only through an app we are refused. That is the availability argument —
+retention exists, our access does not — and it is a narrower claim than the one
+this source was built on.
+
+**Retire on either of:** `sfapi.hpra.ie` answering an honest client, or HPRA
+publishing a withdrawn list in the blob store. Both make the capture redundant
+immediately.
 
 ## Nearly half the register is of unknown market status
 
