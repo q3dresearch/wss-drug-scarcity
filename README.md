@@ -226,10 +226,14 @@ anything else.
 
 ## Licences
 
-Code MIT; data CC-BY-4.0. Sources are US federal works
-([openFDA terms](https://open.fda.gov/terms/)), which carry no US copyright but
-do carry a no-endorsement condition: do not imply FDA review of anything
-derived here.
+Code MIT. **The data is not CC-BY-4.0** — see [LICENSE-DATA](LICENSE-DATA).
+Three regimes across 22 sources: 19 are US federal works
+([openFDA terms](https://open.fda.gov/terms/)) carrying no US copyright, so
+there is no right to license; one (TGA, Australia) is genuinely CC BY 4.0; and
+two (ANSM, HPRA) state no grant at all. Rows carry `source_id`.
+
+The FDA sources also carry a no-endorsement condition: do not imply FDA review
+of anything derived here.
 
 **This is not medical or procurement advice.** A drug's absence from this
 dataset is not evidence it is available, and its presence is not evidence a

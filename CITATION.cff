@@ -10,7 +10,8 @@ authors:
     website: "https://github.com/neldivad"
   - name: "q3dresearch"
     website: "https://github.com/q3dresearch"
-license: CC-BY-4.0
+# No single `license:`: three regimes across 22 sources (19 US public domain,
+# 1 TGA CC BY 4.0, 2 with no grant). See LICENSE-DATA. CODE is MIT.
 keywords:
   - git-scraping
   - open-data
