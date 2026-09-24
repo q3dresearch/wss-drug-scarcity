@@ -49,6 +49,11 @@ only to someone who was watching while it happened.
 
 ## Questions this exists to answer
 
+![6 of 28 questions are answered now; 7 wait on the capture; 15 are not on a clock at all.](examples/charts/maturity.svg)
+
+**6 of these 28 are answered from captures already held.** 7 become answerable only as the series lengthens — the plate shows when. The remaining 15 are not on a clock: they need a method, or a field this source does not publish, and waiting produces neither. That distinction is the one a reader cannot make from a table of open questions.
+
+
 A source that answers no question gets dropped. A question nothing answers is
 the next thing to build. Append freely.
 
