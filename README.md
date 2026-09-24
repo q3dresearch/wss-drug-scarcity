@@ -229,6 +229,48 @@ object storage is not a decision this repo needs to make.
 and free text. **Counts only, never case-level** — the registry rejects
 anything else.
 
+## Figures
+
+Built by the scripts in [`examples/`](examples/), from the captures in this
+repository. Each caption is the figure's own title — nothing is restated here
+that the figure does not already say.
+
+**Alerted and refused are different failures**
+
+![Alerted and refused are different failures](examples/charts/alert-vs-refusal.svg)
+
+Each bubble is a country; area is the number of sites on the current drug establishment register. An import
+
+**Import bans per 100 registered sites, not raw counts**
+
+![Import bans per 100 registered sites, not raw counts](examples/charts/ban-rate-by-country.svg)
+
+Firms on FDA Import Alert 66-40 (GMP failure) divided by sites on the current drug establishment register. 10,080
+
+**escalation**
+
+![escalation](examples/charts/escalation.svg)
+
+Of 2197 establishments classified Official Action Indicated, 1469 (67%) drew a compliance action or a recall
+
+**inspection capacity**
+
+![inspection capacity](examples/charts/inspection-capacity.svg)
+
+Drug-facility inspections a year (bars) against the share classified Official Action Indicated (line). Volume fell 64%
+
+**Being alerted and being refused are not the same thing**
+
+![Being alerted and being refused are not the same thing](examples/charts/refusal-rate-by-country.svg)
+
+Import-refusal firm-days per site on the current drug establishment register, 2001-2026 — 7,984 firm-days against
+
+**sole supplier risk**
+
+![sole supplier risk](examples/charts/sole-supplier-risk.svg)
+
+Of 1,594 shorted drug packages, 180 (11%) resolve cleanly to a single establishment — 48 distinct molecules. Bar
+
 ## Licences
 
 Code MIT. **The data is not CC-BY-4.0** — see [LICENSE-DATA](LICENSE-DATA).
