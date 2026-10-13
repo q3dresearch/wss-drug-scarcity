@@ -3,7 +3,7 @@
 # carry a publish date. REMOVALS CARRY NOTHING — a firm that gets off the
 # list simply disappears, and no record that it was ever there survives.
 source_id: fda.importalert.66-40
-status: active
+status: auto_disabled  # was active; auto-disabled 2026-10-13 after 5 consecutive failures
 cadence: weekly
 schema_id: fda-importalert.v1
 
