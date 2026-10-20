@@ -1,21 +1,4 @@
 {
-  "disabled": [
-    {
-      "consecutive_failures": 5,
-      "consecutive_throttled": 0,
-      "last_attempt_at": "2026-10-13T03:06:09Z",
-      "last_success_at": "2026-09-10T10:39:54Z",
-      "registry_file": "fda.importalert.66-40.yml",
-      "source_id": "fda.importalert.66-40"
-    },
-    {
-      "consecutive_failures": 5,
-      "consecutive_throttled": 0,
-      "last_attempt_at": "2026-10-13T03:06:36Z",
-      "last_success_at": "2026-09-10T10:40:52Z",
-      "registry_file": "fda.recalls.cder.yml",
-      "source_id": "fda.recalls.cder"
-    }
-  ],
-  "generated_at": "2026-10-13T03:51:15Z"
+  "disabled": [],
+  "generated_at": "2026-10-20T02:04:26Z"
 }
