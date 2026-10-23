@@ -1,2 +1,3 @@
 source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
 fda.decrs.excluded,https://www.accessdata.fda.gov/cder/drls_excluded.zip,2026-10-02T01:49:05Z,404,text/html,420,d9f5180d84f1beb636f918d0c966b252fa573780acdeafc4d9cf6bdd7757086c,,,quarantined,quarantine/fda.decrs.excluded/2026/10/20261002T014905Z-d9f5180d84f1.html.gz,bad_status_404,
+fda.decrs.excluded,https://www.accessdata.fda.gov/cder/drls_excluded.zip,2026-10-23T07:26:54Z,200,application/x-zip-compressed,5588,c5986fc3c00153848e47cf47c763f48774b8f6d10fefc2bc46b541fb09bbd7ad,"""4d523610f361dd1:0""","Thu, 22 Oct 2026 07:00:46 GMT",changed,raw/fda.decrs.excluded/2026/10/20261023T072654Z-c5986fc3c001.bin.gz,,
