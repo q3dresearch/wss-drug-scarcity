@@ -1,2 +1,3 @@
 source_id,url,fetched_at,http_status,content_type,content_length,content_sha256,etag,last_modified,outcome,raw_ref,reason,warnings
 fda.rems.approved,https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm,2026-11-02T02:14:40Z,404,text/html,419,ef03ceb2dbd870bd92dad5dd78715cfe98990925e068cda930220f6c59463e40,,,quarantined,quarantine/fda.rems.approved/2026/11/20261102T021440Z-ef03ceb2dbd8.html.gz,bad_status_404,
+fda.rems.approved,https://www.accessdata.fda.gov/scripts/cder/rems/index.cfm,2026-11-16T09:24:04Z,200,text/html,1082392,a773ccd8f779be77d09fcccb9f8f3f41b35e031cf245b7b365d7fd18d4ddb64a,,,changed,raw/fda.rems.approved/2026/11/20261116T092404Z-a773ccd8f779.html.gz,,
